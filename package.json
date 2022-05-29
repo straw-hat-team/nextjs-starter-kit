@@ -1,6 +1,9 @@
 {
   "packageManager": "yarn@3.2.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
