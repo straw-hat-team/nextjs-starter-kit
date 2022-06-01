@@ -39,7 +39,7 @@ export function Drawer(props: DrawerProps) {
             leaveTo="opacity-0"
           >
             <Dialog.Overlay
-              className={clsx('z-40 fixed inset-0 from-gray-900 to-gray-100', {
+              className={clsx('z-40 fixed inset-0 from-gray-900 to-gray-100 transition', {
                 'bg-gradient-to-r': anchor === 'left',
                 'bg-gradient-to-l': anchor === 'right',
               })}
