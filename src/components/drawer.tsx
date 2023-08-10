@@ -1,7 +1,7 @@
-import type { PropsWithChildren } from 'react';
-import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import clsx from 'clsx';
+import type { PropsWithChildren } from 'react';
+import { Fragment } from 'react';
 
 type DrawerProps = PropsWithChildren<{
   title?: string;
@@ -39,7 +39,7 @@ export function Drawer(props: DrawerProps) {
             leaveTo="opacity-0"
           >
             <Dialog.Overlay
-              className={clsx('z-40 fixed inset-0 from-gray-900 to-gray-100 transition', {
+              className={clsx('fixed inset-0 z-40 from-gray-900 to-gray-100 transition', {
                 'bg-gradient-to-r': anchor === 'left',
                 'bg-gradient-to-l': anchor === 'right',
               })}
@@ -65,7 +65,7 @@ export function Drawer(props: DrawerProps) {
               'translate-x-full': anchor === 'right',
             })}
           >
-            <div className="flex flex-col z-50 overflow-hidden">
+            <div className="z-50 flex flex-col overflow-hidden">
               {props.title && <Dialog.Title className="sr-only">{props.title}</Dialog.Title>}
               {props.description && <Dialog.Description className="sr-only">{props.description}</Dialog.Description>}
               {props.children}

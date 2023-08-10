@@ -1,13 +1,13 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 export class WebsiteDocument extends Document {
   override render() {
     return (
-      <Html lang="en" className="h-full box-border antialiased scroll-smooth">
+      <Html lang="en" className="box-border h-full scroll-smooth antialiased">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         </Head>
-        <body className="w-full h-full text-lg sm:text-2xl font-sans font-normal tracking-normal bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300">
+        <body className="h-full w-full bg-white font-sans text-lg font-normal tracking-normal text-gray-700 dark:bg-gray-800 dark:text-gray-300 sm:text-2xl">
           <Main />
           <NextScript />
         </body>
