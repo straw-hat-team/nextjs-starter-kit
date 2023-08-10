@@ -4,14 +4,13 @@
   "engines": {
     "node": "18.x"
   },
-  "type": "module",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
-    "test": "jest --passWithNoTests"
+    "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
+    "test:jest": "jest --passWithNoTests"
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
