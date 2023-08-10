@@ -1,10 +1,10 @@
-import type { AppProps as NextAppProps, NextWebVitalsMetric } from 'next/app';
 import type { NextPageWithLayout } from '@/types';
+import type { AppProps as NextAppProps, NextWebVitalsMetric } from 'next/app';
 
-import { useEffect } from 'react';
-import Head from 'next/head';
-import { useAnalyticsPageTrack } from '@/hooks';
 import { getNoopLayout } from '@/components/layout';
+import { useAnalyticsPageTrack } from '@/hooks';
+import Head from 'next/head';
+import { useEffect } from 'react';
 
 export async function reportWebVitals(_metric: NextWebVitalsMetric) {
   // TODO: Send metrics to backends
