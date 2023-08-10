@@ -1070,16 +1070,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@straw-hat/prettier-config@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@straw-hat/prettier-config@npm:3.0.1"
+"@straw-hat/prettier-config@npm:3.1.2":
+  version: 3.1.2
+  resolution: "@straw-hat/prettier-config@npm:3.1.2"
   dependencies:
-    prettier-plugin-organize-imports: ^3.2.2
+    prettier-plugin-organize-imports: ^3.2.3
+    prettier-plugin-tailwindcss: ^0.5.1
   peerDependencies:
-    prettier: ^2.2.1
-    prettier-plugin-tailwindcss: ^0.2.7
-    typescript: ^4.9.4
-  checksum: 36885c81ba3396824d5a0f0fbc3d0ee4d87f82ee68ed6cd1ae8de404c586dcab6382a02709da05e599e6d0bc37bb8dc6f526f7b057a6e7f075638aa515a28138
+    prettier: ^3.0.1
+    typescript: ^5.1.6
+  checksum: b05479c3d0bdd5734fcc84ba404fa4d3893ebc63f99739c6d815769369e71a290fc90218fc4a145032b0e6daeadfd7b6729dd4e2183ca57bd4d114dbaa91bad1
   languageName: node
   linkType: hard
 
@@ -5952,7 +5952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-organize-imports@npm:^3.2.2":
+"prettier-plugin-organize-imports@npm:^3.2.3":
   version: 3.2.3
   resolution: "prettier-plugin-organize-imports@npm:3.2.3"
   peerDependencies:
@@ -5966,6 +5966,59 @@ __metadata:
     "@volar/vue-typescript":
       optional: true
   checksum: e97dd707ce88960885df9598c2c0b8187169ff4664e7a5083a8603eabfb457aa0a0eafdf5cb60877a1085e2da5f9cb19fa441061227aa23524e5fe1709bae0cf
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-tailwindcss@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.1"
+  peerDependencies:
+    "@ianvs/prettier-plugin-sort-imports": "*"
+    "@prettier/plugin-pug": "*"
+    "@shopify/prettier-plugin-liquid": "*"
+    "@shufo/prettier-plugin-blade": "*"
+    "@trivago/prettier-plugin-sort-imports": "*"
+    prettier: ^3.0
+    prettier-plugin-astro: "*"
+    prettier-plugin-css-order: "*"
+    prettier-plugin-import-sort: "*"
+    prettier-plugin-jsdoc: "*"
+    prettier-plugin-organize-attributes: "*"
+    prettier-plugin-organize-imports: "*"
+    prettier-plugin-style-order: "*"
+    prettier-plugin-svelte: "*"
+  peerDependenciesMeta:
+    "@ianvs/prettier-plugin-sort-imports":
+      optional: true
+    "@prettier/plugin-pug":
+      optional: true
+    "@shopify/prettier-plugin-liquid":
+      optional: true
+    "@shufo/prettier-plugin-blade":
+      optional: true
+    "@trivago/prettier-plugin-sort-imports":
+      optional: true
+    prettier-plugin-astro:
+      optional: true
+    prettier-plugin-css-order:
+      optional: true
+    prettier-plugin-import-sort:
+      optional: true
+    prettier-plugin-jsdoc:
+      optional: true
+    prettier-plugin-marko:
+      optional: true
+    prettier-plugin-organize-attributes:
+      optional: true
+    prettier-plugin-organize-imports:
+      optional: true
+    prettier-plugin-style-order:
+      optional: true
+    prettier-plugin-svelte:
+      optional: true
+    prettier-plugin-twig-melody:
+      optional: true
+  checksum: 154fa3644e6c58b7fcc8c6092f162b9c3e973fd8245c14bb0c396b5d0052f982e8a57e4a5ef71b7308f1cae40b022f7943500fe1e0e33e315f1eb249cbcd7a97
   languageName: node
   linkType: hard
 
@@ -6364,7 +6417,7 @@ __metadata:
     "@headlessui/react": 1.7.16
     "@next/bundle-analyzer": 13.4.13
     "@straw-hat/eslint-config-nextjs": 3.0.2
-    "@straw-hat/prettier-config": 3.0.1
+    "@straw-hat/prettier-config": 3.1.2
     "@straw-hat/tsconfig": 4.0.2
     "@testing-library/jest-dom": 5.17.0
     "@testing-library/react": 14.0.0

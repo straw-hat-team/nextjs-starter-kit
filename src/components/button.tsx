@@ -6,7 +6,7 @@ export function Button(props: PropsWithChildren<{}>) {
       target="_blank"
       rel="noreferrer"
       href="https://bit.ly/3se7YYw"
-      className="bg-purple-700 text-gray-200 rounded-lg border border-black-500 py-4 px-10 pointer font-normal shadow-md"
+      className="border-black-500 pointer rounded-lg border bg-purple-700 px-10 py-4 font-normal text-gray-200 shadow-md"
     >
       {props.children}
     </a>

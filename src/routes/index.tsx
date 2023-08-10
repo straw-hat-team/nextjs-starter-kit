@@ -4,9 +4,9 @@ import { PageTitle } from '@/components/page-title';
 export function IndexRoute() {
   return (
     <>
-      <PageTitle title="Home"/>
-      <div className="flex flex-col items-center justify-center mt-10 w-screen h-screen">
-        <h1 className="font-normal text-5xl mb-10">Hello, World!</h1>
+      <PageTitle title="Home" />
+      <div className="mt-10 flex h-screen w-screen flex-col items-center justify-center">
+        <h1 className="mb-10 text-5xl font-normal">Hello, World!</h1>
         <Button>Click me 🚀!</Button>
       </div>
     </>
