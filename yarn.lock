@@ -2692,6 +2692,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-variance-authority@npm:0.7.0":
+  version: 0.7.0
+  resolution: "class-variance-authority@npm:0.7.0"
+  dependencies:
+    clsx: 2.0.0
+  checksum: e7fd1fab433ef06f52a1b7b241b70b4a185864deef199d3b0a2c3412f1cc179517288264c383f3b971a00d76811625fc8f7ffe709e6170219e88cd7368f08a20
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -7102,6 +7111,7 @@ __metadata:
     "@types/react": 18.2.20
     "@vercel/otel": 0.3.0
     autoprefixer: 10.4.14
+    class-variance-authority: 0.7.0
     clsx: 2.0.0
     eslint: 8.46.0
     eslint-config-next: 13.4.13
