@@ -1,4 +1,4 @@
-import { Button } from '@/components/button';
+import { Button } from '@monoturborepo/ui/components/button';
 import type { Metadata } from 'next';
 
 export const metadata = {

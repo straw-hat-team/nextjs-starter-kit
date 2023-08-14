@@ -940,6 +940,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monoturborepo/ui@workspace:*, @monoturborepo/ui@workspace:packages/@monoturborepo/ui":
+  version: 0.0.0-use.local
+  resolution: "@monoturborepo/ui@workspace:packages/@monoturborepo/ui"
+  dependencies:
+    "@types/react": ^18.2.20
+    "@types/react-dom": ^18.2.7
+    react: ^18.2.0
+    typescript: ^5.1.6
+  languageName: unknown
+  linkType: soft
+
 "@next/bundle-analyzer@npm:13.4.13":
   version: 13.4.13
   resolution: "@next/bundle-analyzer@npm:13.4.13"
@@ -1960,6 +1971,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:^18.2.7":
+  version: 18.2.7
+  resolution: "@types/react-dom@npm:18.2.7"
+  dependencies:
+    "@types/react": "*"
+  checksum: e02ea908289a7ad26053308248d2b87f6aeafd73d0e2de2a3d435947bcea0422599016ffd1c3e38ff36c42f5e1c87c7417f05b0a157e48649e4a02f21727d54f
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*":
   version: 18.0.9
   resolution: "@types/react@npm:18.0.9"
@@ -1971,7 +1991,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.20":
+"@types/react@npm:18.2.20, @types/react@npm:^18.2.20":
   version: 18.2.20
   resolution: "@types/react@npm:18.2.20"
   dependencies:
@@ -2110,6 +2130,7 @@ __metadata:
   resolution: "@webapps/web1@workspace:webapps/web1"
   dependencies:
     "@headlessui/react": 1.7.16
+    "@monoturborepo/ui": "workspace:*"
     "@next/bundle-analyzer": 13.4.13
     "@playwright/test": 1.37.0
     "@straw-hat/eslint-config-nextjs": 3.0.2
@@ -7844,7 +7865,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
+"react@npm:18.2.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -9169,7 +9190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.1.6":
+"typescript@npm:5.1.6, typescript@npm:^5.1.6":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
@@ -9179,7 +9200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>, typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
   resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=bda367"
   bin:

@@ -7,7 +7,7 @@
   },
   "workspaces": [
     "webapps/*",
-    "packages/*"
+    "packages/@monoturborepo/*"
   ],
   "scripts": {
     "turbo:build": "turbo run build",

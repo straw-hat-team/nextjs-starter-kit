@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
+    "@monoturborepo/ui": "workspace:*",
     "@t3-oss/env-nextjs": "0.6.0",
     "@vercel/otel": "0.3.0",
     "class-variance-authority": "0.7.0",

@@ -9,7 +9,7 @@ const config = withPlugins([[withBundleAnalyzer({ enabled: env.ANALYZE === 'true
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
   experimental: { instrumentationHook: true },
-  transpilePackages: ['@umbrella/ui'],
+  transpilePackages: ['@monoturborepo/ui'],
 });
 
 export default config;

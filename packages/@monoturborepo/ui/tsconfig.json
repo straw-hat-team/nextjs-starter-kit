@@ -1,0 +1,5 @@
+{
+  "extends": "@straw-hat/tsconfig/lib/react.lib",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
