@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 #        run: yarn install --immutable --immutable-cache
-#      - name: Install Playwright Browsers
-#        run: yarn playwright install --with-deps
+      - name: Install Playwright Browsers
+        run: yarn dlx playwright install --with-deps
       - name: Run Playwright tests
         run: yarn turbo:test:playwright:headless
       - name: Upload Playwright Report
@@ -33,3 +33,4 @@ jobs:
           retention-days: 30
           path: |
             webapps/web1/playwright-report
+            webapps/web1/test-results

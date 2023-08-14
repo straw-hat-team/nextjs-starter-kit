@@ -11,7 +11,7 @@
       "dependsOn": ["^format:prettier"]
     },
     "test:playwright:headless": {
-      "outputs": ["playwright-report"]
+      "outputs": ["playwright-report", "test-results"]
     },
     "dev": {
       "cache": false,
