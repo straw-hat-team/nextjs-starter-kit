@@ -10,6 +10,9 @@
     "format:prettier": {
       "dependsOn": ["^format:prettier"]
     },
+    "test:playwright:headless": {
+      "outputs": ["playwright-report"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
