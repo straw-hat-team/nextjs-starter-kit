@@ -1,1 +1,1 @@
-export { default } from '@straw-hat/prettier-config/lib/nextjs.js';
+export { default } from '@straw-hat/prettier-config';
