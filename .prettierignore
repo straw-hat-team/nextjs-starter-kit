@@ -8,3 +8,4 @@ webapps
 .prettierignore
 .tool-versions
 yarn.lock
+*.hbs

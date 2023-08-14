@@ -15,6 +15,7 @@
     "turbo:lint:eslint": "turbo run lint:eslint",
     "turbo:format:prettier": "turbo run format:prettier",
     "turbo:test:playwright:headless": "turbo run test:playwright:headless",
+    "turbo:storybook:build": "turbo run storybook:build",
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'"
   },
   "devDependencies": {

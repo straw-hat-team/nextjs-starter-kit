@@ -11,8 +11,9 @@
 - 📊 **[Bundle analyzer plugin][6]** - Keep an eye on your bundle size.
 - 🎭 **[Playwright][7]** - Write end-to-end tests.
 - 💻 **[T3 Env][9]** - Manage your environment variables with ease.
-- 🩹 **[Patch-package](https://www.npmjs.com/package/patch-package)** - Fix external dependencies without losing your mind
-
+- 🩹 **[Patch-package](https://www.npmjs.com/package/patch-package)** - Fix external dependencies without losing your
+  mind. Use [`yarn patch <package>`][12] and [`yarn patch-commit <patchFolder>`][11] to create patches and commit them.
+- 📕 **[Storybook][10]** - Build bulletproof UI components faster.
 
 [1]: https://nextjs.org/
 [2]: https://tailwindcss.com/
@@ -23,3 +24,6 @@
 [7]: https://playwright.dev/
 [8]: https://github.com/total-typescript/ts-reset
 [9]: https://env.t3.gg/
+[10]: https://storybook.js.org/
+[11]: https://yarnpkg.com/cli/patch-commit
+[12]: https://yarnpkg.com/cli/patch

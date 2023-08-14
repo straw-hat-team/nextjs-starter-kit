@@ -13,6 +13,10 @@
     "test:playwright:headless": {
       "outputs": ["playwright-report", "test-results"]
     },
+    "storybook:build": {
+      "inputs": ["src/**", "stories/**", "public/**", ".storybook/**"],
+      "outputs": ["storybook-static"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
