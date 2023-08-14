@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@jest/globals": "29.6.2",
+    "@storybook/addon-a11y": "7.2.3",
     "@storybook/addon-essentials": "7.2.3",
     "@storybook/addon-interactions": "7.2.3",
     "@storybook/addon-links": "7.2.3",
