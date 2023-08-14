@@ -12,7 +12,7 @@
   "scripts": {
     "turbo:build": "turbo run build",
     "turbo:dev": "turbo run dev",
-    "turbo:lint": "turbo run lint",
+    "turbo:lint:eslint": "turbo run lint:eslint",
     "turbo:format:prettier": "turbo run format:prettier",
     "format:prettier": "prettier --write \"**/*.{ts,tsx,md}\""
   },

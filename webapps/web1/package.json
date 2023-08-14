@@ -9,7 +9,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint:eslint": "next lint",
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
     "test:jest": "jest --passWithNoTests"
   },
