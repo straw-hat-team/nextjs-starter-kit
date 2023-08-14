@@ -3585,6 +3585,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
+  languageName: node
+  linkType: hard
+
 "dotenv@npm:16.3.1, dotenv@npm:^16.0.0":
   version: 16.3.1
   resolution: "dotenv@npm:16.3.1"
@@ -3944,6 +3951,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-turbo@npm:1.10.12":
+  version: 1.10.12
+  resolution: "eslint-config-turbo@npm:1.10.12"
+  dependencies:
+    eslint-plugin-turbo: 1.10.12
+  peerDependencies:
+    eslint: ">6.6.0"
+  checksum: 0d34d2f51b1c58e280065a1c5a72079db391615284e55ccc81b56e24c5954bf1f3f9d4a68bea5cf4e3ec384eaaa9e2d6c6e49b2f3ee9bfe6ce9cce9196c98f9c
+  languageName: node
+  linkType: hard
+
 "eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
@@ -4070,6 +4088,17 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: 0427bd24acb87422b7298686203167123ba289ba563384983f3d99fad7817eae7f63157fd2e9b868bdcf0760719c319ab1e22a44764a98302034b0c844763e57
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-turbo@npm:1.10.12":
+  version: 1.10.12
+  resolution: "eslint-plugin-turbo@npm:1.10.12"
+  dependencies:
+    dotenv: 16.0.3
+  peerDependencies:
+    eslint: ">6.6.0"
+  checksum: 8f13089983979b727e5585d6a407cbc973e526eae56f20acff60a10cb03c81149c4e051958dc2fe5e3ec90563bed747289464ba8895d02af6edaed14d9dcc49a
   languageName: node
   linkType: hard
 
@@ -6673,6 +6702,7 @@ __metadata:
     cross-env: 7.0.3
     dotenv-cli: 7.2.1
     eslint: 8.47.0
+    eslint-config-turbo: 1.10.12
     prettier: 3.0.1
     turbo: 1.10.12
   languageName: unknown

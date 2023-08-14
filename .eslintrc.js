@@ -1,9 +1,9 @@
 module.exports = {
   root: true,
-  extends: [],
+  extends: ['turbo'],
   settings: {
     next: {
-      rootDir: ["webapps/*/"],
+      rootDir: ['webapps/*/'],
     },
   },
 };
