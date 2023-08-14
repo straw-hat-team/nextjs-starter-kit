@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version-file: .tool-versions
+          cache: 'yarn'
       - name: Install dependencies
         run: yarn install --immutable --immutable-cache
       - name: Turbo Lint ESLint
