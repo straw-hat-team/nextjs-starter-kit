@@ -18,6 +18,7 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-interactions'),
     getAbsolutePath('@storybook/addon-styling'),
     getAbsolutePath('@storybook/addon-a11y'),
+    getAbsolutePath('@storybook/addon-coverage'),
   ],
   framework: {
     name: getAbsolutePath('@storybook/react-vite'),

@@ -17,6 +17,10 @@
       "inputs": ["src/**", "stories/**", "public/**", ".storybook/**"],
       "outputs": ["storybook-static"]
     },
+    "test:storybook": {
+      "inputs": ["src/**", "stories/**", "public/**", ".storybook/**"],
+      "outputs": ["coverage/storybook"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
