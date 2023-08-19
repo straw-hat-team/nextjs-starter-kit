@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
@@ -7,5 +9,11 @@ module.exports = {
     '../../packages/@monoturborepo/ui/src/**/*.{ts,tsx}',
   ],
   plugins: [],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
 };
