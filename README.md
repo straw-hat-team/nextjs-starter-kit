@@ -18,6 +18,12 @@
 - **[React Testing Library][14]** - Simple and complete React DOM testing utilities that encourage good testing
   practices.
 - 🚀 **[GitHub Actions][15]** - Pre-configured actions for smooth workflows.
+- 📄 **[MIT License](LICENSE)** - Free and open-source license.
+- 🌐 **[Internationalization](https://nextjs.org/docs/advanced-features/i18n-routing)** - 
+
+- https://nextjs.org/docs/app/building-your-application/routing/internationalization
+- https://locize.com/blog/next-13-app-dir-i18n/
+
 
 [1]: https://nextjs.org/
 [2]: https://tailwindcss.com/
