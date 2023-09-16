@@ -1,7 +1,7 @@
 import '@/styles/index.css';
+import { LayoutProps } from '@/types';
 import { clsx } from 'clsx';
 import { Inter } from 'next/font/google';
-import { LayoutProps } from './types';
 
 const inter = Inter({
   variable: '--font-inter',
