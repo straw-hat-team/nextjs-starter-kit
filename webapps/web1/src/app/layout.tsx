@@ -1,3 +1,4 @@
+import { TrpcProvider } from '@/components/trpc-provider';
 import '@/styles/index.css';
 import { LayoutProps } from '@/types';
 import { clsx } from 'clsx';
@@ -17,7 +18,7 @@ export default function Layout(props: LayoutProps) {
   return (
     <html className={clsx('box-border scroll-smooth antialiased', inter.variable)} lang="en">
       <body className="bg-white text-lg font-normal tracking-normal text-gray-700 dark:bg-gray-800 dark:text-gray-300 sm:text-2xl">
-        {props.children}
+        <TrpcProvider>{props.children}</TrpcProvider>
       </body>
     </html>
   );
