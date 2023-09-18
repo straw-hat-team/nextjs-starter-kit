@@ -10,7 +10,9 @@
     "serviceapps/*",
     "packages/@monoturborepo/*"
   ],
-  "browserslist": ["extends @straw-hat/browserslist-config"],
+  "browserslist": [
+    "extends @straw-hat/browserslist-config"
+  ],
   "scripts": {
     "turbo:build": "turbo run build",
     "turbo:dev": "turbo run dev",
