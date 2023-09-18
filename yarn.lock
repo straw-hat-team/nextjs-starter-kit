@@ -5518,6 +5518,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@straw-hat/browserslist-config@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@straw-hat/browserslist-config@npm:0.1.1"
+  checksum: 1a2deb9eeb06fb3421bdf2bf43f07aa88ff7ce882fc7e8db9c02bb2fbd3a702cb4dd0ab59d33b45d2f5fc8702e00b224a0e759cd8a95ae39d1a82d828eaf003a
+  languageName: node
+  linkType: hard
+
 "@straw-hat/eslint-config-nextjs@npm:3.0.2":
   version: 3.0.2
   resolution: "@straw-hat/eslint-config-nextjs@npm:3.0.2"
@@ -14038,6 +14045,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "monoturborepo@workspace:."
   dependencies:
+    "@straw-hat/browserslist-config": 0.1.1
     "@turbo/gen": 1.10.14
     cross-env: 7.0.3
     dotenv-cli: 7.3.0

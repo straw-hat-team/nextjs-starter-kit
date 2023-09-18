@@ -10,6 +10,7 @@
     "serviceapps/*",
     "packages/@monoturborepo/*"
   ],
+  "browserslist": ["extends @straw-hat/browserslist-config"],
   "scripts": {
     "turbo:build": "turbo run build",
     "turbo:dev": "turbo run dev",
@@ -20,6 +21,7 @@
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'"
   },
   "devDependencies": {
+    "@straw-hat/browserslist-config": "0.1.1",
     "@turbo/gen": "1.10.14",
     "cross-env": "7.0.3",
     "dotenv-cli": "7.3.0",
