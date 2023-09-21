@@ -2944,12 +2944,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:13.5.1":
-  version: 13.5.1
-  resolution: "@next/bundle-analyzer@npm:13.5.1"
+"@next/bundle-analyzer@npm:13.5.2":
+  version: 13.5.2
+  resolution: "@next/bundle-analyzer@npm:13.5.2"
   dependencies:
     webpack-bundle-analyzer: 4.7.0
-  checksum: 957a9bdc6001fda9274199be3d2e1a445b129cf1bfb1bb1821323f6e3561eab89e2167761a691c3a4838c7cc237352adf6032db4739c3a0701f4afeba968a4d0
+  checksum: 8efdb20197a3b40b17a95fa0693bd36c4aea505307f94aa139423ff88393dfde4652a78705e849ac5d6ae55b1c8d2fb23853f260259a2d6ae8878f0ee5e223ff
   languageName: node
   linkType: hard
 
@@ -6958,7 +6958,7 @@ __metadata:
   dependencies:
     "@headlessui/react": 1.7.17
     "@monoturborepo/ui": "workspace:*"
-    "@next/bundle-analyzer": 13.5.1
+    "@next/bundle-analyzer": 13.5.2
     "@playwright/test": 1.38.0
     "@straw-hat/eslint-config-nextjs": 3.0.2
     "@straw-hat/prettier-config": 3.1.2
