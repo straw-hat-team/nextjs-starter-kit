@@ -2907,7 +2907,7 @@ __metadata:
     "@storybook/addon-links": 7.4.2
     "@storybook/addon-onboarding": 1.0.8
     "@storybook/addon-styling": 1.3.7
-    "@storybook/blocks": 7.4.2
+    "@storybook/blocks": 7.4.3
     "@storybook/jest": 0.2.2
     "@storybook/react": 7.4.3
     "@storybook/react-vite": 7.4.2
@@ -4663,6 +4663,40 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: c5071d55a2f2e0d63b49c9137a6537561aa210f887a46daaf722ccae2f3b02fc37d2d1b715a927e68e07be2fe5999442505b6339025d2df045624b964c7d8609
+  languageName: node
+  linkType: hard
+
+"@storybook/blocks@npm:7.4.3":
+  version: 7.4.3
+  resolution: "@storybook/blocks@npm:7.4.3"
+  dependencies:
+    "@storybook/channels": 7.4.3
+    "@storybook/client-logger": 7.4.3
+    "@storybook/components": 7.4.3
+    "@storybook/core-events": 7.4.3
+    "@storybook/csf": ^0.1.0
+    "@storybook/docs-tools": 7.4.3
+    "@storybook/global": ^5.0.0
+    "@storybook/manager-api": 7.4.3
+    "@storybook/preview-api": 7.4.3
+    "@storybook/theming": 7.4.3
+    "@storybook/types": 7.4.3
+    "@types/lodash": ^4.14.167
+    color-convert: ^2.0.1
+    dequal: ^2.0.2
+    lodash: ^4.17.21
+    markdown-to-jsx: ^7.1.8
+    memoizerific: ^1.11.3
+    polished: ^4.2.2
+    react-colorful: ^5.1.2
+    telejson: ^7.2.0
+    tocbot: ^4.20.1
+    ts-dedent: ^2.0.0
+    util-deprecate: ^1.0.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 1a87c367078aa6efaad223902fc9f9e5137a108668e5d0dfe5a0eddd2cb3e5cff356e8dc52be0c5143f56865bf649730beefb9b53838bf49e1f10cd909c4d09e
   languageName: node
   linkType: hard
 
