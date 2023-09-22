@@ -21,7 +21,7 @@ jobs:
           node-version-file: .tool-versions
           cache: 'yarn'
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
       - name: Install Playwright Browsers
         run: yarn dlx playwright install --with-deps
       - name: Run Playwright tests
