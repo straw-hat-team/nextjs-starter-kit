@@ -2909,7 +2909,7 @@ __metadata:
     "@storybook/addon-styling": 1.3.7
     "@storybook/blocks": 7.4.5
     "@storybook/jest": 0.2.2
-    "@storybook/react": 7.4.3
+    "@storybook/react": 7.4.5
     "@storybook/react-vite": 7.4.5
     "@storybook/test-runner": 0.13.0
     "@storybook/testing-library": 0.2.1
@@ -4979,16 +4979,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core-client@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/core-client@npm:7.4.3"
-  dependencies:
-    "@storybook/client-logger": 7.4.3
-    "@storybook/preview-api": 7.4.3
-  checksum: 5fb0176577fe90c1119c82874c67dbd0eb90425689958d6c6f0f75a0a0d27c2db81decabe8906f86506d7706807c0b01573608bfba79facc7122397e1ba436ec
-  languageName: node
-  linkType: hard
-
 "@storybook/core-client@npm:7.4.5":
   version: 7.4.5
   resolution: "@storybook/core-client@npm:7.4.5"
@@ -5280,20 +5270,6 @@ __metadata:
   version: 0.1.0
   resolution: "@storybook/docs-mdx@npm:0.1.0"
   checksum: a7770842c3947a761bcbe776a9c4fd35163d30c3274fca034169f69ff614242eaa4cacaa2c95fd215827081ef9a43f4774d521a6f43a4d063ea5f4ea14b1d69a
-  languageName: node
-  linkType: hard
-
-"@storybook/docs-tools@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/docs-tools@npm:7.4.3"
-  dependencies:
-    "@storybook/core-common": 7.4.3
-    "@storybook/preview-api": 7.4.3
-    "@storybook/types": 7.4.3
-    "@types/doctrine": ^0.0.3
-    doctrine: ^3.0.0
-    lodash: ^4.17.21
-  checksum: 4859a99719ed6e3934e3db3b0618c4534aedea3f4752c2a0e0ecbaea1553e8e4b5e8c1d91bb49b7a42d2850d45fffa36de2780871d20677fe7acbe17f85634f0
   languageName: node
   linkType: hard
 
@@ -5610,16 +5586,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-dom-shim@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/react-dom-shim@npm:7.4.3"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 29d62daac74db590880bc4074ef6350a856e12ca31fa07aaac336d9bed131a37d8d2cf2245db055b9b06608de4fb3937a12bc4fe12564397d61ec7f52d7c9364
-  languageName: node
-  linkType: hard
-
 "@storybook/react-dom-shim@npm:7.4.5":
   version: 7.4.5
   resolution: "@storybook/react-dom-shim@npm:7.4.5"
@@ -5647,42 +5613,6 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     vite: ^3.0.0 || ^4.0.0
   checksum: 39560c4d12e5ac5d2bfd6337b95e500e78e45f8373da2084025689d0a6686a2ac42ae1a92350bfec309c6fd48ccc085605b19676ae60f6bc882e8af0a25de10c
-  languageName: node
-  linkType: hard
-
-"@storybook/react@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/react@npm:7.4.3"
-  dependencies:
-    "@storybook/client-logger": 7.4.3
-    "@storybook/core-client": 7.4.3
-    "@storybook/docs-tools": 7.4.3
-    "@storybook/global": ^5.0.0
-    "@storybook/preview-api": 7.4.3
-    "@storybook/react-dom-shim": 7.4.3
-    "@storybook/types": 7.4.3
-    "@types/escodegen": ^0.0.6
-    "@types/estree": ^0.0.51
-    "@types/node": ^16.0.0
-    acorn: ^7.4.1
-    acorn-jsx: ^5.3.1
-    acorn-walk: ^7.2.0
-    escodegen: ^2.1.0
-    html-tags: ^3.1.0
-    lodash: ^4.17.21
-    prop-types: ^15.7.2
-    react-element-to-jsx-string: ^15.0.0
-    ts-dedent: ^2.0.0
-    type-fest: ~2.19
-    util-deprecate: ^1.0.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-    typescript: "*"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: d57df8e2cea2a3f4accac678af464be3119fcd1038285411f15e1765c8ea378ab5ddd2a5331e310b4d0cad246f595bdf5c33b348905b5b3addd65cd2aba67f10
   languageName: node
   linkType: hard
 
