@@ -2944,12 +2944,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:13.5.2":
-  version: 13.5.2
-  resolution: "@next/bundle-analyzer@npm:13.5.2"
+"@next/bundle-analyzer@npm:13.5.3":
+  version: 13.5.3
+  resolution: "@next/bundle-analyzer@npm:13.5.3"
   dependencies:
     webpack-bundle-analyzer: 4.7.0
-  checksum: 8efdb20197a3b40b17a95fa0693bd36c4aea505307f94aa139423ff88393dfde4652a78705e849ac5d6ae55b1c8d2fb23853f260259a2d6ae8878f0ee5e223ff
+  checksum: c576c0b4a63c9ef9c1bc293219658cc6ab2640e0438e32e440606499f97fbecb7eb1c7acbfe9ba59f5360cd8cecdebe85a37be914d8cb349720bb319222dfb8a
   languageName: node
   linkType: hard
 
@@ -4732,20 +4732,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/channels@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/channels@npm:7.4.3"
-  dependencies:
-    "@storybook/client-logger": 7.4.3
-    "@storybook/core-events": 7.4.3
-    "@storybook/global": ^5.0.0
-    qs: ^6.10.0
-    telejson: ^7.2.0
-    tiny-invariant: ^1.3.1
-  checksum: 4028d8c96dd71b72fc3d27d346ce88ea73c5042648da3ea80c960b4bfee99de1e782aed03b775023616b753e3c6089f3c305c5635da1af0040270cfddd768fdd
-  languageName: node
-  linkType: hard
-
 "@storybook/channels@npm:7.4.4":
   version: 7.4.4
   resolution: "@storybook/channels@npm:7.4.4"
@@ -4832,15 +4818,6 @@ __metadata:
   dependencies:
     "@storybook/global": ^5.0.0
   checksum: 1b8db51dfed084210082551375131e19c6830ac55b2e67bde7594801d73f6d33cbb903115c5699735d85ea0e46414dd1ddd1035bcf9d27de1be06ecc686f4d26
-  languageName: node
-  linkType: hard
-
-"@storybook/client-logger@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/client-logger@npm:7.4.3"
-  dependencies:
-    "@storybook/global": ^5.0.0
-  checksum: 442bd48c0b513c2bcce2d171e2ffc854f81a905597b1038fb384e2754a74bf1f59aa78d22480ad70fcb4efda0f5b70734021e8ee06cb77047a902eed37648ab1
   languageName: node
   linkType: hard
 
@@ -5053,15 +5030,6 @@ __metadata:
   version: 7.2.3
   resolution: "@storybook/core-events@npm:7.2.3"
   checksum: 2c976c88cbac5e3be37c946c460a4305dfcb639fa23faf419b866bb943c18398811a6521dbec6649ff6a19e4fdf644288f8a73bd5391a28d3bba24db44a8d80e
-  languageName: node
-  linkType: hard
-
-"@storybook/core-events@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/core-events@npm:7.4.3"
-  dependencies:
-    ts-dedent: ^2.0.0
-  checksum: ffe6c5a0a7db32a42fcbe2fbe027977f071c458da621793468409ac29808a24573f94f083362200dde4b00bc14b00a66053ace4c9e3686b442ee2e4a126c9855
   languageName: node
   linkType: hard
 
@@ -5375,28 +5343,6 @@ __metadata:
   version: 7.4.5
   resolution: "@storybook/postinstall@npm:7.4.5"
   checksum: 061f5190b7a3cb4473fbe455f714c6948ad3c9609199cc4fe804a0db26d3a051da974cdc0954c82e0c524a0b9d8b6a660fca9148e6028b98f90d72bae1d79ccc
-  languageName: node
-  linkType: hard
-
-"@storybook/preview-api@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/preview-api@npm:7.4.3"
-  dependencies:
-    "@storybook/channels": 7.4.3
-    "@storybook/client-logger": 7.4.3
-    "@storybook/core-events": 7.4.3
-    "@storybook/csf": ^0.1.0
-    "@storybook/global": ^5.0.0
-    "@storybook/types": 7.4.3
-    "@types/qs": ^6.9.5
-    dequal: ^2.0.2
-    lodash: ^4.17.21
-    memoizerific: ^1.11.3
-    qs: ^6.10.0
-    synchronous-promise: ^2.0.15
-    ts-dedent: ^2.0.0
-    util-deprecate: ^1.0.2
-  checksum: 2347e122283847c4b02741e487f121a929288b0fcad589f2ef07b8b42352c0d652a33a31c44cbe492176a691929e3d27936232f53bed2834bb67146a2101f470
   languageName: node
   linkType: hard
 
@@ -5715,18 +5661,6 @@ __metadata:
     "@types/express": ^4.7.0
     file-system-cache: 2.3.0
   checksum: 7486ff9a48d25e3ed52102a5351cadbaa3f3b08b83e2b7531046b371203a003a2114aad3779297409d54afc0b30ea2d66b226a0e0376f4a71b9df8a2a8167e11
-  languageName: node
-  linkType: hard
-
-"@storybook/types@npm:7.4.3":
-  version: 7.4.3
-  resolution: "@storybook/types@npm:7.4.3"
-  dependencies:
-    "@storybook/channels": 7.4.3
-    "@types/babel__core": ^7.0.0
-    "@types/express": ^4.7.0
-    file-system-cache: 2.3.0
-  checksum: 4108d185086884b742258edc67b9f3837099e63f3b902889f927e0e9cb34ba4da37fbcbe94235388672ba20eefac6f397cd0113e8e873538f31eda521dfb1365
   languageName: node
   linkType: hard
 
@@ -6917,7 +6851,7 @@ __metadata:
   dependencies:
     "@headlessui/react": 1.7.17
     "@monoturborepo/ui": "workspace:*"
-    "@next/bundle-analyzer": 13.5.2
+    "@next/bundle-analyzer": 13.5.3
     "@playwright/test": 1.38.1
     "@straw-hat/eslint-config-nextjs": 3.0.2
     "@straw-hat/prettier-config": 3.1.2
