@@ -6188,11 +6188,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@turbo/gen@npm:1.10.14":
-  version: 1.10.14
-  resolution: "@turbo/gen@npm:1.10.14"
+"@turbo/gen@npm:1.10.15":
+  version: 1.10.15
+  resolution: "@turbo/gen@npm:1.10.15"
   dependencies:
-    "@turbo/workspaces": 1.10.14
+    "@turbo/workspaces": 1.10.15
     chalk: 2.4.2
     commander: ^10.0.0
     fs-extra: ^10.1.0
@@ -6205,13 +6205,13 @@ __metadata:
     validate-npm-package-name: ^5.0.0
   bin:
     gen: dist/cli.js
-  checksum: 0812672314d9dbb95c65ca7d045f6622dba9315806ce9eb0177d081e03e95be3a98f87956cb587467a83c2db34c38bf36e18e889b1a26f8be04b7616716ae070
+  checksum: c52d7c0998a8c73d52d7b0202c913f7c51290984aee64f76cf491e3a1ae5474c11b863331f816de44c6d0f91f25bb14a2a012aa62213eda0f955ef2609cefe0b
   languageName: node
   linkType: hard
 
-"@turbo/workspaces@npm:1.10.14":
-  version: 1.10.14
-  resolution: "@turbo/workspaces@npm:1.10.14"
+"@turbo/workspaces@npm:1.10.15":
+  version: 1.10.15
+  resolution: "@turbo/workspaces@npm:1.10.15"
   dependencies:
     chalk: 2.4.2
     commander: ^10.0.0
@@ -6227,7 +6227,7 @@ __metadata:
     update-check: ^1.5.4
   bin:
     workspaces: dist/cli.js
-  checksum: 79183a39391e7305cb147993b464b042e4a51bb628c5e152714c4164818a6c28441ee38375639c8611edc4238e087aef9887b51442817b23f2415fc755d132bd
+  checksum: 435a8dcbb2991b3249d9909d4f8e23d9bf56592139cad0ed010552bcf98df4bb8a90e7537f5b7526ae9d1ade6d1ad374e3d9ada45ccc28edfdcb46e9aa50ba4c
   languageName: node
   linkType: hard
 
@@ -14441,7 +14441,7 @@ __metadata:
   resolution: "monoturborepo@workspace:."
   dependencies:
     "@straw-hat/browserslist-config": 0.1.1
-    "@turbo/gen": 1.10.14
+    "@turbo/gen": 1.10.15
     cross-env: 7.0.3
     dotenv-cli: 7.3.0
     eslint: 8.50.0
