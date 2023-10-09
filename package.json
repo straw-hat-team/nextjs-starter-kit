@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@straw-hat/browserslist-config": "0.1.1",
-    "@turbo/gen": "1.10.14",
+    "@turbo/gen": "1.10.15",
     "cross-env": "7.0.3",
     "dotenv-cli": "7.3.0",
     "eslint": "8.51.0",
