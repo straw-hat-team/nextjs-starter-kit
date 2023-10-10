@@ -2900,7 +2900,7 @@ __metadata:
   resolution: "@monoturborepo/ui@workspace:packages/@monoturborepo/ui"
   dependencies:
     "@jest/globals": 29.7.0
-    "@storybook/addon-a11y": 7.4.5
+    "@storybook/addon-a11y": 7.4.6
     "@storybook/addon-coverage": 0.0.9
     "@storybook/addon-essentials": 7.4.6
     "@storybook/addon-interactions": 7.4.6
@@ -4203,20 +4203,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:7.4.5":
-  version: 7.4.5
-  resolution: "@storybook/addon-a11y@npm:7.4.5"
+"@storybook/addon-a11y@npm:7.4.6":
+  version: 7.4.6
+  resolution: "@storybook/addon-a11y@npm:7.4.6"
   dependencies:
-    "@storybook/addon-highlight": 7.4.5
-    "@storybook/channels": 7.4.5
-    "@storybook/client-logger": 7.4.5
-    "@storybook/components": 7.4.5
-    "@storybook/core-events": 7.4.5
+    "@storybook/addon-highlight": 7.4.6
+    "@storybook/channels": 7.4.6
+    "@storybook/client-logger": 7.4.6
+    "@storybook/components": 7.4.6
+    "@storybook/core-events": 7.4.6
     "@storybook/global": ^5.0.0
-    "@storybook/manager-api": 7.4.5
-    "@storybook/preview-api": 7.4.5
-    "@storybook/theming": 7.4.5
-    "@storybook/types": 7.4.5
+    "@storybook/manager-api": 7.4.6
+    "@storybook/preview-api": 7.4.6
+    "@storybook/theming": 7.4.6
+    "@storybook/types": 7.4.6
     axe-core: ^4.2.0
     lodash: ^4.17.21
     react-resize-detector: ^7.1.2
@@ -4228,7 +4228,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 4c4013d3221b62d4870f3ab7e91e278d464f2ef267253e56a9099eaccd7f90393f6c794e3b616bdfcf06ad27ae51d13b3b29ca9dd0c060d84c214e3706835652
+  checksum: 3983591c882e4dab6a280bd3d333f75c1aa63f2d366dc1db9ab03ca967a9e16a049d319a609c1b81c4a49e0b934727ae9f56939e0803019abf956c230f02bba3
   languageName: node
   linkType: hard
 
@@ -4382,17 +4382,6 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 532debb5e2e2dc867f71c3ced67986bbf7345b6a5c888c93b47297c637ea48d53ae6ded7e9f38aec1c26ae347ad58d09eb88654cd007332b9a90a3d2b094a119
-  languageName: node
-  linkType: hard
-
-"@storybook/addon-highlight@npm:7.4.5":
-  version: 7.4.5
-  resolution: "@storybook/addon-highlight@npm:7.4.5"
-  dependencies:
-    "@storybook/core-events": 7.4.5
-    "@storybook/global": ^5.0.0
-    "@storybook/preview-api": 7.4.5
-  checksum: 2621da0b77df2539ce5c4f368f4dc1b7bfbc6e64bec69c05c432767fa89e274e3d6756877359288b62c7e5baea49e04ea2cc551ea21dbad9a0e1fbbf8bb8f94b
   languageName: node
   linkType: hard
 
