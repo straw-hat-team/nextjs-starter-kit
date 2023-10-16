@@ -5962,25 +5962,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@t3-oss/env-core@npm:0.6.1":
-  version: 0.6.1
-  resolution: "@t3-oss/env-core@npm:0.6.1"
+"@t3-oss/env-core@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@t3-oss/env-core@npm:0.7.1"
   peerDependencies:
     typescript: ">=4.7.2"
     zod: ^3.0.0
-  checksum: 6a1dd9d2f88643f6315a3add7eb6053a436a953a3c2b59b9743a2d8f28dbafcdaf4f6bccf0e7dfe424189834f75fbb53b9ac3891076a19b289468e4b406a340b
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 1a8447f5009931eb24a2e653723acd817585539d882c6c97b1df590df605045dee0e9abb3e6af083ec1492a6c143469947c4e4fef8d6c4a7e64cdf61ee8748d0
   languageName: node
   linkType: hard
 
-"@t3-oss/env-nextjs@npm:0.6.1":
-  version: 0.6.1
-  resolution: "@t3-oss/env-nextjs@npm:0.6.1"
+"@t3-oss/env-nextjs@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@t3-oss/env-nextjs@npm:0.7.1"
   dependencies:
-    "@t3-oss/env-core": 0.6.1
+    "@t3-oss/env-core": 0.7.1
   peerDependencies:
     typescript: ">=4.7.2"
     zod: ^3.0.0
-  checksum: c103a501b186c2a1633ead602fbd4e2d3096f736dceecba2f88a8c7b016c6f982a42bb8eb948e8069df93bf8d51a8a973e49a0a497d3da9282933683ced665e5
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: a1183bca68de4c3670a6e2e61839a9e54ab6472fbe49d4fc34665e43f2f05b379ae9b1880a122eb1bc42f7d6bd1160a543bbd3727543022d8f1fdc5b26290984
   languageName: node
   linkType: hard
 
@@ -6819,7 +6825,7 @@ __metadata:
     "@straw-hat/eslint-config-nextjs": 3.0.2
     "@straw-hat/prettier-config": 3.1.2
     "@straw-hat/tsconfig": 4.0.3
-    "@t3-oss/env-nextjs": 0.6.1
+    "@t3-oss/env-nextjs": 0.7.1
     "@testing-library/jest-dom": 6.1.3
     "@testing-library/react": 14.0.0
     "@testing-library/user-event": 14.5.1
