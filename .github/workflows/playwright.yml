@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.38.1-jammy
+      image: mcr.microsoft.com/playwright:v1.39.0-jammy
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -26,8 +26,6 @@ jobs:
         run: yarn install --immutable
 #      - name: Install Playwright Browsers
 #        run: yarn dlx playwright install --with-deps
-      - name: Install Playwright Browsers
-        run: yarn playwright install
       - name: Run Playwright tests
         run: yarn turbo:test:playwright:headless
         env:
