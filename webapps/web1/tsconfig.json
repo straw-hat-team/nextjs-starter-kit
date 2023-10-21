@@ -3,16 +3,9 @@
   "display": "Next.js",
   "extends": "@straw-hat/tsconfig/lib/react.nextjs",
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "strictNullChecks": true
+    "paths": {"@/*": ["src/*"]}
   },
   "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

@@ -23,6 +23,8 @@ jobs:
         run: yarn install --immutable
       - name: Turbo Lint ESLint
         run: yarn turbo:lint:eslint
+        env:
+          SKIP_ENV_VALIDATION: true
       - name: Turbo Lint Prettier
         run: yarn turbo:format:prettier
 #      - name: Smoke & Acceptance tests
