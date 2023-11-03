@@ -7,6 +7,11 @@ on:
   pull_request: null
   workflow_dispatch: null
 
+env:
+#  PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/playwright-bin
+  # /ms-playwright/chromium-1084/chrome-linux/chrome
+  PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+
 jobs:
   tests:
     name: Tests
