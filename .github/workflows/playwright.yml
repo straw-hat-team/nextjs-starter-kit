@@ -7,20 +7,13 @@ on:
   pull_request: null
   workflow_dispatch: null
 
-env:
-  PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/playwright-bin
-#  PLAYWRIGHT_BROWSERS_PATH: .cache/ms-playwright
-  # /ms-playwright/chromium-1084/chrome-linux/chrome
-#  PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
-#  PLAYWRIGHT_BROWSERS_PATH: "0"
-
 jobs:
   tests:
     name: Tests
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.39.0-jammy
+#    container:
+#      image: mcr.microsoft.com/playwright:v1.39.0-jammy
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -31,10 +24,8 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --immutable
-      - name: Install Playwright Browsers
-        run: yarn dlx playwright install --with-deps
 #      - name: Install Playwright Browsers
-#        run: npx playwright install --with-deps
+#        run: yarn dlx playwright install --with-deps
       - name: Run Playwright tests
         run: yarn turbo:test:playwright:headless
         env:
