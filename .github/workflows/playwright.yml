@@ -8,7 +8,8 @@ on:
   workflow_dispatch: null
 
 env:
-  PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/playwright-bin
+#  PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/playwright-bin
+  PLAYWRIGHT_BROWSERS_PATH: .cache/ms-playwright
   # /ms-playwright/chromium-1084/chrome-linux/chrome
 #  PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
 #  PLAYWRIGHT_BROWSERS_PATH: "0"
