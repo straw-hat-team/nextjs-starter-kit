@@ -26,12 +26,15 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --immutable
+      - name: Get Playwright version
+        id: playwright-version
+        run: echo "PLAYWRIGHT_VERSION=$(grep "@playwright/test@" yarn.lock | sha256sum)" >> $GITHUB_ENV
       - name: Cache Playwright Browsers
         id: cache-playwright
         uses: actions/cache@v2
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
       - name: Install Playwright Browsers
         if: steps.cache-playwright.outputs.cache-hit != 'true'
         run: yarn dlx playwright install --with-deps
