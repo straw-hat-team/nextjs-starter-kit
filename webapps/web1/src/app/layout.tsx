@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({
-  variable: '--font-inter',
+  variable: '--font-sans',
   weight: ['100', '400', '600'],
   display: 'swap',
   subsets: ['latin'],
