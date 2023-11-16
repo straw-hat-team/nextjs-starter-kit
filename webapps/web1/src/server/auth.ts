@@ -1,4 +1,3 @@
-// @ts-expect-error moduleResolution:nodenext issue 54523
 import { env } from '@/env.mjs';
 import { GetServerSidePropsContext, NextApiRequest, NextApiResponse } from 'next';
 import { DefaultSession, NextAuthOptions, getServerSession } from 'next-auth';
