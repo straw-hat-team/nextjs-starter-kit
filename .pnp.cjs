@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@straw-hat/browserslist-config", "npm:0.1.1"],\
+          ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.3"],\
           ["@turbo/gen", "npm:1.10.16"],\
           ["cross-env", "npm:7.0.3"],\
           ["dotenv-cli", "npm:7.3.0"],\
@@ -8256,6 +8257,25 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/prettier-config", "npm:3.1.3"]\
         ],\
         "linkType": "SOFT"\
+      }],\
+      ["virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/@straw-hat-prettier-config-virtual-eae29c4be9/0/cache/@straw-hat-prettier-config-npm-3.1.3-cdfd439c3b-47e7267c69.zip/node_modules/@straw-hat/prettier-config/",\
+        "packageDependencies": [\
+          ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.3"],\
+          ["@types/prettier", null],\
+          ["@types/typescript", null],\
+          ["prettier", "npm:3.1.0"],\
+          ["prettier-plugin-organize-imports", "virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:3.2.3"],\
+          ["prettier-plugin-tailwindcss", "virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:0.5.7"],\
+          ["typescript", null]\
+        ],\
+        "packagePeers": [\
+          "@types/prettier",\
+          "@types/typescript",\
+          "prettier",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
       }],\
       ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:3.1.3", {\
         "packageLocation": "./.yarn/__virtual__/@straw-hat-prettier-config-virtual-974b5375b8/0/cache/@straw-hat-prettier-config-npm-3.1.3-cdfd439c3b-47e7267c69.zip/node_modules/@straw-hat/prettier-config/",\
@@ -17952,6 +17972,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["monoturborepo", "workspace:."],\
           ["@straw-hat/browserslist-config", "npm:0.1.1"],\
+          ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.3"],\
           ["@turbo/gen", "npm:1.10.16"],\
           ["cross-env", "npm:7.0.3"],\
           ["dotenv-cli", "npm:7.3.0"],\
@@ -19547,6 +19568,31 @@ const RAW_RUNTIME_STATE =
           "typescript"\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:3.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/prettier-plugin-organize-imports-virtual-764339e5e1/0/cache/prettier-plugin-organize-imports-npm-3.2.3-7f40e110b3-89569a6017.zip/node_modules/prettier-plugin-organize-imports/",\
+        "packageDependencies": [\
+          ["prettier-plugin-organize-imports", "virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:3.2.3"],\
+          ["@types/prettier", null],\
+          ["@types/typescript", null],\
+          ["@types/volar__vue-language-plugin-pug", null],\
+          ["@types/volar__vue-typescript", null],\
+          ["@volar/vue-language-plugin-pug", null],\
+          ["@volar/vue-typescript", null],\
+          ["prettier", "npm:3.1.0"],\
+          ["typescript", null]\
+        ],\
+        "packagePeers": [\
+          "@types/prettier",\
+          "@types/typescript",\
+          "@types/volar__vue-language-plugin-pug",\
+          "@types/volar__vue-typescript",\
+          "@volar/vue-language-plugin-pug",\
+          "@volar/vue-typescript",\
+          "prettier",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["prettier-plugin-tailwindcss", [\
@@ -19590,6 +19636,79 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-marko", null],\
           ["prettier-plugin-organize-attributes", null],\
           ["prettier-plugin-organize-imports", "virtual:974b5375b8447d4b147eefb8ee7ab09677e2c1eaa2c0c79cf0e4c37dc5da7266ed830fe4b129d1edb5da39e360ea09b646427d872c41d6b35b4be510e912f801#npm:3.2.3"],\
+          ["prettier-plugin-style-order", null],\
+          ["prettier-plugin-svelte", null],\
+          ["prettier-plugin-twig-melody", null]\
+        ],\
+        "packagePeers": [\
+          "@ianvs/prettier-plugin-sort-imports",\
+          "@prettier/plugin-pug",\
+          "@shopify/prettier-plugin-liquid",\
+          "@shufo/prettier-plugin-blade",\
+          "@trivago/prettier-plugin-sort-imports",\
+          "@types/ianvs__prettier-plugin-sort-imports",\
+          "@types/prettier-plugin-astro",\
+          "@types/prettier-plugin-css-order",\
+          "@types/prettier-plugin-import-sort",\
+          "@types/prettier-plugin-jsdoc",\
+          "@types/prettier-plugin-marko",\
+          "@types/prettier-plugin-organize-attributes",\
+          "@types/prettier-plugin-organize-imports",\
+          "@types/prettier-plugin-style-order",\
+          "@types/prettier-plugin-svelte",\
+          "@types/prettier-plugin-twig-melody",\
+          "@types/prettier",\
+          "@types/prettier__plugin-pug",\
+          "@types/shopify__prettier-plugin-liquid",\
+          "@types/shufo__prettier-plugin-blade",\
+          "@types/trivago__prettier-plugin-sort-imports",\
+          "prettier-plugin-astro",\
+          "prettier-plugin-css-order",\
+          "prettier-plugin-import-sort",\
+          "prettier-plugin-jsdoc",\
+          "prettier-plugin-marko",\
+          "prettier-plugin-organize-attributes",\
+          "prettier-plugin-organize-imports",\
+          "prettier-plugin-style-order",\
+          "prettier-plugin-svelte",\
+          "prettier-plugin-twig-melody",\
+          "prettier"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:0.5.7", {\
+        "packageLocation": "./.yarn/__virtual__/prettier-plugin-tailwindcss-virtual-36d69331a7/0/cache/prettier-plugin-tailwindcss-npm-0.5.7-37e26935aa-fb53766b65.zip/node_modules/prettier-plugin-tailwindcss/",\
+        "packageDependencies": [\
+          ["prettier-plugin-tailwindcss", "virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:0.5.7"],\
+          ["@ianvs/prettier-plugin-sort-imports", null],\
+          ["@prettier/plugin-pug", null],\
+          ["@shopify/prettier-plugin-liquid", null],\
+          ["@shufo/prettier-plugin-blade", null],\
+          ["@trivago/prettier-plugin-sort-imports", null],\
+          ["@types/ianvs__prettier-plugin-sort-imports", null],\
+          ["@types/prettier", null],\
+          ["@types/prettier-plugin-astro", null],\
+          ["@types/prettier-plugin-css-order", null],\
+          ["@types/prettier-plugin-import-sort", null],\
+          ["@types/prettier-plugin-jsdoc", null],\
+          ["@types/prettier-plugin-marko", null],\
+          ["@types/prettier-plugin-organize-attributes", null],\
+          ["@types/prettier-plugin-organize-imports", null],\
+          ["@types/prettier-plugin-style-order", null],\
+          ["@types/prettier-plugin-svelte", null],\
+          ["@types/prettier-plugin-twig-melody", null],\
+          ["@types/prettier__plugin-pug", null],\
+          ["@types/shopify__prettier-plugin-liquid", null],\
+          ["@types/shufo__prettier-plugin-blade", null],\
+          ["@types/trivago__prettier-plugin-sort-imports", null],\
+          ["prettier", "npm:3.1.0"],\
+          ["prettier-plugin-astro", null],\
+          ["prettier-plugin-css-order", null],\
+          ["prettier-plugin-import-sort", null],\
+          ["prettier-plugin-jsdoc", null],\
+          ["prettier-plugin-marko", null],\
+          ["prettier-plugin-organize-attributes", null],\
+          ["prettier-plugin-organize-imports", "virtual:eae29c4be99b9e64a45d871f8d7c68c4421264e330e881e591cf7c137d50372a4dbef6314ef610de3b87c15f13dc3a1b7189029b17c40165861fe4b703ac6a98#npm:3.2.3"],\
           ["prettier-plugin-style-order", null],\
           ["prettier-plugin-svelte", null],\
           ["prettier-plugin-twig-melody", null]\
