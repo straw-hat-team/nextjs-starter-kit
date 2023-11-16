@@ -1,7 +1,8 @@
 import '@/styles/index.css';
-import { LayoutProps } from '@/types';
+
 import { clsx } from 'clsx';
 import { Inter } from 'next/font/google';
+import {ReactNode} from "react";
 
 const inter = Inter({
   variable: '--font-sans',
@@ -10,7 +11,7 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
-export default function Layout(props: LayoutProps) {
+export default function Layout(props: { children: ReactNode }) {
   console.log('Have a great day! 📣🐢');
   console.log('Check this amazing material: https://bit.ly/3se7YYw');
 
