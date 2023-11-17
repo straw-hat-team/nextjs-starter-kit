@@ -3,7 +3,7 @@
   "packageManager": "yarn@4.0.2",
   "private": true,
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "workspaces": [
     "webapps/*",
