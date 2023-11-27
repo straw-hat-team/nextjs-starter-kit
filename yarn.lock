@@ -1839,6 +1839,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.23.1":
+  version: 7.23.4
+  resolution: "@babel/runtime@npm:7.23.4"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 6ef4f6dcc4ec4d74cb9f6c26a26e92d016b36debd167be48cae293fbd990b3157fb1d8d21c531285da15a5bda9ccb23e651b56234941e03d91c8af69d4c593a9
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.16.7, @babel/template@npm:^7.3.3":
   version: 7.16.7
   resolution: "@babel/template@npm:7.16.7"
@@ -3003,13 +3012,19 @@ __metadata:
     "@types/react": "npm:18.2.38"
     "@types/react-dom": "npm:18.2.17"
     axe-playwright: "npm:1.2.3"
+    class-variance-authority: "npm:0.7.0"
+    clsx: "npm:2.0.0"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
+    lucide-react: "npm:0.293.0"
     prettier: "npm:3.1.0"
     prettier-plugin-organize-imports: "npm:3.2.4"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     storybook: "npm:7.5.3"
+    tailwind-merge: "npm:2.0.0"
+    tailwindcss: "npm:3.3.5"
+    tailwindcss-animate: "npm:1.0.7"
     typescript: "npm:5.3.2"
     vite: "npm:5.0.2"
   peerDependencies:
@@ -13673,6 +13688,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:0.293.0":
+  version: 0.293.0
+  resolution: "lucide-react@npm:0.293.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0
+  checksum: 3087c70df4a2809f6b52cbe1a421e958126ca0490b53c4f65380567045f6b106d31bab8eea66577d27f20561b79bc48a9fab801ffb630c29dfcd39b2638f6982
+  languageName: node
+  linkType: hard
+
 "lz-string@npm:^1.5.0":
   version: 1.5.0
   resolution: "lz-string@npm:1.5.0"
@@ -17547,6 +17571,24 @@ __metadata:
   version: 2.0.17
   resolution: "synchronous-promise@npm:2.0.17"
   checksum: dd74b1c05caab8ea34e26c8b52a0966efd70b0229ad39447ce066501dd6931d4d97a3f88b0f306880a699660cd334180a24d9738b385aed0bd0104a5be207ec1
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:2.0.0":
+  version: 2.0.0
+  resolution: "tailwind-merge@npm:2.0.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.23.1"
+  checksum: d20d2551f4b2fd9eb68466accccf9b81baef0d8cfb9ecf89738a9abe72e023ec9fe9aad5b3b9da0a0b0ec340432069568b83dea9463ae670a20a9937fbb59bb0
+  languageName: node
+  linkType: hard
+
+"tailwindcss-animate@npm:1.0.7":
+  version: 1.0.7
+  resolution: "tailwindcss-animate@npm:1.0.7"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: ef176fbb0bf9dca84178b35b6a9615cd756358ea80be9c575456d12ecd7f3c431e9e571915c7df72959dc798a730959e9a4739d59eab55d8cc6db390870ff0d2
   languageName: node
   linkType: hard
 

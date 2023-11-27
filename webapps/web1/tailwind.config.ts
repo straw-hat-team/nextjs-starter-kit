@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 import * as defaultTheme from 'tailwindcss/defaultTheme';
+import '@monoturborepo/ui/tailwind.config';
 
 export default {
   darkMode: 'class',

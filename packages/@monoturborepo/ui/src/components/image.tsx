@@ -1,4 +1,4 @@
-import clsx from 'clsx';
+import { clsx } from 'clsx';
 import type { ImageProps } from 'next/image';
 import NextImage from 'next/image';
 

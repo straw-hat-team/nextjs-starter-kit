@@ -1,5 +1,5 @@
 import { Dialog, Transition } from '@headlessui/react';
-import clsx from 'clsx';
+import { clsx } from 'clsx';
 import type { PropsWithChildren } from 'react';
 import { Fragment } from 'react';
 
