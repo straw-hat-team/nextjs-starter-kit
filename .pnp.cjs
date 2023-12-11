@@ -4964,7 +4964,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-essentials", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
           ["@storybook/addon-interactions", "npm:7.6.4"],\
           ["@storybook/addon-links", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
-          ["@storybook/addon-onboarding", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.9"],\
+          ["@storybook/addon-onboarding", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.10"],\
           ["@storybook/addon-styling", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.3.7"],\
           ["@storybook/blocks", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
           ["@storybook/jest", "npm:0.2.3"],\
@@ -5005,7 +5005,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-essentials", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
           ["@storybook/addon-interactions", "npm:7.6.4"],\
           ["@storybook/addon-links", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
-          ["@storybook/addon-onboarding", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.9"],\
+          ["@storybook/addon-onboarding", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.10"],\
           ["@storybook/addon-styling", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.3.7"],\
           ["@storybook/blocks", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
           ["@storybook/jest", "npm:0.2.3"],\
@@ -7724,22 +7724,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@storybook/addon-onboarding", [\
-      ["npm:1.0.9", {\
-        "packageLocation": "./.yarn/cache/@storybook-addon-onboarding-npm-1.0.9-637b9176db-d1f031be47.zip/node_modules/@storybook/addon-onboarding/",\
+      ["npm:1.0.10", {\
+        "packageLocation": "./.yarn/cache/@storybook-addon-onboarding-npm-1.0.10-d8b33214fa-eede0ba977.zip/node_modules/@storybook/addon-onboarding/",\
         "packageDependencies": [\
-          ["@storybook/addon-onboarding", "npm:1.0.9"]\
+          ["@storybook/addon-onboarding", "npm:1.0.10"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.9", {\
-        "packageLocation": "./.yarn/__virtual__/@storybook-addon-onboarding-virtual-408d77a8cc/0/cache/@storybook-addon-onboarding-npm-1.0.9-637b9176db-d1f031be47.zip/node_modules/@storybook/addon-onboarding/",\
+      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.10", {\
+        "packageLocation": "./.yarn/__virtual__/@storybook-addon-onboarding-virtual-2d030b4df2/0/cache/@storybook-addon-onboarding-npm-1.0.10-d8b33214fa-eede0ba977.zip/node_modules/@storybook/addon-onboarding/",\
         "packageDependencies": [\
-          ["@storybook/addon-onboarding", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.9"],\
+          ["@storybook/addon-onboarding", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.10"],\
           ["@storybook/telemetry", "npm:7.6.4"],\
           ["@types/react", "npm:18.2.43"],\
           ["@types/react-dom", "npm:18.2.17"],\
           ["react", "npm:18.2.0"],\
-          ["react-confetti", "virtual:408d77a8cce066be3156e7d01b8c69f7379220fbf332caec7e8f0f1a1ecb0d0c793abcb504ac7342348b3e8bccc717a92d8799a57a6e80b90d8d8e34af7038a9#npm:6.1.0"],\
+          ["react-confetti", "virtual:2d030b4df28c857d6acf61e2438603115886a757005f79af7fda18434297ba46fd320ff666d0a06c6d031888e4456f97c7914193187676b5eb8ef44fbb3dbb92#npm:6.1.0"],\
           ["react-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:18.2.0"]\
         ],\
         "packagePeers": [\
@@ -21067,10 +21067,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:408d77a8cce066be3156e7d01b8c69f7379220fbf332caec7e8f0f1a1ecb0d0c793abcb504ac7342348b3e8bccc717a92d8799a57a6e80b90d8d8e34af7038a9#npm:6.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-confetti-virtual-eb6bbe021b/0/cache/react-confetti-npm-6.1.0-9b9e19a3c8-33423767c4.zip/node_modules/react-confetti/",\
+      ["virtual:2d030b4df28c857d6acf61e2438603115886a757005f79af7fda18434297ba46fd320ff666d0a06c6d031888e4456f97c7914193187676b5eb8ef44fbb3dbb92#npm:6.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-confetti-virtual-43098237e8/0/cache/react-confetti-npm-6.1.0-9b9e19a3c8-33423767c4.zip/node_modules/react-confetti/",\
         "packageDependencies": [\
-          ["react-confetti", "virtual:408d77a8cce066be3156e7d01b8c69f7379220fbf332caec7e8f0f1a1ecb0d0c793abcb504ac7342348b3e8bccc717a92d8799a57a6e80b90d8d8e34af7038a9#npm:6.1.0"],\
+          ["react-confetti", "virtual:2d030b4df28c857d6acf61e2438603115886a757005f79af7fda18434297ba46fd320ff666d0a06c6d031888e4456f97c7914193187676b5eb8ef44fbb3dbb92#npm:6.1.0"],\
           ["@types/react", "npm:18.2.43"],\
           ["react", "npm:18.2.0"],\
           ["tween-functions", "npm:1.2.0"]\
