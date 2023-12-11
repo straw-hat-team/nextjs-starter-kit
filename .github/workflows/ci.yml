@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ci-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -25,12 +25,12 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --immutable
+      - name: Turbo Lint Prettier
+        run: yarn turbo:format:prettier
       - name: Turbo Lint ESLint
         run: yarn turbo:lint:eslint
         env:
           SKIP_ENV_VALIDATION: true
-      - name: Turbo Lint Prettier
-        run: yarn turbo:format:prettier
 #      - name: Smoke & Acceptance tests
 #        run: |
 #          yarn build-storybook --quiet

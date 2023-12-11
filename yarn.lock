@@ -3201,6 +3201,7 @@ __metadata:
     "@storybook/react-vite": "npm:7.6.4"
     "@storybook/test-runner": "npm:0.16.0"
     "@storybook/testing-library": "npm:0.2.2"
+    "@straw-hat/prettier-config": "npm:3.1.5"
     "@swc/core": "npm:1.3.100"
     "@swc/jest": "npm:0.2.29"
     "@testing-library/jest-dom": "npm:6.1.5"
@@ -3211,7 +3212,6 @@ __metadata:
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     prettier: "npm:3.1.1"
-    prettier-plugin-organize-imports: "npm:3.2.4"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     storybook: "npm:7.6.4"
@@ -5708,16 +5708,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@straw-hat/prettier-config@npm:3.1.3":
-  version: 3.1.3
-  resolution: "@straw-hat/prettier-config@npm:3.1.3"
+"@straw-hat/prettier-config@npm:3.1.5":
+  version: 3.1.5
+  resolution: "@straw-hat/prettier-config@npm:3.1.5"
   dependencies:
-    prettier-plugin-organize-imports: "npm:^3.2.3"
-    prettier-plugin-tailwindcss: "npm:^0.5.4"
+    prettier-plugin-organize-imports: "npm:^3.2.4"
+    prettier-plugin-tailwindcss: "npm:^0.5.7"
   peerDependencies:
     prettier: ^3.0.1
     typescript: ^5.1.6
-  checksum: 47e7267c69b2bced4cfbc121c0db71d35ce9d58eaabe1d6512a26f7f08471f9e4c39fcd51fe864e866c408128ffd5b6a0f8625c720117753c681b292adaccde1
+  checksum: 7b6f62a167f1a19aa74bc7c8977a9790520de872a998f5c8bee202363769d589f51acdc8180b7535b2d66dad189392d8394eda5056fc1196a0b8ff30d7b8ce1e
   languageName: node
   linkType: hard
 
@@ -6934,7 +6934,7 @@ __metadata:
     "@playwright/test": "npm:1.40.1"
     "@straw-hat/browserslist-config": "npm:0.2.0"
     "@straw-hat/eslint-config-nextjs": "npm:3.0.2"
-    "@straw-hat/prettier-config": "npm:3.1.3"
+    "@straw-hat/prettier-config": "npm:3.1.5"
     "@straw-hat/tsconfig": "npm:4.2.1"
     "@t3-oss/env-nextjs": "npm:0.7.1"
     "@testing-library/jest-dom": "npm:6.1.5"
@@ -6959,7 +6959,6 @@ __metadata:
     postcss: "npm:8.4.32"
     postcss-import: "npm:15.1.0"
     prettier: "npm:3.1.1"
-    prettier-plugin-organize-imports: "npm:3.2.4"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     tailwindcss: "npm:3.3.6"
@@ -14156,7 +14155,7 @@ __metadata:
   resolution: "monoturborepo@workspace:."
   dependencies:
     "@straw-hat/browserslist-config": "npm:0.2.0"
-    "@straw-hat/prettier-config": "npm:3.1.3"
+    "@straw-hat/prettier-config": "npm:3.1.5"
     "@turbo/gen": "npm:1.11.1"
     cross-env: "npm:7.0.3"
     dotenv-cli: "npm:7.3.0"
@@ -14165,6 +14164,7 @@ __metadata:
     prettier: "npm:3.1.1"
     prettier-plugin-organize-imports: "npm:3.2.4"
     turbo: "npm:1.11.1"
+    typescript: "npm:5.3.3"
   languageName: unknown
   linkType: soft
 
@@ -14301,7 +14301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.0.4":
+"next@npm:*, next@npm:14.0.4":
   version: 14.0.4
   resolution: "next@npm:14.0.4"
   dependencies:
@@ -15468,7 +15468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-organize-imports@npm:3.2.4":
+"prettier-plugin-organize-imports@npm:3.2.4, prettier-plugin-organize-imports@npm:^3.2.4":
   version: 3.2.4
   resolution: "prettier-plugin-organize-imports@npm:3.2.4"
   peerDependencies:
@@ -15485,37 +15485,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-organize-imports@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "prettier-plugin-organize-imports@npm:3.2.3"
-  peerDependencies:
-    "@volar/vue-language-plugin-pug": ^1.0.4
-    "@volar/vue-typescript": ^1.0.4
-    prettier: ">=2.0"
-    typescript: ">=2.9"
-  peerDependenciesMeta:
-    "@volar/vue-language-plugin-pug":
-      optional: true
-    "@volar/vue-typescript":
-      optional: true
-  checksum: 89569a6017d0c8a2cadd7ce00a199f82ddd162d40ef05306454d42cb448e87ba382b0d7363687e988ae9a9caf9b5752f0e745508a0752a20c766818651e8acf1
-  languageName: node
-  linkType: hard
-
-"prettier-plugin-tailwindcss@npm:^0.5.4":
-  version: 0.5.7
-  resolution: "prettier-plugin-tailwindcss@npm:0.5.7"
+"prettier-plugin-tailwindcss@npm:^0.5.7":
+  version: 0.5.9
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.9"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
-    "@shufo/prettier-plugin-blade": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
     prettier: ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
     prettier-plugin-jsdoc: "*"
+    prettier-plugin-marko: "*"
     prettier-plugin-organize-attributes: "*"
     prettier-plugin-organize-imports: "*"
     prettier-plugin-style-order: "*"
@@ -15526,8 +15509,6 @@ __metadata:
     "@prettier/plugin-pug":
       optional: true
     "@shopify/prettier-plugin-liquid":
-      optional: true
-    "@shufo/prettier-plugin-blade":
       optional: true
     "@trivago/prettier-plugin-sort-imports":
       optional: true
@@ -15551,7 +15532,7 @@ __metadata:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: fb53766b6543bb46b5ba544d75e220c01d51fcf29403d3b908a0bcedf3a8c0e7481c8e6d7bb321bae8c96ae4f31d4d1c39e5e3e888b495d575705f6809854076
+  checksum: 6450ee245c7ce5a1989dae0425ce35304ed6d117c05f9306db27070f0c54b57448f30c9b88450ba263b66cf235932c8992b22199805c6dc2acc3f26c29e69b80
   languageName: node
   linkType: hard
 
@@ -15950,7 +15931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
+"react-dom@npm:*, react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -16056,7 +16037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
+"react@npm:*, react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:

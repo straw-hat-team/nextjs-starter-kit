@@ -2,7 +2,7 @@ import '@/styles/index.css';
 
 import { clsx } from 'clsx';
 import { Inter } from 'next/font/google';
-import {ReactNode} from "react";
+import { ReactNode } from 'react';
 
 const inter = Inter({
   variable: '--font-sans',
