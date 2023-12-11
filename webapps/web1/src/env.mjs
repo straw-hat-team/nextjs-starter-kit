@@ -6,9 +6,7 @@ export const env = createEnv({
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,
   server: {
-    NODE_ENV: z
-        .enum(["development", "test", "production"])
-        .default("development"),
+    NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
     ANALYZE: z
       .enum(['true', 'false'])
       .optional()
@@ -16,8 +14,8 @@ export const env = createEnv({
     NEXTAUTH_SECRET: z.string(),
     AUTH_REDIRECT_PROXY_URL: z.string().url().optional(),
     NEXTAUTH_URL: z.preprocess(
-        (value) => process.env.VERCEL_URL ?? value,
-        process.env.VERCEL ? z.string() : z.string().url()
+      (value) => process.env.VERCEL_URL ?? value,
+      process.env.VERCEL ? z.string() : z.string().url(),
     ),
     ZITADEL_ISSUER: z.string(),
     ZITADEL_CLIENT_ID: z.string(),
