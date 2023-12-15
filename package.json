@@ -25,7 +25,7 @@
   "devDependencies": {
     "@straw-hat/browserslist-config": "0.2.0",
     "@straw-hat/prettier-config": "3.1.5",
-    "@turbo/gen": "1.11.1",
+    "@turbo/gen": "1.11.2",
     "cross-env": "7.0.3",
     "dotenv-cli": "7.3.0",
     "eslint": "8.55.0",

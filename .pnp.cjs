@@ -38,7 +38,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
-          ["@turbo/gen", "npm:1.11.1"],\
+          ["@turbo/gen", "npm:1.11.2"],\
           ["cross-env", "npm:7.0.3"],\
           ["dotenv-cli", "npm:7.3.0"],\
           ["eslint", "npm:8.55.0"],\
@@ -9726,11 +9726,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@turbo/gen", [\
-      ["npm:1.11.1", {\
-        "packageLocation": "./.yarn/cache/@turbo-gen-npm-1.11.1-177ab924b0-31379bfe55.zip/node_modules/@turbo/gen/",\
+      ["npm:1.11.2", {\
+        "packageLocation": "./.yarn/cache/@turbo-gen-npm-1.11.2-0dbd316466-872905b4d5.zip/node_modules/@turbo/gen/",\
         "packageDependencies": [\
-          ["@turbo/gen", "npm:1.11.1"],\
-          ["@turbo/workspaces", "npm:1.11.1"],\
+          ["@turbo/gen", "npm:1.11.2"],\
+          ["@turbo/workspaces", "npm:1.11.2"],\
           ["chalk", "npm:2.4.2"],\
           ["commander", "npm:10.0.1"],\
           ["fs-extra", "npm:10.1.0"],\
@@ -9738,7 +9738,7 @@ const RAW_RUNTIME_STATE =
           ["minimatch", "npm:9.0.3"],\
           ["node-plop", "npm:0.26.3"],\
           ["proxy-agent", "npm:6.3.0"],\
-          ["ts-node", "virtual:177ab924b0d9dcf0232b6943de5e8336ae80d6ebc5736cd1187fdecc9f16206d1a9d5e2141882a707a7489423f03e677c4ae8523288f1e3f596ba962d5b4fde2#npm:10.9.1"],\
+          ["ts-node", "virtual:0dbd3164665e8b4077d6ab59fe7a20999405083cd91f33c3424633b707385b91ecb63d1f1db76b6c49708ffb5be388d93bcba4c14f4d98b77c3abebc8ecc0758#npm:10.9.1"],\
           ["update-check", "npm:1.5.4"],\
           ["validate-npm-package-name", "npm:5.0.0"]\
         ],\
@@ -9746,10 +9746,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@turbo/workspaces", [\
-      ["npm:1.11.1", {\
-        "packageLocation": "./.yarn/cache/@turbo-workspaces-npm-1.11.1-01919aeec1-1ae8d9bb00.zip/node_modules/@turbo/workspaces/",\
+      ["npm:1.11.2", {\
+        "packageLocation": "./.yarn/cache/@turbo-workspaces-npm-1.11.2-12fd47eb3e-9ad157f6bd.zip/node_modules/@turbo/workspaces/",\
         "packageDependencies": [\
-          ["@turbo/workspaces", "npm:1.11.1"],\
+          ["@turbo/workspaces", "npm:1.11.2"],\
           ["chalk", "npm:2.4.2"],\
           ["commander", "npm:10.0.1"],\
           ["execa", "npm:5.1.1"],\
@@ -18887,7 +18887,7 @@ const RAW_RUNTIME_STATE =
           ["monoturborepo", "workspace:."],\
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
-          ["@turbo/gen", "npm:1.11.1"],\
+          ["@turbo/gen", "npm:1.11.2"],\
           ["cross-env", "npm:7.0.3"],\
           ["dotenv-cli", "npm:7.3.0"],\
           ["eslint", "npm:8.55.0"],\
@@ -23372,10 +23372,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:177ab924b0d9dcf0232b6943de5e8336ae80d6ebc5736cd1187fdecc9f16206d1a9d5e2141882a707a7489423f03e677c4ae8523288f1e3f596ba962d5b4fde2#npm:10.9.1", {\
-        "packageLocation": "./.yarn/__virtual__/ts-node-virtual-196f70e0a4/0/cache/ts-node-npm-10.9.1-6c268be7f4-bee56d4dc9.zip/node_modules/ts-node/",\
+      ["virtual:0dbd3164665e8b4077d6ab59fe7a20999405083cd91f33c3424633b707385b91ecb63d1f1db76b6c49708ffb5be388d93bcba4c14f4d98b77c3abebc8ecc0758#npm:10.9.1", {\
+        "packageLocation": "./.yarn/__virtual__/ts-node-virtual-76043e70cd/0/cache/ts-node-npm-10.9.1-6c268be7f4-bee56d4dc9.zip/node_modules/ts-node/",\
         "packageDependencies": [\
-          ["ts-node", "virtual:177ab924b0d9dcf0232b6943de5e8336ae80d6ebc5736cd1187fdecc9f16206d1a9d5e2141882a707a7489423f03e677c4ae8523288f1e3f596ba962d5b4fde2#npm:10.9.1"],\
+          ["ts-node", "virtual:0dbd3164665e8b4077d6ab59fe7a20999405083cd91f33c3424633b707385b91ecb63d1f1db76b6c49708ffb5be388d93bcba4c14f4d98b77c3abebc8ecc0758#npm:10.9.1"],\
           ["@cspotcode/source-map-support", "npm:0.8.1"],\
           ["@swc/core", null],\
           ["@swc/wasm", null],\
