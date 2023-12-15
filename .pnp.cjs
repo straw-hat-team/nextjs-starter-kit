@@ -4959,7 +4959,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@monoturborepo/ui", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/ui"],\
           ["@jest/globals", "npm:29.7.0"],\
-          ["@storybook/addon-a11y", "npm:7.6.4"],\
+          ["@storybook/addon-a11y", "npm:7.6.5"],\
           ["@storybook/addon-coverage", "npm:1.0.0"],\
           ["@storybook/addon-essentials", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
           ["@storybook/addon-interactions", "npm:7.6.4"],\
@@ -5000,7 +5000,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@monoturborepo/ui", "workspace:packages/@monoturborepo/ui"],\
           ["@jest/globals", "npm:29.7.0"],\
-          ["@storybook/addon-a11y", "npm:7.6.4"],\
+          ["@storybook/addon-a11y", "npm:7.6.5"],\
           ["@storybook/addon-coverage", "npm:1.0.0"],\
           ["@storybook/addon-essentials", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:7.6.4"],\
           ["@storybook/addon-interactions", "npm:7.6.4"],\
@@ -7511,11 +7511,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@storybook/addon-a11y", [\
-      ["npm:7.6.4", {\
-        "packageLocation": "./.yarn/cache/@storybook-addon-a11y-npm-7.6.4-929743f8c6-f5e9901e8c.zip/node_modules/@storybook/addon-a11y/",\
+      ["npm:7.6.5", {\
+        "packageLocation": "./.yarn/cache/@storybook-addon-a11y-npm-7.6.5-8b99b99b04-10c2b6cd2c.zip/node_modules/@storybook/addon-a11y/",\
         "packageDependencies": [\
-          ["@storybook/addon-a11y", "npm:7.6.4"],\
-          ["@storybook/addon-highlight", "npm:7.6.4"],\
+          ["@storybook/addon-a11y", "npm:7.6.5"],\
+          ["@storybook/addon-highlight", "npm:7.6.5"],\
           ["axe-core", "npm:4.7.2"]\
         ],\
         "linkType": "HARD"\
@@ -7668,6 +7668,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@storybook-addon-highlight-npm-7.6.4-f8a61ee26d-98da44de82.zip/node_modules/@storybook/addon-highlight/",\
         "packageDependencies": [\
           ["@storybook/addon-highlight", "npm:7.6.4"],\
+          ["@storybook/global", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.6.5", {\
+        "packageLocation": "./.yarn/cache/@storybook-addon-highlight-npm-7.6.5-5353dda1b2-0e0e984beb.zip/node_modules/@storybook/addon-highlight/",\
+        "packageDependencies": [\
+          ["@storybook/addon-highlight", "npm:7.6.5"],\
           ["@storybook/global", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\

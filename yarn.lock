@@ -3188,7 +3188,7 @@ __metadata:
   resolution: "@monoturborepo/ui@workspace:packages/@monoturborepo/ui"
   dependencies:
     "@jest/globals": "npm:29.7.0"
-    "@storybook/addon-a11y": "npm:7.6.4"
+    "@storybook/addon-a11y": "npm:7.6.5"
     "@storybook/addon-coverage": "npm:1.0.0"
     "@storybook/addon-essentials": "npm:7.6.4"
     "@storybook/addon-interactions": "npm:7.6.4"
@@ -4565,13 +4565,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:7.6.4":
-  version: 7.6.4
-  resolution: "@storybook/addon-a11y@npm:7.6.4"
+"@storybook/addon-a11y@npm:7.6.5":
+  version: 7.6.5
+  resolution: "@storybook/addon-a11y@npm:7.6.5"
   dependencies:
-    "@storybook/addon-highlight": "npm:7.6.4"
+    "@storybook/addon-highlight": "npm:7.6.5"
     axe-core: "npm:^4.2.0"
-  checksum: f5e9901e8c7b5118d73ef8b29a33cc2b2e32adc23d085b7c796a71e952b62037b04797fe4bbf092539b578850f68a601e295ae9e77fa90533a53e767ca113c93
+  checksum: 10c2b6cd2c257e227872dfc54d67ef67aecbc92d462149259b45b43a370cc21408ab531d50d58718ce685ea6808c1c452e71ad17847e8723999ae7c2b88611c3
   languageName: node
   linkType: hard
 
@@ -4689,6 +4689,15 @@ __metadata:
   dependencies:
     "@storybook/global": "npm:^5.0.0"
   checksum: 98da44de82ca6b73f672ba0d1ef8942750b3736a9cdf2aedfcdda9c45711b1bb0f79f904fdfabf2f0c4bd3c65b10f907eec521f4b2672ed1ae0cd9b8099efba3
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-highlight@npm:7.6.5":
+  version: 7.6.5
+  resolution: "@storybook/addon-highlight@npm:7.6.5"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+  checksum: 0e0e984beba164f7121f7e05d51e590af71c8a3a2f94237c753ecc493e2184a8ad36ee62080836bc4ebe5b46c9a31ba3dc9acb1cb08e5d89e5e20160f0d84628
   languageName: node
   linkType: hard
 
