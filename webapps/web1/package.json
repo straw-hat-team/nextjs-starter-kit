@@ -23,7 +23,7 @@
     "@t3-oss/env-nextjs": "0.7.1",
     "@vercel/otel": "0.3.0",
     "class-variance-authority": "0.7.0",
-    "clsx": "2.0.0",
+    "clsx": "2.0.1",
     "next": "14.0.4",
     "next-auth": "4.24.5",
     "react": "18.2.0",
