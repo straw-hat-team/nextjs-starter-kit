@@ -31,7 +31,7 @@ jobs:
         run: echo "PLAYWRIGHT_VERSION=$(grep "@playwright/test@" yarn.lock | sha256sum)" >> $GITHUB_ENV
       - name: Restore Playwright Browsers cache
         id: cache-playwright-restore
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         with:
           path: ~/.cache/ms-playwright
           key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
@@ -40,7 +40,7 @@ jobs:
         run: yarn dlx playwright install --with-deps
       - name: Save Playwright Browsers cache
         if: steps.cache-playwright-restore.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         with:
           path: ~/.cache/ms-playwright
           key: ${{ steps.cache-playwright-restore.outputs.cache-primary-key }}
