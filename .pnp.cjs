@@ -9751,6 +9751,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["npm:14.5.2", {\
+        "packageLocation": "./.yarn/cache/@testing-library-user-event-npm-14.5.2-ec9587901c-49821459d8.zip/node_modules/@testing-library/user-event/",\
+        "packageDependencies": [\
+          ["@testing-library/user-event", "npm:14.5.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["virtual:4b0286ed86a0514d587e18ff75a9e5899e7b97e56b5e291227325ba535166613130c0d046c006e26c770ec56e0d344ca8b2fa302b2ced0f6a45150fbed8bc279#npm:14.5.1", {\
         "packageLocation": "./.yarn/__virtual__/@testing-library-user-event-virtual-6761e8f613/0/cache/@testing-library-user-event-npm-14.5.1-daca21fbcb-696e1328c2.zip/node_modules/@testing-library/user-event/",\
         "packageDependencies": [\
@@ -9764,10 +9771,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.1", {\
-        "packageLocation": "./.yarn/__virtual__/@testing-library-user-event-virtual-1b0746dd17/0/cache/@testing-library-user-event-npm-14.5.1-daca21fbcb-696e1328c2.zip/node_modules/@testing-library/user-event/",\
+      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/@testing-library-user-event-virtual-58536c1c86/0/cache/@testing-library-user-event-npm-14.5.2-ec9587901c-49821459d8.zip/node_modules/@testing-library/user-event/",\
         "packageDependencies": [\
-          ["@testing-library/user-event", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.1"],\
+          ["@testing-library/user-event", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.2"],\
           ["@testing-library/dom", null],\
           ["@types/testing-library__dom", null]\
         ],\
@@ -10735,7 +10742,7 @@ const RAW_RUNTIME_STATE =
           ["@t3-oss/env-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.7.1"],\
           ["@testing-library/jest-dom", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:6.1.6"],\
           ["@testing-library/react", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.1.2"],\
-          ["@testing-library/user-event", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.1"],\
+          ["@testing-library/user-event", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.2"],\
           ["@total-typescript/ts-reset", "npm:0.5.1"],\
           ["@types/eslint", "npm:8.56.0"],\
           ["@types/node", "npm:20.10.5"],\
