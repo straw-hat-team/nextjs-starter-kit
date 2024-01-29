@@ -4979,7 +4979,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:14.1.2"],\
           ["@types/react", "npm:18.2.48"],\
           ["@types/react-dom", "npm:18.2.18"],\
-          ["axe-playwright", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.2.3"],\
+          ["axe-playwright", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.1"],\
           ["jest", "virtual:40dfc294b064df128e60ae794c49e47a17dce4602581f6ebfbe36bd1c2a9712577236a58ddf2cbd95f32e774cff28c641cee2fb82c273d2f2aaad70a57c5c94b#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:29.7.0"],\
           ["prettier", "npm:3.1.1"],\
@@ -5020,7 +5020,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:14.1.2"],\
           ["@types/react", "npm:18.2.48"],\
           ["@types/react-dom", "npm:18.2.18"],\
-          ["axe-playwright", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.2.3"],\
+          ["axe-playwright", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.1"],\
           ["jest", "virtual:40dfc294b064df128e60ae794c49e47a17dce4602581f6ebfbe36bd1c2a9712577236a58ddf2cbd95f32e774cff28c641cee2fb82c273d2f2aaad70a57c5c94b#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:29.7.0"],\
           ["prettier", "npm:3.1.1"],\
@@ -10428,6 +10428,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/junit-report-builder", [\
+      ["npm:3.0.2", {\
+        "packageLocation": "./.yarn/cache/@types-junit-report-builder-npm-3.0.2-02e62e1219-7fead0b771.zip/node_modules/@types/junit-report-builder/",\
+        "packageDependencies": [\
+          ["@types/junit-report-builder", "npm:3.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/lodash", [\
       ["npm:4.14.197", {\
         "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.197-8db1555bb5-a09f6c9308.zip/node_modules/@types/lodash/",\
@@ -11713,10 +11722,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:2aa69e35f7a51f574bf98a074d001d341902a4ecb3df8a39fcb0ae8809b8fd9edb95a021d5ace0d885fe54d27078fe18f8737f00ff93739374d27bd04be725f6#npm:2.2.3", {\
-        "packageLocation": "./.yarn/__virtual__/axe-html-reporter-virtual-abc67ac662/0/cache/axe-html-reporter-npm-2.2.3-e27e22aa70-10a7e4b0ec.zip/node_modules/axe-html-reporter/",\
+      ["virtual:fe9be0b73a24c41cf11eb29151e2c80d056c5b3d70eee1508693b45bc4667dfc9aa498fbbcb17a3d8e70c7c9249bcb2aae695fa13a11b6666f95b55aaee9dfb8#npm:2.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/axe-html-reporter-virtual-21cd89d24f/0/cache/axe-html-reporter-npm-2.2.3-e27e22aa70-10a7e4b0ec.zip/node_modules/axe-html-reporter/",\
         "packageDependencies": [\
-          ["axe-html-reporter", "virtual:2aa69e35f7a51f574bf98a074d001d341902a4ecb3df8a39fcb0ae8809b8fd9edb95a021d5ace0d885fe54d27078fe18f8737f00ff93739374d27bd04be725f6#npm:2.2.3"],\
+          ["axe-html-reporter", "virtual:fe9be0b73a24c41cf11eb29151e2c80d056c5b3d70eee1508693b45bc4667dfc9aa498fbbcb17a3d8e70c7c9249bcb2aae695fa13a11b6666f95b55aaee9dfb8#npm:2.2.3"],\
           ["@types/axe-core", null],\
           ["axe-core", "npm:4.7.2"],\
           ["mustache", "npm:4.2.0"],\
@@ -11730,20 +11739,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axe-playwright", [\
-      ["npm:1.2.3", {\
-        "packageLocation": "./.yarn/cache/axe-playwright-npm-1.2.3-8aa50d6976-071a3e7a51.zip/node_modules/axe-playwright/",\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/axe-playwright-npm-2.0.1-d33c9d1a02-3974c1eefe.zip/node_modules/axe-playwright/",\
         "packageDependencies": [\
-          ["axe-playwright", "npm:1.2.3"]\
+          ["axe-playwright", "npm:2.0.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.2.3", {\
-        "packageLocation": "./.yarn/__virtual__/axe-playwright-virtual-2aa69e35f7/0/cache/axe-playwright-npm-1.2.3-8aa50d6976-071a3e7a51.zip/node_modules/axe-playwright/",\
+      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/axe-playwright-virtual-fe9be0b73a/0/cache/axe-playwright-npm-2.0.1-d33c9d1a02-3974c1eefe.zip/node_modules/axe-playwright/",\
         "packageDependencies": [\
-          ["axe-playwright", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.2.3"],\
+          ["axe-playwright", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.1"],\
+          ["@types/junit-report-builder", "npm:3.0.2"],\
           ["@types/playwright", null],\
           ["axe-core", "npm:4.7.2"],\
-          ["axe-html-reporter", "virtual:2aa69e35f7a51f574bf98a074d001d341902a4ecb3df8a39fcb0ae8809b8fd9edb95a021d5ace0d885fe54d27078fe18f8737f00ff93739374d27bd04be725f6#npm:2.2.3"],\
+          ["axe-html-reporter", "virtual:fe9be0b73a24c41cf11eb29151e2c80d056c5b3d70eee1508693b45bc4667dfc9aa498fbbcb17a3d8e70c7c9249bcb2aae695fa13a11b6666f95b55aaee9dfb8#npm:2.2.3"],\
+          ["junit-report-builder", "npm:3.1.0"],\
           ["picocolors", "npm:1.0.0"],\
           ["playwright", null]\
         ],\
@@ -13191,6 +13202,15 @@ const RAW_RUNTIME_STATE =
           ["abab", "npm:2.0.6"],\
           ["whatwg-mimetype", "npm:3.0.0"],\
           ["whatwg-url", "npm:11.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["date-format", [\
+      ["npm:4.0.3", {\
+        "packageLocation": "./.yarn/cache/date-format-npm-4.0.3-ce15085cfe-5f5ea388dc.zip/node_modules/date-format/",\
+        "packageDependencies": [\
+          ["date-format", "npm:4.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -18415,6 +18435,19 @@ const RAW_RUNTIME_STATE =
           ["array.prototype.flat", "npm:1.3.2"],\
           ["object.assign", "npm:4.1.4"],\
           ["object.values", "npm:1.1.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["junit-report-builder", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "./.yarn/cache/junit-report-builder-npm-3.1.0-6f47da46b9-3e0cb32bb2.zip/node_modules/junit-report-builder/",\
+        "packageDependencies": [\
+          ["junit-report-builder", "npm:3.1.0"],\
+          ["date-format", "npm:4.0.3"],\
+          ["lodash", "npm:4.17.21"],\
+          ["make-dir", "npm:3.1.0"],\
+          ["xmlbuilder", "npm:15.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -25024,6 +25057,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/xml-name-validator-npm-4.0.0-0857c21729-f9582a3f28.zip/node_modules/xml-name-validator/",\
         "packageDependencies": [\
           ["xml-name-validator", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["xmlbuilder", [\
+      ["npm:15.1.1", {\
+        "packageLocation": "./.yarn/cache/xmlbuilder-npm-15.1.1-becc60bf4e-e6f4bab250.zip/node_modules/xmlbuilder/",\
+        "packageDependencies": [\
+          ["xmlbuilder", "npm:15.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
