@@ -3208,7 +3208,7 @@ __metadata:
     "@testing-library/react": "npm:14.1.2"
     "@types/react": "npm:18.2.48"
     "@types/react-dom": "npm:18.2.18"
-    axe-playwright: "npm:1.2.3"
+    axe-playwright: "npm:2.0.1"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     prettier: "npm:3.1.1"
@@ -6982,6 +6982,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/junit-report-builder@npm:^3.0.0":
+  version: 3.0.2
+  resolution: "@types/junit-report-builder@npm:3.0.2"
+  checksum: 7fead0b771f95cd8e607223ace2f43cc881b3e7944db405f903590b56379d14132032b7d89c9afa7dff266b95f516a476a39ad40f9200bfb61fc8ed7f6b1bff6
+  languageName: node
+  linkType: hard
+
 "@types/lodash@npm:^4.14.167":
   version: 4.14.197
   resolution: "@types/lodash@npm:4.14.197"
@@ -8077,16 +8084,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-playwright@npm:1.2.3":
-  version: 1.2.3
-  resolution: "axe-playwright@npm:1.2.3"
+"axe-playwright@npm:2.0.1":
+  version: 2.0.1
+  resolution: "axe-playwright@npm:2.0.1"
   dependencies:
+    "@types/junit-report-builder": "npm:^3.0.0"
     axe-core: "npm:^4.5.1"
     axe-html-reporter: "npm:2.2.3"
+    junit-report-builder: "npm:^3.0.1"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     playwright: ">1.0.0"
-  checksum: 071a3e7a51d801283f6999c89d3339197402ec06a7d8554929a63389646e32a0c6ecbf690e5d8b359757da317afdda08f0ca5d5c96cd80b54937773421484cef
+  checksum: 3974c1eefe894219d6a7278a1b024776284d3057d893076a9b1dace812b120308057b588c9c9ca4a8812a16bc82bd3bf2758fa53c5acddd3a7a9b03b0c7e2d00
   languageName: node
   linkType: hard
 
@@ -9299,6 +9308,13 @@ __metadata:
     whatwg-mimetype: "npm:^3.0.0"
     whatwg-url: "npm:^11.0.0"
   checksum: 033fc3dd0fba6d24bc9a024ddcf9923691dd24f90a3d26f6545d6a2f71ec6956f93462f2cdf2183cc46f10dc01ed3bcb36731a8208456eb1a08147e571fe2a76
+  languageName: node
+  linkType: hard
+
+"date-format@npm:4.0.3":
+  version: 4.0.3
+  resolution: "date-format@npm:4.0.3"
+  checksum: 5f5ea388dc211e8e5cab515b72b5b6fa071d42d029bdc8cc71a7f8a2d25726c3128a49d9ad78474d1b1ba39f83fe9837e431d0bfc8de5941f850d06cf5841eb5
   languageName: node
   linkType: hard
 
@@ -13946,6 +13962,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"junit-report-builder@npm:^3.0.1":
+  version: 3.1.0
+  resolution: "junit-report-builder@npm:3.1.0"
+  dependencies:
+    date-format: "npm:4.0.3"
+    lodash: "npm:^4.17.21"
+    make-dir: "npm:^3.1.0"
+    xmlbuilder: "npm:^15.1.1"
+  checksum: 3e0cb32bb24d8cdf00c762247c4f31bf27ee7538d119769ca0fe7ab29942be072f04590e638f1d2307d8ef86b9865c8f97d3277b5789a60b9d322985e5a21199
+  languageName: node
+  linkType: hard
+
 "kind-of@npm:^6.0.2":
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
@@ -14269,7 +14297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-dir@npm:^3.0.0, make-dir@npm:^3.0.2":
+"make-dir@npm:^3.0.0, make-dir@npm:^3.0.2, make-dir@npm:^3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
   dependencies:
@@ -19549,6 +19577,13 @@ __metadata:
   version: 1.0.1
   resolution: "xml@npm:1.0.1"
   checksum: 6c4c31a1308e45732e5ac6b50edbca0e8f7abe5cb5de10215d8e3c688819fe7c7706e056f6fb59b1a23fdf1000c2d7a8bba0a89e94aa1796cd2376d9a5ba401e
+  languageName: node
+  linkType: hard
+
+"xmlbuilder@npm:^15.1.1":
+  version: 15.1.1
+  resolution: "xmlbuilder@npm:15.1.1"
+  checksum: e6f4bab2504afdd5f80491bda948894d2146756532521dbe7db33ae0931cd3000e3b4da19b3f5b3f51bedbd9ee06582144d28136d68bd1df96579ecf4d4404a2
   languageName: node
   linkType: hard
 
