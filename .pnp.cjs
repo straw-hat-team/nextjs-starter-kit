@@ -10924,7 +10924,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.1.0"],\
           ["next-auth", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:4.24.5"],\
           ["next-compose-plugins", "npm:2.2.1"],\
-          ["postcss", "npm:8.4.34"],\
+          ["postcss", "npm:8.4.35"],\
           ["postcss-import", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:16.0.0"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.2.0"],\
@@ -11674,7 +11674,7 @@ const RAW_RUNTIME_STATE =
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.0.0"],\
-          ["postcss", "npm:8.4.34"],\
+          ["postcss", "npm:8.4.35"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -20533,10 +20533,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.4.34", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.4.34-2179f0d4b5-ff4769ff69.zip/node_modules/postcss/",\
+      ["npm:8.4.35", {\
+        "packageLocation": "./.yarn/cache/postcss-npm-8.4.35-6bc1848fff-93a7ce50cd.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["postcss", "npm:8.4.34"],\
+          ["postcss", "npm:8.4.35"],\
           ["nanoid", "npm:3.3.7"],\
           ["picocolors", "npm:1.0.0"],\
           ["source-map-js", "npm:1.0.2"]\
@@ -20580,7 +20580,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-import", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:16.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.34"],\
+          ["postcss", "npm:8.4.35"],\
           ["postcss-value-parser", "npm:4.1.0"],\
           ["read-cache", "npm:1.0.0"],\
           ["resolve", "patch:resolve@npm%3A1.20.0#optional!builtin<compat/resolve>::version=1.20.0&hash=c3c19d"]\
