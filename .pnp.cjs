@@ -18180,10 +18180,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["jose", [\
-      ["npm:4.15.4", {\
-        "packageLocation": "./.yarn/cache/jose-npm-4.15.4-c518ec3da8-20fa941597.zip/node_modules/jose/",\
+      ["npm:4.15.5", {\
+        "packageLocation": "./.yarn/cache/jose-npm-4.15.5-15e487a3a1-17944fcc0d.zip/node_modules/jose/",\
         "packageDependencies": [\
-          ["jose", "npm:4.15.4"]\
+          ["jose", "npm:4.15.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -19478,7 +19478,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.58"],\
           ["@types/react-dom", null],\
           ["cookie", "npm:0.5.0"],\
-          ["jose", "npm:4.15.4"],\
+          ["jose", "npm:4.15.5"],\
           ["next", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.1.0"],\
           ["nodemailer", null],\
           ["oauth", "npm:0.9.15"],\
@@ -19981,7 +19981,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/openid-client-npm-5.6.1-dc7fdc5d76-8f24854380.zip/node_modules/openid-client/",\
         "packageDependencies": [\
           ["openid-client", "npm:5.6.1"],\
-          ["jose", "npm:4.15.4"],\
+          ["jose", "npm:4.15.5"],\
           ["lru-cache", "npm:6.0.0"],\
           ["object-hash", "npm:2.2.0"],\
           ["oidc-token-hash", "npm:5.0.3"]\
