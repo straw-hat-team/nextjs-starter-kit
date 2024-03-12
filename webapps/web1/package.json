@@ -44,7 +44,7 @@
     "@total-typescript/ts-reset": "0.5.1",
     "@types/eslint": "8.56.3",
     "@types/node": "20.11.20",
-    "@types/react": "18.2.58",
+    "@types/react": "18.2.65",
     "autoprefixer": "10.4.17",
     "dotenv": "16.4.5",
     "eslint": "8.57.0",
