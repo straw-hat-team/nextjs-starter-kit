@@ -3216,7 +3216,7 @@ __metadata:
     "@swc/jest": "npm:0.2.36"
     "@testing-library/jest-dom": "npm:6.4.2"
     "@testing-library/react": "npm:14.2.1"
-    "@types/react": "npm:18.2.58"
+    "@types/react": "npm:18.2.69"
     "@types/react-dom": "npm:18.2.19"
     axe-playwright: "npm:2.0.1"
     jest: "npm:29.7.0"
@@ -6925,14 +6925,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.58":
-  version: 18.2.58
-  resolution: "@types/react@npm:18.2.58"
+"@types/react@npm:18.2.69":
+  version: 18.2.69
+  resolution: "@types/react@npm:18.2.69"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/ec5e1a7d8acc55551efec7a3d63441d24c7e94b66bf8039944541a8408048668e51b7b4b0b6e8303cdea271b7c6da242cdc7bb8ca501eedf822956edbdbfc67e
+  checksum: 10/5cc185f00ad5a4c2261e127ad25241448492f391e2206738b0477cbdba6aa75692e18ece5e75854ed513342d95c9ee83315744cb6b1470d488772cef1f8b40c8
   languageName: node
   linkType: hard
 
@@ -7202,7 +7202,7 @@ __metadata:
     "@total-typescript/ts-reset": "npm:0.5.1"
     "@types/eslint": "npm:8.56.3"
     "@types/node": "npm:20.11.20"
-    "@types/react": "npm:18.2.58"
+    "@types/react": "npm:18.2.69"
     "@vercel/otel": "npm:1.4.0"
     autoprefixer: "npm:10.4.17"
     class-variance-authority: "npm:0.7.0"
