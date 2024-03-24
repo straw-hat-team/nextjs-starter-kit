@@ -2,21 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  text-size-adjust: 100%;
-}
+@layer base {
+  html {
+    text-size-adjust: 100%;
+  }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-#__next {
-  @apply contents;
-}
-
-::selection {
-  @apply bg-purple-500;
-  @apply text-white;
+  ::selection {
+    @apply bg-purple-500;
+    @apply text-white;
+  }
 }

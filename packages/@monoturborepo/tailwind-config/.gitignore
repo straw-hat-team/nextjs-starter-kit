@@ -1,0 +1,6 @@
+storybook-static
+.turbo
+node_modules
+coverage
+
+*storybook.log

@@ -1717,7 +1717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.24.0, @babel/runtime@npm:^7.8.4":
   version: 7.24.1
   resolution: "@babel/runtime@npm:7.24.1"
   dependencies:
@@ -2621,11 +2621,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monoturborepo/tailwind-config@workspace:*, @monoturborepo/tailwind-config@workspace:packages/@monoturborepo/tailwind-config":
+  version: 0.0.0-use.local
+  resolution: "@monoturborepo/tailwind-config@workspace:packages/@monoturborepo/tailwind-config"
+  dependencies:
+    tailwindcss: "npm:3.4.1"
+    tailwindcss-animate: "npm:1.0.7"
+  peerDependencies:
+    tailwindcss: 3.4.1
+    tailwindcss-animate: 1.0.7
+  languageName: unknown
+  linkType: soft
+
 "@monoturborepo/ui@workspace:*, @monoturborepo/ui@workspace:packages/@monoturborepo/ui":
   version: 0.0.0-use.local
   resolution: "@monoturborepo/ui@workspace:packages/@monoturborepo/ui"
   dependencies:
     "@chromatic-com/storybook": "npm:1.2.25"
+    "@monoturborepo/tailwind-config": "workspace:*"
+    "@radix-ui/react-slot": "npm:1.0.2"
     "@storybook/addon-essentials": "npm:8.0.4"
     "@storybook/addon-interactions": "npm:8.0.4"
     "@storybook/addon-links": "npm:8.0.4"
@@ -2643,13 +2657,18 @@ __metadata:
     "@types/react": "npm:18.2.69"
     "@types/react-dom": "npm:18.2.22"
     autoprefixer: "npm:10.4.19"
+    class-variance-authority: "npm:0.7.0"
+    clsx: "npm:2.1.0"
     jsdom: "npm:24.0.0"
+    lucide-react: "npm:0.363.0"
     postcss: "npm:8.4.38"
     prettier: "npm:3.2.5"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     storybook: "npm:8.0.4"
+    tailwind-merge: "npm:2.2.2"
     tailwindcss: "npm:3.4.1"
+    tailwindcss-animate: "npm:1.0.7"
     typescript: "npm:5.4.3"
     vite: "npm:5.2.4"
     vitest: "npm:1.4.0"
@@ -2921,7 +2940,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-slot@npm:^1.0.2":
+"@radix-ui/react-slot@npm:1.0.2, @radix-ui/react-slot@npm:^1.0.2":
   version: 1.0.2
   resolution: "@radix-ui/react-slot@npm:1.0.2"
   dependencies:
@@ -11471,6 +11490,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:0.363.0":
+  version: 0.363.0
+  resolution: "lucide-react@npm:0.363.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0
+  checksum: 10/a007e37428c7f99d5c7431703bd6970ce50c62c4592b0a91badd746bdab8ac578f87a67b9d6193d0d36bf1451c432de91795cbdc535dbcb4943510a1752d1cba
+  languageName: node
+  linkType: hard
+
 "lz-string@npm:^1.5.0":
   version: 1.5.0
   resolution: "lz-string@npm:1.5.0"
@@ -15169,6 +15197,24 @@ __metadata:
   version: 3.2.4
   resolution: "symbol-tree@npm:3.2.4"
   checksum: 10/c09a00aadf279d47d0c5c46ca3b6b2fbaeb45f0a184976d599637d412d3a70bbdc043ff33effe1206dea0e36e0ad226cb957112e7ce9a4bf2daedf7fa4f85c53
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:2.2.2":
+  version: 2.2.2
+  resolution: "tailwind-merge@npm:2.2.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.24.0"
+  checksum: 10/f7ec370e58d1d8f12ed6509d93333f2dacfcb43110334c5424db50ae456d14939ad32cff1ef7e31d1d10a6fff9d2e80be11560ef1ebb3fe5c83de6d465a7f7b8
+  languageName: node
+  linkType: hard
+
+"tailwindcss-animate@npm:1.0.7":
+  version: 1.0.7
+  resolution: "tailwindcss-animate@npm:1.0.7"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: 10/ef176fbb0bf9dca84178b35b6a9615cd756358ea80be9c575456d12ecd7f3c431e9e571915c7df72959dc798a730959e9a4739d59eab55d8cc6db390870ff0d2
   languageName: node
   linkType: hard
 
