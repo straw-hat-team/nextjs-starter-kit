@@ -11,25 +11,15 @@ export const env = createEnv({
       .enum(['true', 'false'])
       .optional()
       .transform((value) => value === 'true'),
-    NEXTAUTH_SECRET: z.string(),
+    AUTH_SECRET: z.string(),
     AUTH_REDIRECT_PROXY_URL: z.string().url().optional(),
-    NEXTAUTH_URL: z.preprocess(
+    AUTH_URL: z.preprocess(
       (value) => process.env.VERCEL_URL ?? value,
       process.env.VERCEL ? z.string() : z.string().url(),
     ),
-    ZITADEL_ISSUER: z.string(),
-    ZITADEL_CLIENT_ID: z.string(),
-    ZITADEL_CLIENT_SECRET: z.string(),
+    AUTH_ZITADEL_ISSUER: z.string(),
+    AUTH_ZITADEL_ID: z.string(),
+    AUTH_ZITADEL_SECRET: z.string(),
   },
   client: {},
-  runtimeEnv: {
-    ANALYZE: process.env.ANALYZE,
-    NODE_ENV: process.env.NODE_ENV,
-    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
-    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
-    ZITADEL_ISSUER: process.env.ZITADEL_ISSUER,
-    ZITADEL_CLIENT_ID: process.env.ZITADEL_CLIENT_ID,
-    ZITADEL_CLIENT_SECRET: process.env.ZITADEL_CLIENT_SECRET,
-    AUTH_REDIRECT_PROXY_URL: process.env.AUTH_REDIRECT_PROXY_URL,
-  },
 });
