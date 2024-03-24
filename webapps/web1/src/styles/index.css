@@ -1,14 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import '@monoturborepo/ui/src/styles/index.css';
+
+/*
+TODO: this is not work unless we add `@tailwind base;` but if we add `@tailwind base;` the bundle
+  size becomes bigger.
+
+We need to investigate how we suppose to have shared styles between apps using tailwindcss.
 
 @layer base {
   html {
-    text-size-adjust: 100%;
-  }
-
-  ::selection {
-    @apply bg-purple-500;
-    @apply text-white;
+    background: red !important;
   }
 }
+*/

@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["@monoturborepo/tailwind-config", ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#workspace:packages/@monoturborepo/tailwind-config", "workspace:packages/@monoturborepo/tailwind-config"]],\
+    ["@monoturborepo/tailwind-config", ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/tailwind-config", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#workspace:packages/@monoturborepo/tailwind-config", "workspace:packages/@monoturborepo/tailwind-config"]],\
     ["@monoturborepo/ui", ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/ui", "workspace:packages/@monoturborepo/ui"]],\
     ["@webapps/web1", ["workspace:webapps/web1"]],\
     ["monoturborepo", ["workspace:."]]\
@@ -4308,6 +4308,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@monoturborepo/tailwind-config", [\
+      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/tailwind-config", {\
+        "packageLocation": "./.yarn/__virtual__/@monoturborepo-tailwind-config-virtual-1a92e0669d/1/packages/@monoturborepo/tailwind-config/",\
+        "packageDependencies": [\
+          ["@monoturborepo/tailwind-config", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/tailwind-config"],\
+          ["@types/tailwindcss", null],\
+          ["@types/tailwindcss-animate", null],\
+          ["tailwindcss", "npm:3.4.1"],\
+          ["tailwindcss-animate", "virtual:cc321ffdfeed183e38625d502f30ddeedeff8ef906d8cf80a43ff3b7b2a7005bfba9e25041399c892bc93ec3f9b0a8c082063a383d66f9d0139a1b292d036535#npm:1.0.7"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss-animate",\
+          "@types/tailwindcss",\
+          "tailwindcss"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#workspace:packages/@monoturborepo/tailwind-config", {\
         "packageLocation": "./.yarn/__virtual__/@monoturborepo-tailwind-config-virtual-11cf898ebe/1/packages/@monoturborepo/tailwind-config/",\
         "packageDependencies": [\
@@ -8143,6 +8159,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@webapps/web1", "workspace:webapps/web1"],\
           ["@headlessui/react", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.7.18"],\
+          ["@monoturborepo/tailwind-config", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/tailwind-config"],\
           ["@monoturborepo/ui", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#workspace:packages/@monoturborepo/ui"],\
           ["@next/bundle-analyzer", "npm:14.1.4"],\
           ["@playwright/test", "npm:1.42.1"],\
