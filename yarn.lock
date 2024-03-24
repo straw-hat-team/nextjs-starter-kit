@@ -5326,6 +5326,7 @@ __metadata:
   resolution: "@webapps/web1@workspace:webapps/web1"
   dependencies:
     "@headlessui/react": "npm:1.7.18"
+    "@monoturborepo/tailwind-config": "workspace:*"
     "@monoturborepo/ui": "workspace:*"
     "@next/bundle-analyzer": "npm:14.1.4"
     "@playwright/test": "npm:1.42.1"
