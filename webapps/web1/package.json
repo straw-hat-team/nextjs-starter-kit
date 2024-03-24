@@ -1,6 +1,7 @@
 {
   "name": "@webapps/web1",
   "private": true,
+  "type": "module",
   "engines": {
     "node": "20.x"
   },
@@ -10,7 +11,7 @@
     "start": "next start",
     "lint:eslint": "next lint",
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
-    "test:jest": "jest --passWithNoTests",
+    "test:vitest": "vitest --passWithNoTests --pool forks",
     "test:playwright:headless": "playwright test",
     "test:playwright:ui": "playwright test --ui"
   },
@@ -45,16 +46,17 @@
     "@types/eslint": "8.56.6",
     "@types/node": "20.11.30",
     "@types/react": "18.2.69",
+    "@vitejs/plugin-react": "4.2.1",
     "autoprefixer": "10.4.19",
     "dotenv": "16.4.5",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.4",
-    "jest": "29.7.0",
-    "jest-environment-jsdom": "29.7.0",
+    "jsdom": "24.0.0",
     "next-compose-plugins": "2.2.1",
     "postcss": "8.4.38",
-    "postcss-import": "16.1.0",
     "prettier": "3.2.5",
-    "typescript": "5.4.3"
+    "typescript": "5.4.3",
+    "vite": "5.2.4",
+    "vitest": "1.4.0"
   }
 }

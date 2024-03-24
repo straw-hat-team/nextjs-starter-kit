@@ -1,5 +1,5 @@
-import { describe, expect, test } from '@jest/globals';
 import { render, screen } from '@testing-library/react';
+import { describe, expect, test } from 'vitest';
 import { Button } from './button';
 
 describe('given a button component', () => {

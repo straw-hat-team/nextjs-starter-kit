@@ -12,11 +12,11 @@
         "VERCEL_URL",
         "VERCEL",
         "NODE_ENV",
-        "NEXTAUTH_SECRET",
-        "NEXTAUTH_URL",
-        "ZITADEL_ISSUER",
-        "ZITADEL_CLIENT_ID",
-        "ZITADEL_CLIENT_SECRET",
+        "AUTH_SECRET",
+        "AUTH_URL",
+        "AUTH_ZITADEL_ISSUER",
+        "AUTH_ZITADEL_ID",
+        "AUTH_ZITADEL_SECRET",
         "AUTH_REDIRECT_PROXY_URL"
       ]
     },
@@ -39,6 +39,10 @@
       "cache": false,
       "persistent": true,
       "dotEnv": [".env.development.local", ".env.local", ".env.development", ".env"]
+    },
+    "test:vitest": {
+      "dependsOn": ["build"],
+      "inputs": ["src/**/*.tsx", "src/**/*.ts", "tests/vitest/**/*.ts", "tests/vitest/**/*.tsx"]
     }
   }
 }
