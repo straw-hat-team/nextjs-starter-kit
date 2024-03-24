@@ -1,8 +1,10 @@
 // @ts-check
 import { createEnv } from '@t3-oss/env-nextjs';
+import { vercel } from "@t3-oss/env-core/presets";
 import { z } from 'zod';
 
 export const env = createEnv({
+  extends: [vercel],
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,
   server: {
@@ -22,4 +24,5 @@ export const env = createEnv({
     AUTH_ZITADEL_SECRET: z.string(),
   },
   client: {},
+  experimental__runtimeEnv: {},
 });

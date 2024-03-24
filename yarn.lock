@@ -5055,6 +5055,7 @@ __metadata:
     "@straw-hat/eslint-config-nextjs": "npm:4.0.0"
     "@straw-hat/prettier-config": "npm:3.1.5"
     "@straw-hat/tsconfig": "npm:4.2.1"
+    "@t3-oss/env-core": "npm:0.9.2"
     "@t3-oss/env-nextjs": "npm:0.9.2"
     "@testing-library/jest-dom": "npm:6.4.2"
     "@testing-library/react": "npm:14.2.2"

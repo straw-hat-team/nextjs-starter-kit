@@ -6439,10 +6439,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:aba6ea3d78670a27bb6714c72c33441e20758ff829c0ba4ecc7eda7488331dd0aa14fc97778c1c3c26b84fde507add88788c64ed45fcebf30dc6a1eca495021e#npm:0.9.2", {\
-        "packageLocation": "./.yarn/__virtual__/@t3-oss-env-core-virtual-bea77948b2/0/cache/@t3-oss-env-core-npm-0.9.2-e7f6a82d22-3f615c0646.zip/node_modules/@t3-oss/env-core/",\
+      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2", {\
+        "packageLocation": "./.yarn/__virtual__/@t3-oss-env-core-virtual-6fc3632d9e/0/cache/@t3-oss-env-core-npm-0.9.2-e7f6a82d22-3f615c0646.zip/node_modules/@t3-oss/env-core/",\
         "packageDependencies": [\
-          ["@t3-oss/env-core", "virtual:aba6ea3d78670a27bb6714c72c33441e20758ff829c0ba4ecc7eda7488331dd0aa14fc97778c1c3c26b84fde507add88788c64ed45fcebf30dc6a1eca495021e#npm:0.9.2"],\
+          ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
           ["@types/typescript", null],\
           ["@types/zod", null],\
           ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"],\
@@ -6469,7 +6469,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@t3-oss-env-nextjs-virtual-aba6ea3d78/0/cache/@t3-oss-env-nextjs-npm-0.9.2-39066dec11-cd08a8681b.zip/node_modules/@t3-oss/env-nextjs/",\
         "packageDependencies": [\
           ["@t3-oss/env-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
-          ["@t3-oss/env-core", "virtual:aba6ea3d78670a27bb6714c72c33441e20758ff829c0ba4ecc7eda7488331dd0aa14fc97778c1c3c26b84fde507add88788c64ed45fcebf30dc6a1eca495021e#npm:0.9.2"],\
+          ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
           ["@types/typescript", null],\
           ["@types/zod", null],\
           ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"],\
@@ -7737,6 +7737,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/eslint-config-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:4.0.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
           ["@straw-hat/tsconfig", "npm:4.2.1"],\
+          ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
           ["@t3-oss/env-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
           ["@testing-library/jest-dom", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:6.4.2"],\
           ["@testing-library/react", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.2.2"],\

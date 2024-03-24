@@ -1,7 +1,6 @@
 {
   "name": "@webapps/web1",
   "private": true,
-  "type": "module",
   "engines": {
     "node": "20.x"
   },
@@ -21,6 +20,7 @@
   "dependencies": {
     "@headlessui/react": "1.7.18",
     "@monoturborepo/ui": "workspace:*",
+    "@t3-oss/env-core": "0.9.2",
     "@t3-oss/env-nextjs": "0.9.2",
     "@vercel/otel": "1.6.2",
     "class-variance-authority": "0.7.0",

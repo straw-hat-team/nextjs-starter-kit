@@ -12,9 +12,9 @@ declare module 'next-auth' {
 export const authOptions = {
   providers: [
     ZitadelProvider({
-      issuer: env.ZITADEL_ISSUER,
-      clientId: env.ZITADEL_CLIENT_ID,
-      clientSecret: env.ZITADEL_CLIENT_SECRET,
+      issuer: env.AUTH_ZITADEL_ISSUER,
+      clientId: env.AUTH_ZITADEL_ID,
+      clientSecret: env.AUTH_ZITADEL_SECRET,
     }),
   ],
 } satisfies NextAuthOptions;
