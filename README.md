@@ -14,7 +14,7 @@
 - 🩹 **Patch-package** - Fix external dependencies without losing your mind. Use [`yarn patch <package>`][12]
   and [`yarn patch-commit <patchFolder>`][11] to create patches and commit them.
 - 📕 **[Storybook][10]** - Build bulletproof UI components faster.
-- 🧪 **[Jest][13]** - Delightful JavaScript Testing.
+- 🧪 **[Vitest][13]** - Delightful JavaScript Testing.
 - **[React Testing Library][14]** - Simple and complete React DOM testing utilities that encourage good testing
   practices.
 - 🚀 **[GitHub Actions][15]** - Pre-configured actions for smooth workflows.
@@ -31,6 +31,6 @@
 [10]: https://storybook.js.org/
 [11]: https://yarnpkg.com/cli/patch-commit
 [12]: https://yarnpkg.com/cli/patch
-[13]: https://jestjs.io/
+[13]: https://vitest.dev/
 [14]: https://testing-library.com/react
 [15]: https://github.com/features/actions
