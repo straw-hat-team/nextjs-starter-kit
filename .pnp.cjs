@@ -8770,7 +8770,6 @@ const RAW_RUNTIME_STATE =
           ["jsdom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:24.0.0"],\
           ["next", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.1.4"],\
           ["next-auth", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.15"],\
-          ["next-compose-plugins", "npm:2.2.1"],\
           ["postcss", "npm:8.4.38"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.2.0"],\
@@ -16935,15 +16934,6 @@ const RAW_RUNTIME_STATE =
           "next",\
           "nodemailer",\
           "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["next-compose-plugins", [\
-      ["npm:2.2.1", {\
-        "packageLocation": "./.yarn/cache/next-compose-plugins-npm-2.2.1-a9c8f4fdca-e3c8b26617.zip/node_modules/next-compose-plugins/",\
-        "packageDependencies": [\
-          ["next-compose-plugins", "npm:2.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\

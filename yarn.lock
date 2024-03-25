@@ -5868,7 +5868,6 @@ __metadata:
     jsdom: "npm:24.0.0"
     next: "npm:14.1.4"
     next-auth: "npm:5.0.0-beta.15"
-    next-compose-plugins: "npm:2.2.1"
     postcss: "npm:8.4.38"
     prettier: "npm:3.2.5"
     react: "npm:18.2.0"
@@ -12853,13 +12852,6 @@ __metadata:
     nodemailer:
       optional: true
   checksum: 10/4d4cf434be2b3859e96254b855e2f30f076352e395c9423f8206a8e9d408375c1fd4c292e10fd1fa735652dbb88a215bcee53c406689b52074e075ea561d234e
-  languageName: node
-  linkType: hard
-
-"next-compose-plugins@npm:2.2.1":
-  version: 2.2.1
-  resolution: "next-compose-plugins@npm:2.2.1"
-  checksum: 10/e3c8b26617534d5eee06338c5d17779af1775830174e3640a56dc63ffcedfd6260c9dc0638b6d83ea24349c06cffe19b09b0831227ec0009f3f580332d0129a8
   languageName: node
   linkType: hard
 
