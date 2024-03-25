@@ -5,6 +5,7 @@
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": ".",
+    "jsx": "preserve",
     "paths": { "@/*": ["src/*"] }
   },
   "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts"],
