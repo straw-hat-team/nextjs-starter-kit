@@ -5701,9 +5701,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/otel@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@vercel/otel@npm:1.6.2"
+"@vercel/otel@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vercel/otel@npm:1.7.1"
   peerDependencies:
     "@opentelemetry/api": ^1.7.0
     "@opentelemetry/api-logs": ^0.46.0
@@ -5712,7 +5712,7 @@ __metadata:
     "@opentelemetry/sdk-logs": ^0.46.0
     "@opentelemetry/sdk-metrics": ^1.19.0
     "@opentelemetry/sdk-trace-base": ^1.19.0
-  checksum: 10/92c2c563c1558cbc727a32580cb993dd5eae4525beac45cd015ca7f31e41cee3750f9254849e073fc0bf5511af25a23c9d10a697ef6299a4e60f9924cf20d0eb
+  checksum: 10/c03a6520e96aa2679e32f36e0ffbbfa3928b50f04b2375c3d4f92242376987f3d3672fe548dc0d55e9794a4bb49f28cb2ab11f7a9467ca121d57722aba7a74df
   languageName: node
   linkType: hard
 
@@ -5856,7 +5856,7 @@ __metadata:
     "@types/eslint": "npm:8.56.6"
     "@types/node": "npm:20.11.30"
     "@types/react": "npm:18.2.69"
-    "@vercel/otel": "npm:1.6.2"
+    "@vercel/otel": "npm:1.7.1"
     "@vitejs/plugin-react": "npm:4.2.1"
     "@vitest/ui": "npm:1.4.0"
     autoprefixer: "npm:10.4.19"
