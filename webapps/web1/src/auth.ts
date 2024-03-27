@@ -3,6 +3,7 @@ import { makeZitadelAuth } from '@/helpers/zitadel.ts';
 import NextAuth, { NextAuthConfig, NextAuthResult } from 'next-auth';
 import Zitadel from 'next-auth/providers/zitadel';
 
+// TODO: Add offline_access support
 const { scope, profileToken } = makeZitadelAuth({
   orgId: env.ZITADEL_ORG_ID,
   projectId: env.ZITADEL_PROJECT_ID,
