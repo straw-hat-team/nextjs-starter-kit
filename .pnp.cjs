@@ -8546,17 +8546,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/otel", [\
-      ["npm:1.6.2", {\
-        "packageLocation": "./.yarn/cache/@vercel-otel-npm-1.6.2-7b0f6aac4f-92c2c563c1.zip/node_modules/@vercel/otel/",\
+      ["npm:1.7.1", {\
+        "packageLocation": "./.yarn/cache/@vercel-otel-npm-1.7.1-22cc4c236a-c03a6520e9.zip/node_modules/@vercel/otel/",\
         "packageDependencies": [\
-          ["@vercel/otel", "npm:1.6.2"]\
+          ["@vercel/otel", "npm:1.7.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.6.2", {\
-        "packageLocation": "./.yarn/__virtual__/@vercel-otel-virtual-fe7ea97cf9/0/cache/@vercel-otel-npm-1.6.2-7b0f6aac4f-92c2c563c1.zip/node_modules/@vercel/otel/",\
+      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.7.1", {\
+        "packageLocation": "./.yarn/__virtual__/@vercel-otel-virtual-cf9d72618d/0/cache/@vercel-otel-npm-1.7.1-22cc4c236a-c03a6520e9.zip/node_modules/@vercel/otel/",\
         "packageDependencies": [\
-          ["@vercel/otel", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.6.2"],\
+          ["@vercel/otel", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.7.1"],\
           ["@opentelemetry/api", null],\
           ["@opentelemetry/api-logs", null],\
           ["@opentelemetry/instrumentation", null],\
@@ -8758,7 +8758,7 @@ const RAW_RUNTIME_STATE =
           ["@types/eslint", "npm:8.56.6"],\
           ["@types/node", "npm:20.11.30"],\
           ["@types/react", "npm:18.2.69"],\
-          ["@vercel/otel", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.6.2"],\
+          ["@vercel/otel", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.7.1"],\
           ["@vitejs/plugin-react", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:4.2.1"],\
           ["@vitest/ui", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.4.0"],\
           ["autoprefixer", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:10.4.19"],\
