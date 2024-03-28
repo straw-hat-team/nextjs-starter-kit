@@ -2,6 +2,7 @@ import { onSignIn, onSignOut } from '@/actions.ts';
 import { auth } from '@/auth.ts';
 import { Button } from '@monoturborepo/ui/src/components/button';
 import type { Metadata } from 'next';
+import { UserButton } from "@clerk/nextjs";
 
 export const metadata = {
   title: 'Home',
@@ -12,6 +13,7 @@ export default async function Page() {
   return (
     <>
       <div className="my-10 flex flex-col items-center justify-center gap-10">
+        <UserButton />
         <h1 className="text-5xl font-normal">Hello, World! {session?.user?.name}</h1>
         {session ? (
           <form action={onSignOut}>
