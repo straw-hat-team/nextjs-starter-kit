@@ -47,7 +47,7 @@
     "@total-typescript/ts-reset": "0.5.1",
     "@types/eslint": "8.56.6",
     "@types/node": "20.11.30",
-    "@types/react": "18.2.69",
+    "@types/react": "18.2.73",
     "@vitejs/plugin-react": "4.2.1",
     "@vitest/ui": "1.4.0",
     "autoprefixer": "10.4.19",
