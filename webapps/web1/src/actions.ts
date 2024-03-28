@@ -1,4 +1,5 @@
 import { signIn, signOut } from '@/auth.ts';
+import 'server-only';
 
 export async function onSignIn() {
   'use server';
