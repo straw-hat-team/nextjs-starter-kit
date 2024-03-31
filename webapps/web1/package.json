@@ -22,15 +22,15 @@
     "@monoturborepo/ui": "workspace:*",
     "@t3-oss/env-core": "0.9.2",
     "@t3-oss/env-nextjs": "0.9.2",
-    "@vercel/otel": "1.6.2",
+    "@vercel/otel": "1.8.1",
     "class-variance-authority": "0.7.0",
     "clsx": "2.1.0",
     "next": "14.1.4",
-    "next-auth": "5.0.0-beta.15",
+    "next-auth": "5.0.0-beta.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "server-only": "0.0.1",
-    "tailwindcss": "3.4.1",
+    "tailwindcss": "3.4.3",
     "zod": "3.22.4"
   },
   "devDependencies": {
@@ -46,8 +46,8 @@
     "@testing-library/user-event": "14.5.2",
     "@total-typescript/ts-reset": "0.5.1",
     "@types/eslint": "8.56.6",
-    "@types/node": "20.11.30",
-    "@types/react": "18.2.69",
+    "@types/node": "20.12.2",
+    "@types/react": "18.2.73",
     "@vitejs/plugin-react": "4.2.1",
     "@vitest/ui": "1.4.0",
     "autoprefixer": "10.4.19",
@@ -58,7 +58,7 @@
     "postcss": "8.4.38",
     "prettier": "3.2.5",
     "typescript": "5.4.3",
-    "vite": "5.2.6",
+    "vite": "5.2.7",
     "vitest": "1.4.0"
   }
 }
