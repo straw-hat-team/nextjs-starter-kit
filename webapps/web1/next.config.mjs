@@ -1,4 +1,5 @@
 import withBundleAnalyzer from '@next/bundle-analyzer';
+import { paraglide } from "@inlang/paraglide-js-adapter-next/plugin";
 import { env } from './src/env.mjs';
 
 /** @type {import('next').NextConfig} */
@@ -9,4 +10,12 @@ const nextConfig = {
   transpilePackages: ['@monoturborepo/ui'],
 };
 
-export default [withBundleAnalyzer({ enabled: env.ANALYZE })].reduce((acc, fn) => fn(acc), nextConfig);
+export default [
+  withBundleAnalyzer({ enabled: env.ANALYZE }),
+  paraglide({
+    paraglide: {
+      project: "./project.inlang",
+      outdir: "./src/i18n/paraglide"
+    }
+  }),
+].reduce((acc, fn) => fn(acc), nextConfig);
