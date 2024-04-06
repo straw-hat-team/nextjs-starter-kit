@@ -5,6 +5,8 @@
 - 🏎️ **[Next.js][1]** - A React framework with hybrid static & server rendering, and route
   pre-fetching, etc.
 - 💅 **[Tailwind CSS][2]** - A utility-first CSS framework.
+- 🧩 **[Radix UI][16]** - Headless components
+- 🧩 **[shadcn UI][17]** - A collection of UI components for React.
 - ✨ **[ESLint][3]** - Make sure you are writing a quality code.
 - ✨ **[Prettier][4]** - Enforces a consistent style by parsing your code and re-printing it.
 - 🛠️ **[Extremely strict TypeScript][5]** - with [`ts-reset`][8] library for ultimate type safety.
@@ -34,3 +36,5 @@
 [13]: https://vitest.dev/
 [14]: https://testing-library.com/react
 [15]: https://github.com/features/actions
+[16]: https://radix-ui.com/
+[17]: https://ui.shadcn.com/
