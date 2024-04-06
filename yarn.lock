@@ -2620,6 +2620,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@inlang/detect-json-formatting@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@inlang/detect-json-formatting@npm:1.0.0"
+  dependencies:
+    guess-json-indent: "npm:2.0.0"
+  checksum: 10/fa9cbf62df8e514f339521f4769c55d026cbcd6c9869b59c5d3b75ac418489f9f56ecd890788f766d94ac6ae551f0c471bd51ac8bec0913404fc8d4f283003e9
+  languageName: node
+  linkType: hard
+
+"@inlang/paraglide-js-adapter-next@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@inlang/paraglide-js-adapter-next@npm:1.1.0"
+  peerDependencies:
+    "@inlang/paraglide-js": "*"
+    next: ^13.0.0 || ^14.0.0
+    react: ^18 || ^19
+  checksum: 10/ee339fa882e4431f4cae56a1e380124ae13c285bae9eb133ebbf720b63c7e715f8b71e8fc10a8dc0feaf50a88eb9bb69fa98c6923dae03a097dc789400c4566c
+  languageName: node
+  linkType: hard
+
+"@inlang/paraglide-js@npm:1.3.5":
+  version: 1.3.5
+  resolution: "@inlang/paraglide-js@npm:1.3.5"
+  dependencies:
+    "@inlang/detect-json-formatting": "npm:1.0.0"
+    commander: "npm:11.1.0"
+    consola: "npm:3.2.3"
+    dedent: "npm:1.5.1"
+    json5: "npm:2.2.3"
+    posthog-node: "npm:3.1.3"
+  bin:
+    paraglide-js: bin/run.js
+  checksum: 10/b522acb2f275c4bbcc3c4d291a03c55802a33da5ffbc809192aaf7253014b96ca5d1dd83fd8c077db27bd848a0b8ca254f831368e0e174a59c88a2338a658f59
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -5973,6 +6009,8 @@ __metadata:
   resolution: "@webapps/web1@workspace:webapps/web1"
   dependencies:
     "@headlessui/react": "npm:1.7.18"
+    "@inlang/paraglide-js": "npm:1.3.5"
+    "@inlang/paraglide-js-adapter-next": "npm:1.1.0"
     "@monoturborepo/tailwind-config": "workspace:*"
     "@monoturborepo/ui": "workspace:*"
     "@next/bundle-analyzer": "npm:14.1.4"
@@ -6610,6 +6648,17 @@ __metadata:
   version: 4.8.1
   resolution: "axe-core@npm:4.8.1"
   checksum: 10/8866da78c19e58e2c8d451199acd413b02cdb10d3f8b9d79fdd3187f989df8662f25bfd813fe2dfea6685e07fa5e397669a02dfc3a6c3fc9233bd86072efbef6
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.6.0":
+  version: 1.6.8
+  resolution: "axios@npm:1.6.8"
+  dependencies:
+    follow-redirects: "npm:^1.15.6"
+    form-data: "npm:^4.0.0"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 10/3f9a79eaf1d159544fca9576261ff867cbbff64ed30017848e4210e49f3b01e97cf416390150e6fdf6633f336cd43dc1151f890bbd09c3c01ad60bb0891eee63
   languageName: node
   linkType: hard
 
@@ -7491,6 +7540,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:11.1.0":
+  version: 11.1.0
+  resolution: "commander@npm:11.1.0"
+  checksum: 10/66bd2d8a0547f6cb1d34022efb25f348e433b0e04ad76a65279b1b09da108f59a4d3001ca539c60a7a46ea38bcf399fc17d91adad76a8cf43845d8dcbaf5cda1
+  languageName: node
+  linkType: hard
+
 "commander@npm:^10.0.0":
   version: 10.0.1
   resolution: "commander@npm:10.0.1"
@@ -7568,6 +7624,13 @@ __metadata:
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 10/9680699c8e2b3af0ae22592cb764acaf973f292a7b71b8a06720233011853a58e256c89216a10cbe889727532fd77f8bcd49a760cedfde271b8e006c20e079f2
+  languageName: node
+  linkType: hard
+
+"consola@npm:3.2.3":
+  version: 3.2.3
+  resolution: "consola@npm:3.2.3"
+  checksum: 10/02972dcb048c337357a3628438e5976b8e45bcec22fdcfbe9cd17622992953c4d695d5152f141464a02deac769b1d23028e8ac87f56483838df7a6bbf8e0f5a2
   languageName: node
   linkType: hard
 
@@ -7844,7 +7907,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dedent@npm:^1.0.0":
+"dedent@npm:1.5.1, dedent@npm:^1.0.0":
   version: 1.5.1
   resolution: "dedent@npm:1.5.1"
   peerDependencies:
@@ -9615,6 +9678,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"follow-redirects@npm:^1.15.6":
+  version: 1.15.6
+  resolution: "follow-redirects@npm:1.15.6"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 10/70c7612c4cab18e546e36b991bbf8009a1a41cf85354afe04b113d1117569abf760269409cb3eb842d9f7b03d62826687086b081c566ea7b1e6613cf29030bf7
+  languageName: node
+  linkType: hard
+
 "for-each@npm:^0.3.3":
   version: 0.3.3
   resolution: "for-each@npm:0.3.3"
@@ -10222,6 +10295,13 @@ __metadata:
   version: 1.4.0
   resolution: "graphemer@npm:1.4.0"
   checksum: 10/6dd60dba97007b21e3a829fab3f771803cc1292977fe610e240ea72afd67e5690ac9eeaafc4a99710e78962e5936ab5a460787c2a1180f1cb0ccfac37d29f897
+  languageName: node
+  linkType: hard
+
+"guess-json-indent@npm:2.0.0":
+  version: 2.0.0
+  resolution: "guess-json-indent@npm:2.0.0"
+  checksum: 10/d30270a6832552506903898640aedf792f57db5462edf1e3e70ce20aa2a8f490b9b6b0240a5f5e7f6acc7da84f8b10d68daf29f78c2664dc06f6789cba9a4396
   languageName: node
   linkType: hard
 
@@ -12128,6 +12208,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json5@npm:2.2.3, json5@npm:^2.2.2, json5@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "json5@npm:2.2.3"
+  bin:
+    json5: lib/cli.js
+  checksum: 10/1db67b853ff0de3534085d630691d3247de53a2ed1390ba0ddff681ea43e9b3e30ecbdb65c5e9aab49435e44059c23dbd6fee8ee619419ba37465bb0dd7135da
+  languageName: node
+  linkType: hard
+
 "json5@npm:^1.0.2":
   version: 1.0.2
   resolution: "json5@npm:1.0.2"
@@ -12145,15 +12234,6 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: 10/ee31060b929fbfdc3c80288286e4403ed95f47d9fe2d29f46c833b8cd4ec98b2cdb3537e2c0f15846db90950ae70bc01d2aaae3c303d70523e8039cf0e810cf5
-  languageName: node
-  linkType: hard
-
-"json5@npm:^2.2.2, json5@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "json5@npm:2.2.3"
-  bin:
-    json5: lib/cli.js
-  checksum: 10/1db67b853ff0de3534085d630691d3247de53a2ed1390ba0ddff681ea43e9b3e30ecbdb65c5e9aab49435e44059c23dbd6fee8ee619419ba37465bb0dd7135da
   languageName: node
   linkType: hard
 
@@ -14127,6 +14207,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"posthog-node@npm:3.1.3":
+  version: 3.1.3
+  resolution: "posthog-node@npm:3.1.3"
+  dependencies:
+    axios: "npm:^1.6.0"
+    rusha: "npm:^0.8.14"
+  checksum: 10/ab1404e606484cee8621717539e575694c14b41f4674f10247e584ca647e8824463871f0045eb1875147817ac0064aac8f47ccce52453f4bbd91b486a6f08fa7
+  languageName: node
+  linkType: hard
+
 "preact-render-to-string@npm:5.2.3":
   version: 5.2.3
   resolution: "preact-render-to-string@npm:5.2.3"
@@ -15282,6 +15372,13 @@ __metadata:
   dependencies:
     queue-microtask: "npm:^1.2.2"
   checksum: 10/cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
+  languageName: node
+  linkType: hard
+
+"rusha@npm:^0.8.14":
+  version: 0.8.14
+  resolution: "rusha@npm:0.8.14"
+  checksum: 10/cdd0507caa2d045f8a18e1ecfb5bd06cede774cfd53cf686a297070052634fd6aae7423632dc0e2e9c7b6920d2c35f1aaeb4e0338a35611b8487829eaaec3404
   languageName: node
   linkType: hard
 
