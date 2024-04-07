@@ -1,6 +1,7 @@
 import { onSignIn, onSignOut } from '@/actions.ts';
 import { auth } from '@/auth.ts';
 import { Button } from '@monoturborepo/ui/src/components/button';
+import { ThemeSwitcher } from '@monoturborepo/ui/src/components/theme-switcher.tsx';
 import type { Metadata } from 'next';
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default async function Page() {
   return (
     <>
       <div className="my-10 flex flex-col items-center justify-center gap-10">
+        <ThemeSwitcher />
         <h1 className="text-5xl font-normal">Hello, World! {session?.user?.name}</h1>
         {session ? (
           <form action={onSignOut}>

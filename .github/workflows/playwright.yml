@@ -17,13 +17,13 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      AUTH_URL: ""
-      AUTH_SECRET: ""
-      AUTH_ZITADEL_ID: ""
-      AUTH_ZITADEL_SECRET: ""
-      AUTH_ZITADEL_ISSUER: ""
-      ZITADEL_ORG_ID: ""
-      ZITADEL_PROJECT_ID: ""
+      AUTH_URL: "http://localhost:3000/api/auth"
+      AUTH_SECRET: "FIXME"
+      AUTH_ZITADEL_ID: "FIXME"
+      AUTH_ZITADEL_SECRET: "FIXME"
+      AUTH_ZITADEL_ISSUER: "FIXME"
+      ZITADEL_ORG_ID: "FIXME"
+      ZITADEL_PROJECT_ID: "FIXME"
 
     steps:
       - name: Checkout Code
