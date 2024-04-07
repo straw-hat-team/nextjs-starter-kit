@@ -5,8 +5,8 @@
   "main": "./tailwind.config.js",
   "private": true,
   "peerDependencies": {
-    "tailwindcss": "3.4.1",
-    "tailwindcss-animate": "1.0.7"
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "tailwindcss": "3.4.3",
