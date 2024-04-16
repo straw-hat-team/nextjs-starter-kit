@@ -7764,6 +7764,13 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/tsconfig", "npm:4.2.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.2.2", {\
+        "packageLocation": "./.yarn/cache/@straw-hat-tsconfig-npm-4.2.2-7d74041b27-b5532322d0.zip/node_modules/@straw-hat/tsconfig/",\
+        "packageDependencies": [\
+          ["@straw-hat/tsconfig", "npm:4.2.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core", [\
@@ -9310,7 +9317,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/eslint-config-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:4.0.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
-          ["@straw-hat/tsconfig", "npm:4.2.1"],\
+          ["@straw-hat/tsconfig", "npm:4.2.2"],\
           ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
           ["@t3-oss/env-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.9.2"],\
           ["@testing-library/jest-dom", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:6.4.2"],\

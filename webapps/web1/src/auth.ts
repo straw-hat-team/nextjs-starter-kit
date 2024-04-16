@@ -1,6 +1,6 @@
 import { env } from '@/env.mjs';
 import { makeZitadelAuth } from '@/helpers/zitadel.ts';
-import NextAuth, { NextAuthConfig, NextAuthResult } from 'next-auth';
+import NextAuth, { NextAuthConfig } from 'next-auth';
 import Zitadel from 'next-auth/providers/zitadel';
 
 const { scope, profileToken } = makeZitadelAuth({
@@ -37,7 +37,4 @@ const config = {
   },
 } satisfies NextAuthConfig;
 
-// TODO: Fix when NexAuth fixes their types https://github.com/nextauthjs/next-auth/discussions/9950
-const nextAuthResult = NextAuth(config);
-export const auth: NextAuthResult['auth'] = nextAuthResult.auth;
-export const { handlers, signIn, signOut }: NextAuthResult = nextAuthResult;
+export const { auth, handlers, signIn, signOut } = NextAuth(config);
