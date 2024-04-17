@@ -3196,7 +3196,7 @@ __metadata:
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.0"
     jsdom: "npm:24.0.0"
-    lucide-react: "npm:^0.368.0"
+    lucide-react: "npm:^0.370.0"
     next-themes: "npm:0.3.0"
     postcss: "npm:8.4.38"
     prettier: "npm:3.2.5"
@@ -12757,12 +12757,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.368.0":
-  version: 0.368.0
-  resolution: "lucide-react@npm:0.368.0"
+"lucide-react@npm:^0.370.0":
+  version: 0.370.0
+  resolution: "lucide-react@npm:0.370.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10/eadc5a83c304829ddb0ea94261cb5e48a770e257e18c9e4a5e3d9f6bc55ed2f8806c07d3e2d2b2b690f8f09e09890c515f31321a68c1cfbbe6de42a75e1aba01
+  checksum: 10/9520ab4133c669109bfd71856711b87300c43c0c14383d0c4012fd0cfeea76e269bda281d1b33877d233d34fe3453fa08d87f383eb81688f83e8a0e265832416
   languageName: node
   linkType: hard
 
