@@ -5010,7 +5010,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test-runner", "npm:0.17.0"],\
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
-          ["@straw-hat/tsconfig", "npm:4.2.1"],\
+          ["@straw-hat/tsconfig", "npm:4.2.2"],\
           ["@testing-library/jest-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:6.4.2"],\
           ["@testing-library/react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:15.0.2"],\
           ["@types/next-themes", null],\
@@ -5063,7 +5063,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test-runner", "npm:0.17.0"],\
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
-          ["@straw-hat/tsconfig", "npm:4.2.1"],\
+          ["@straw-hat/tsconfig", "npm:4.2.2"],\
           ["@testing-library/jest-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:6.4.2"],\
           ["@testing-library/react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:15.0.2"],\
           ["@types/react", "npm:18.2.79"],\
@@ -7758,13 +7758,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@straw-hat/tsconfig", [\
-      ["npm:4.2.1", {\
-        "packageLocation": "./.yarn/cache/@straw-hat-tsconfig-npm-4.2.1-d3588f5f71-1e9a995144.zip/node_modules/@straw-hat/tsconfig/",\
-        "packageDependencies": [\
-          ["@straw-hat/tsconfig", "npm:4.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:4.2.2", {\
         "packageLocation": "./.yarn/cache/@straw-hat-tsconfig-npm-4.2.2-7d74041b27-b5532322d0.zip/node_modules/@straw-hat/tsconfig/",\
         "packageDependencies": [\
