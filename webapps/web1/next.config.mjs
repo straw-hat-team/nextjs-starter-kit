@@ -1,5 +1,10 @@
 import withBundleAnalyzer from '@next/bundle-analyzer';
+import createNextIntlPlugin from 'next-intl/plugin';
 import { env } from './src/env.mjs';
+
+const withNextIntl = createNextIntlPlugin(
+  './src/i18n/index.ts'
+);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -9,4 +14,7 @@ const nextConfig = {
   transpilePackages: ['@monoturborepo/ui'],
 };
 
-export default [withBundleAnalyzer({ enabled: env.ANALYZE })].reduce((acc, fn) => fn(acc), nextConfig);
+export default [
+  withBundleAnalyzer({ enabled: env.ANALYZE }),
+  withNextIntl,
+].reduce((acc, fn) => fn(acc), nextConfig);
