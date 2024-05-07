@@ -9,6 +9,7 @@ export const env = createEnv({
   emptyStringAsUndefined: true,
   shared: {
     NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
+    BASE_URL: z.string().url().optional(),
   },
   server: {
     ANALYZE: z
