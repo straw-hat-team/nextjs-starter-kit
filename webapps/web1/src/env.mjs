@@ -10,8 +10,13 @@ export const env = createEnv({
   shared: {
     NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
     BASE_URL: z.string().url().optional(),
+    NEXT_PUBLIC_SENTRY_DSN: z.string().url(),
   },
   server: {
+    SENTRY_DSN: z.string().url(),
+    SENTRY_ORG: z.string(),
+    SENTRY_PROJECT: z.string(),
+    SENTRY_AUTH_TOKEN: z.string(),
     ANALYZE: z
       .enum(['true', 'false'])
       .optional()

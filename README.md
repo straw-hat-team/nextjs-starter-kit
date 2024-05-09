@@ -20,6 +20,7 @@
 - **[React Testing Library][14]** - Simple and complete React DOM testing utilities that encourage good testing
   practices.
 - 🚀 **[GitHub Actions][15]** - Pre-configured actions for smooth workflows.
+- 🚨 Error Monitoring with [Sentry][18].
 
 [1]: https://nextjs.org/
 [2]: https://tailwindcss.com/
@@ -38,3 +39,4 @@
 [15]: https://github.com/features/actions
 [16]: https://radix-ui.com/
 [17]: https://ui.shadcn.com/
+[18]: https://sentry.io

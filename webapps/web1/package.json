@@ -21,6 +21,8 @@
   "dependencies": {
     "@headlessui/react": "1.7.19",
     "@monoturborepo/ui": "workspace:*",
+    "@sentry/nextjs": "7.114.0",
+    "@sentry/utils": "7.114.0",
     "@t3-oss/env-core": "0.10.1",
     "@t3-oss/env-nextjs": "0.10.1",
     "@vercel/otel": "1.8.2",
