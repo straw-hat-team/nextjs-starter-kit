@@ -3226,7 +3226,7 @@ __metadata:
     tailwindcss: "npm:3.4.3"
     tailwindcss-animate: "npm:1.0.7"
     typescript: "npm:5.4.5"
-    vaul: "npm:^0.9.0"
+    vaul: "npm:^0.9.1"
     vite: "npm:5.2.11"
     vitest: "npm:1.6.0"
   peerDependencies:
@@ -17715,15 +17715,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vaul@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "vaul@npm:0.9.0"
+"vaul@npm:^0.9.1":
+  version: 0.9.1
+  resolution: "vaul@npm:0.9.1"
   dependencies:
     "@radix-ui/react-dialog": "npm:^1.0.4"
   peerDependencies:
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/01ecf30541f9cf389aeb01100749130731a4500ba22f5a31048da9541625be89ee1bde595d3844dfddc5488836ad368c128424d1f45b05fd00e72b6c473334e6
+  checksum: 10/2121e13402e35abac40b568e4037fc2fc7cd7632b0cb776aae7fe24fef9e8f04f1503223d166dfad2bed95d19a0369ae0c2c50faeef7afa51ff1600576c41b8f
   languageName: node
   linkType: hard
 

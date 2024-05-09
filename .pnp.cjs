@@ -5048,7 +5048,7 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss", "npm:3.4.3"],\
           ["tailwindcss-animate", "virtual:cc321ffdfeed183e38625d502f30ddeedeff8ef906d8cf80a43ff3b7b2a7005bfba9e25041399c892bc93ec3f9b0a8c082063a383d66f9d0139a1b292d036535#npm:1.0.7"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
-          ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.0"],\
+          ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.1"],\
           ["vite", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:5.2.11"],\
           ["vitest", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.6.0"]\
         ],\
@@ -5100,7 +5100,7 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss", "npm:3.4.3"],\
           ["tailwindcss-animate", "virtual:cc321ffdfeed183e38625d502f30ddeedeff8ef906d8cf80a43ff3b7b2a7005bfba9e25041399c892bc93ec3f9b0a8c082063a383d66f9d0139a1b292d036535#npm:1.0.7"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
-          ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.0"],\
+          ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.1"],\
           ["vite", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:5.2.11"],\
           ["vitest", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.6.0"]\
         ],\
@@ -22428,17 +22428,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vaul", [\
-      ["npm:0.9.0", {\
-        "packageLocation": "./.yarn/cache/vaul-npm-0.9.0-e906465865-01ecf30541.zip/node_modules/vaul/",\
+      ["npm:0.9.1", {\
+        "packageLocation": "./.yarn/cache/vaul-npm-0.9.1-14b3727c24-2121e13402.zip/node_modules/vaul/",\
         "packageDependencies": [\
-          ["vaul", "npm:0.9.0"]\
+          ["vaul", "npm:0.9.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.0", {\
-        "packageLocation": "./.yarn/__virtual__/vaul-virtual-b7f16ca5dc/0/cache/vaul-npm-0.9.0-e906465865-01ecf30541.zip/node_modules/vaul/",\
+      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.1", {\
+        "packageLocation": "./.yarn/__virtual__/vaul-virtual-5e3285233e/0/cache/vaul-npm-0.9.1-14b3727c24-2121e13402.zip/node_modules/vaul/",\
         "packageDependencies": [\
-          ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.0"],\
+          ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.1"],\
           ["@radix-ui/react-dialog", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:1.0.5"],\
           ["@types/react", "npm:18.3.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
