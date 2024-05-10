@@ -34,7 +34,7 @@
     "react-dom": "18.3.1",
     "server-only": "0.0.1",
     "tailwindcss": "3.4.3",
-    "zod": "3.23.6"
+    "zod": "3.23.8"
   },
   "devDependencies": {
     "@monoturborepo/tailwind-config": "workspace:*",
