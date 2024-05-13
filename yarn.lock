@@ -3203,7 +3203,7 @@ __metadata:
     "@storybook/react": "npm:8.0.10"
     "@storybook/react-vite": "npm:8.0.10"
     "@storybook/test": "npm:8.0.10"
-    "@storybook/test-runner": "npm:0.17.0"
+    "@storybook/test-runner": "npm:0.18.0"
     "@straw-hat/browserslist-config": "npm:0.2.0"
     "@straw-hat/prettier-config": "npm:3.1.5"
     "@straw-hat/tsconfig": "npm:4.2.2"
@@ -4931,9 +4931,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.17.0":
-  version: 0.17.0
-  resolution: "@storybook/test-runner@npm:0.17.0"
+"@storybook/test-runner@npm:0.18.0":
+  version: 0.18.0
+  resolution: "@storybook/test-runner@npm:0.18.0"
   dependencies:
     "@babel/core": "npm:^7.22.5"
     "@babel/generator": "npm:^7.22.5"
@@ -4955,10 +4955,11 @@ __metadata:
     jest-runner: "npm:^29.6.4"
     jest-serializer-html: "npm:^7.1.0"
     jest-watch-typeahead: "npm:^2.0.0"
+    nyc: "npm:^15.1.0"
     playwright: "npm:^1.14.0"
   bin:
     test-storybook: dist/test-storybook.js
-  checksum: 10/c3344041e94f26f7fc2061d527fc77def63fbb0b151e0249ec6af3010d87a483f269178f1eab41525d18ab0f599a024530824a99d4439ca493e09d7ef60ef1e2
+  checksum: 10/9c26ca55efcfc511da9e3ac61669f3762387b07e79a07ce24b479833a5ae1db80ea88051a98a8813d53f7978c842317759b2525bb59a7ade19bf448c295bf80f
   languageName: node
   linkType: hard
 
