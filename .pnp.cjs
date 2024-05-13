@@ -45,7 +45,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
           ["@turbo/gen", "npm:1.13.3"],\
           ["cross-env", "npm:7.0.3"],\
-          ["dotenv-cli", "npm:7.4.1"],\
+          ["dotenv-cli", "npm:7.4.2"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-turbo", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:1.13.3"],\
           ["prettier", "npm:3.2.5"],\
@@ -12005,10 +12005,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["dotenv-cli", [\
-      ["npm:7.4.1", {\
-        "packageLocation": "./.yarn/cache/dotenv-cli-npm-7.4.1-ac1a13f3cf-213ed2a446.zip/node_modules/dotenv-cli/",\
+      ["npm:7.4.2", {\
+        "packageLocation": "./.yarn/cache/dotenv-cli-npm-7.4.2-0682ed298d-48d887ea9b.zip/node_modules/dotenv-cli/",\
         "packageDependencies": [\
-          ["dotenv-cli", "npm:7.4.1"],\
+          ["dotenv-cli", "npm:7.4.2"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["dotenv", "npm:16.3.1"],\
           ["dotenv-expand", "npm:10.0.0"],\
@@ -17315,7 +17315,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
           ["@turbo/gen", "npm:1.13.3"],\
           ["cross-env", "npm:7.0.3"],\
-          ["dotenv-cli", "npm:7.4.1"],\
+          ["dotenv-cli", "npm:7.4.2"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-turbo", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:1.13.3"],\
           ["prettier", "npm:3.2.5"],\

@@ -8559,9 +8559,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:7.4.1":
-  version: 7.4.1
-  resolution: "dotenv-cli@npm:7.4.1"
+"dotenv-cli@npm:7.4.2":
+  version: 7.4.2
+  resolution: "dotenv-cli@npm:7.4.2"
   dependencies:
     cross-spawn: "npm:^7.0.3"
     dotenv: "npm:^16.3.0"
@@ -8569,7 +8569,7 @@ __metadata:
     minimist: "npm:^1.2.6"
   bin:
     dotenv: cli.js
-  checksum: 10/213ed2a446db0aed329fb8792107dd3bacab409eb4904137f57f6e428e0de7abfce2e1cbf34b311ce8b36090931a316e943cf193975a2eb8e855ad7db3df8cf5
+  checksum: 10/48d887ea9be08f7453dc87d6c938311989e951d0b43028eadcbaff3be1ca56180f8c38b8f932fc2e59f0210e59f4b5c59cf8a34da3e6c92f63fe6d7ce4f09f65
   languageName: node
   linkType: hard
 
@@ -13232,7 +13232,7 @@ __metadata:
     "@straw-hat/prettier-config": "npm:3.1.5"
     "@turbo/gen": "npm:1.13.3"
     cross-env: "npm:7.0.3"
-    dotenv-cli: "npm:7.4.1"
+    dotenv-cli: "npm:7.4.2"
     eslint: "npm:8.57.0"
     eslint-config-turbo: "npm:1.13.3"
     prettier: "npm:3.2.5"
