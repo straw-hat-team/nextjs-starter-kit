@@ -36,7 +36,7 @@
     "@storybook/react": "8.1.4",
     "@storybook/react-vite": "8.1.4",
     "@storybook/test": "8.1.4",
-    "@storybook/test-runner": "0.18.1",
+    "@storybook/test-runner": "0.18.2",
     "@straw-hat/browserslist-config": "0.2.0",
     "@straw-hat/prettier-config": "3.1.5",
     "@straw-hat/tsconfig": "4.2.2",
