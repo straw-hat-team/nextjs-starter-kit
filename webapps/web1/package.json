@@ -19,7 +19,6 @@
     "extends @straw-hat/browserslist-config"
   ],
   "dependencies": {
-    "@headlessui/react": "2.0.4",
     "@monoturborepo/ui": "workspace:*",
     "@t3-oss/env-core": "0.10.1",
     "@t3-oss/env-nextjs": "0.10.1",
