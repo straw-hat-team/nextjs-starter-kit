@@ -114,17 +114,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@auth/core", [\
-      ["npm:0.30.0", {\
-        "packageLocation": "./.yarn/cache/@auth-core-npm-0.30.0-f148b57af1-3cbc608a7c.zip/node_modules/@auth/core/",\
+      ["npm:0.32.0", {\
+        "packageLocation": "./.yarn/cache/@auth-core-npm-0.32.0-0819ebf78e-5632020c76.zip/node_modules/@auth/core/",\
         "packageDependencies": [\
-          ["@auth/core", "npm:0.30.0"]\
+          ["@auth/core", "npm:0.32.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:79eede3b7df107587a48e588620fb427f96c3ff04a3037ce22e46e4f5f3a3d616f1692db0569d42dbd58a5b7cfa4ec44e372af51e05dd450d08f77c4aed0e462#npm:0.30.0", {\
-        "packageLocation": "./.yarn/__virtual__/@auth-core-virtual-a722e2d3dd/0/cache/@auth-core-npm-0.30.0-f148b57af1-3cbc608a7c.zip/node_modules/@auth/core/",\
+      ["virtual:e6d248354bafa69695f193c6d891306475685840b0767b27cba478485be22a397acf8d2ea5b0a49dd21016df8b077feeb56eef07197f29ad98f4cbf5bebf560d#npm:0.32.0", {\
+        "packageLocation": "./.yarn/__virtual__/@auth-core-virtual-7a88d938a8/0/cache/@auth-core-npm-0.32.0-0819ebf78e-5632020c76.zip/node_modules/@auth/core/",\
         "packageDependencies": [\
-          ["@auth/core", "virtual:79eede3b7df107587a48e588620fb427f96c3ff04a3037ce22e46e4f5f3a3d616f1692db0569d42dbd58a5b7cfa4ec44e372af51e05dd450d08f77c4aed0e462#npm:0.30.0"],\
+          ["@auth/core", "virtual:e6d248354bafa69695f193c6d891306475685840b0767b27cba478485be22a397acf8d2ea5b0a49dd21016df8b077feeb56eef07197f29ad98f4cbf5bebf560d#npm:0.32.0"],\
           ["@panva/hkdf", "npm:1.1.1"],\
           ["@simplewebauthn/browser", null],\
           ["@simplewebauthn/server", null],\
@@ -135,9 +135,9 @@ const RAW_RUNTIME_STATE =
           ["cookie", "npm:0.6.0"],\
           ["jose", "npm:5.2.2"],\
           ["nodemailer", null],\
-          ["oauth4webapi", "npm:2.10.3"],\
+          ["oauth4webapi", "npm:2.10.4"],\
           ["preact", "npm:10.11.3"],\
-          ["preact-render-to-string", "virtual:a722e2d3dd3aac21694b818a405b9519495792e7869190344311fbde27b21f596903eafe87a6f905906656f4b3e7ba7186a80a4beb7eea5cebf4b57bc5cdb892#npm:5.2.3"]\
+          ["preact-render-to-string", "virtual:7a88d938a8195bb999e7071dd70311f5cfe447f06c30cb72840b40c14011035541264f530a1e5551d043caca93c74bb56a330fbcf9214ac9a7bd7631fee3b02d#npm:5.2.3"]\
         ],\
         "packagePeers": [\
           "@simplewebauthn/browser",\
@@ -10169,7 +10169,7 @@ const RAW_RUNTIME_STATE =
           ["geist", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.3.0"],\
           ["jsdom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:24.1.0"],\
           ["next", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.2.3"],\
-          ["next-auth", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.17"],\
+          ["next-auth", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.19"],\
           ["next-themes", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.3.0"],\
           ["postcss", "npm:8.4.38"],\
           ["prettier", "npm:3.2.5"],\
@@ -18430,18 +18430,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["next-auth", [\
-      ["npm:5.0.0-beta.17", {\
-        "packageLocation": "./.yarn/cache/next-auth-npm-5.0.0-beta.17-7d63b71f67-43f0a0268e.zip/node_modules/next-auth/",\
+      ["npm:5.0.0-beta.19", {\
+        "packageLocation": "./.yarn/cache/next-auth-npm-5.0.0-beta.19-a1cfdfdbff-7b06905774.zip/node_modules/next-auth/",\
         "packageDependencies": [\
-          ["next-auth", "npm:5.0.0-beta.17"]\
+          ["next-auth", "npm:5.0.0-beta.19"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.17", {\
-        "packageLocation": "./.yarn/__virtual__/next-auth-virtual-79eede3b7d/0/cache/next-auth-npm-5.0.0-beta.17-7d63b71f67-43f0a0268e.zip/node_modules/next-auth/",\
+      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.19", {\
+        "packageLocation": "./.yarn/__virtual__/next-auth-virtual-e6d248354b/0/cache/next-auth-npm-5.0.0-beta.19-a1cfdfdbff-7b06905774.zip/node_modules/next-auth/",\
         "packageDependencies": [\
-          ["next-auth", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.17"],\
-          ["@auth/core", "virtual:79eede3b7df107587a48e588620fb427f96c3ff04a3037ce22e46e4f5f3a3d616f1692db0569d42dbd58a5b7cfa4ec44e372af51e05dd450d08f77c4aed0e462#npm:0.30.0"],\
+          ["next-auth", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.0.0-beta.19"],\
+          ["@auth/core", "virtual:e6d248354bafa69695f193c6d891306475685840b0767b27cba478485be22a397acf8d2ea5b0a49dd21016df8b077feeb56eef07197f29ad98f4cbf5bebf560d#npm:0.32.0"],\
           ["@simplewebauthn/browser", null],\
           ["@simplewebauthn/server", null],\
           ["@types/next", null],\
@@ -18762,10 +18762,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["oauth4webapi", [\
-      ["npm:2.10.3", {\
-        "packageLocation": "./.yarn/cache/oauth4webapi-npm-2.10.3-a155527f48-5914a7c823.zip/node_modules/oauth4webapi/",\
+      ["npm:2.10.4", {\
+        "packageLocation": "./.yarn/cache/oauth4webapi-npm-2.10.4-369ed66117-49f870ddd6.zip/node_modules/oauth4webapi/",\
         "packageDependencies": [\
-          ["oauth4webapi", "npm:2.10.3"]\
+          ["oauth4webapi", "npm:2.10.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -19692,10 +19692,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a722e2d3dd3aac21694b818a405b9519495792e7869190344311fbde27b21f596903eafe87a6f905906656f4b3e7ba7186a80a4beb7eea5cebf4b57bc5cdb892#npm:5.2.3", {\
-        "packageLocation": "./.yarn/__virtual__/preact-render-to-string-virtual-8a6b2a1f9c/0/cache/preact-render-to-string-npm-5.2.3-1f72a2f38e-7441fecbda.zip/node_modules/preact-render-to-string/",\
+      ["virtual:7a88d938a8195bb999e7071dd70311f5cfe447f06c30cb72840b40c14011035541264f530a1e5551d043caca93c74bb56a330fbcf9214ac9a7bd7631fee3b02d#npm:5.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/preact-render-to-string-virtual-a10dc6d476/0/cache/preact-render-to-string-npm-5.2.3-1f72a2f38e-7441fecbda.zip/node_modules/preact-render-to-string/",\
         "packageDependencies": [\
-          ["preact-render-to-string", "virtual:a722e2d3dd3aac21694b818a405b9519495792e7869190344311fbde27b21f596903eafe87a6f905906656f4b3e7ba7186a80a4beb7eea5cebf4b57bc5cdb892#npm:5.2.3"],\
+          ["preact-render-to-string", "virtual:7a88d938a8195bb999e7071dd70311f5cfe447f06c30cb72840b40c14011035541264f530a1e5551d043caca93c74bb56a330fbcf9214ac9a7bd7631fee3b02d#npm:5.2.3"],\
           ["@types/preact", null],\
           ["preact", "npm:10.11.3"],\
           ["pretty-format", "npm:3.8.0"]\
