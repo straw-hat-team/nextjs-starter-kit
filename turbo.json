@@ -1,11 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
-  "pipeline": {
+  "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"],
-      "dotEnv": [".env.production.local", ".env.local", ".env.production", ".env"],
+      "inputs": [".env.production.local", ".env.local", ".env.production", ".env"],
       "env": [
         "ANALYZE",
         "SKIP_ENV_VALIDATION",
@@ -38,7 +37,7 @@
     "dev": {
       "cache": false,
       "persistent": true,
-      "dotEnv": [".env.development.local", ".env.local", ".env.development", ".env"]
+      "inputs": [".env.development.local", ".env.local", ".env.development", ".env"]
     },
     "test:vitest": {
       "dependsOn": ["build"],

@@ -1,10 +1,10 @@
 // @ts-check
-import { createEnv } from '@t3-oss/env-nextjs';
+import { createEnv } from "@t3-oss/env-nextjs";
 import { vercel } from "@t3-oss/env-core/presets";
 import { z } from 'zod';
 
 export const env = createEnv({
-  extends: [vercel],
+  extends: [vercel()],
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,
   shared: {
@@ -32,5 +32,6 @@ export const env = createEnv({
   client: {},
   experimental__runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
+    BASE_URL: process.env.BASE_URL,
   },
 });
