@@ -15,6 +15,8 @@ jobs:
   check:
     name: Check
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: "true"
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -29,8 +31,6 @@ jobs:
         run: yarn turbo:format:prettier
       - name: Turbo Lint ESLint
         run: yarn turbo:lint:eslint
-        env:
-          SKIP_ENV_VALIDATION: "true"
 #      - name: Smoke & Acceptance tests
 #        run: |
 #          yarn build-storybook --quiet
