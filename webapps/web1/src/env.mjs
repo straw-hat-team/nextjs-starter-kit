@@ -3,6 +3,8 @@ import { createEnv } from "@t3-oss/env-nextjs";
 import { vercel } from "@t3-oss/env-core/presets";
 import { z } from 'zod';
 
+console.error('SKIP_ENV_VALIDATION', process.env.SKIP_ENV_VALIDATION, process.env.SKIP_ENV_VALIDATION === 'true');
+
 export const env = createEnv({
   extends: [vercel()],
   skipValidation: process.env.SKIP_ENV_VALIDATION === 'true',
