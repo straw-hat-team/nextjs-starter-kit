@@ -11,6 +11,9 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  SKIP_ENV_VALIDATION: "true"
+
 jobs:
   check:
     name: Check
