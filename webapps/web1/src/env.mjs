@@ -5,7 +5,7 @@ import { z } from 'zod';
 
 export const env = createEnv({
   extends: [vercel()],
-  skipValidation: !!process.env.SKIP_ENV_VALIDATION,
+  skipValidation: process.env.SKIP_ENV_VALIDATION === 'true',
   emptyStringAsUndefined: true,
   shared: {
     NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),

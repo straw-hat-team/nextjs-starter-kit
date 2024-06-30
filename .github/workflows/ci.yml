@@ -30,7 +30,7 @@ jobs:
       - name: Turbo Lint ESLint
         run: yarn turbo:lint:eslint
         env:
-          SKIP_ENV_VALIDATION: true
+          SKIP_ENV_VALIDATION: "true"
 #      - name: Smoke & Acceptance tests
 #        run: |
 #          yarn build-storybook --quiet
