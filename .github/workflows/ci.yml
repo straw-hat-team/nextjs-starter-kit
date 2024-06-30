@@ -11,10 +11,15 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  SKIP_ENV_VALIDATION: "true"
+
 jobs:
   check:
     name: Check
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: "true"
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
