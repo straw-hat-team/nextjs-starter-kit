@@ -16,7 +16,8 @@
         "AUTH_ZITADEL_ISSUER",
         "AUTH_ZITADEL_ID",
         "AUTH_ZITADEL_SECRET",
-        "AUTH_REDIRECT_PROXY_URL"
+        "AUTH_REDIRECT_PROXY_URL",
+        "BASE_URL"
       ]
     },
     "lint:eslint": {},
