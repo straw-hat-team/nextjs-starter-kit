@@ -10,3 +10,4 @@ packages
 .tool-versions
 yarn.lock
 *.hbs
+.pnp.*

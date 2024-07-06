@@ -17,13 +17,13 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      AUTH_URL: "http://localhost:3000/api/auth"
-      AUTH_SECRET: "FIXME"
-      AUTH_ZITADEL_ID: "FIXME"
-      AUTH_ZITADEL_SECRET: "FIXME"
-      AUTH_ZITADEL_ISSUER: "FIXME"
-      ZITADEL_ORG_ID: "FIXME"
-      ZITADEL_PROJECT_ID: "FIXME"
+      AUTH_URL: 'http://localhost:3000/api/auth'
+      AUTH_SECRET: 'FIXME'
+      AUTH_ZITADEL_ID: 'FIXME'
+      AUTH_ZITADEL_SECRET: 'FIXME'
+      AUTH_ZITADEL_ISSUER: 'FIXME'
+      ZITADEL_ORG_ID: 'FIXME'
+      ZITADEL_PROJECT_ID: 'FIXME'
 
     steps:
       - name: Checkout Code
@@ -43,7 +43,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ~/.cache/ms-playwright
-          key: "${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}"
+          key: '${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}'
       - name: Install Playwright Browsers
         if: steps.cache-playwright-restore.outputs.cache-hit != 'true'
         run: yarn dlx playwright install --with-deps
@@ -56,7 +56,7 @@ jobs:
       - name: Run Playwright tests
         run: yarn turbo:test:playwright:headless
         env:
-          SKIP_ENV_VALIDATION: "true"
+          SKIP_ENV_VALIDATION: 'true'
       - name: Upload Playwright Report
         uses: actions/upload-artifact@v4
         if: always()

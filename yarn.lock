@@ -3604,6 +3604,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@monoturborepo/tailwind-config@workspace:packages/@monoturborepo/tailwind-config"
   dependencies:
+    "@straw-hat/prettier-config": "npm:3.1.5"
+    prettier: "npm:3.3.2"
     tailwindcss: "npm:3.4.4"
     tailwindcss-animate: "npm:1.0.7"
   peerDependencies:
