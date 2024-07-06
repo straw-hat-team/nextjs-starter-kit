@@ -1,6 +1,6 @@
 // @ts-check
-import { createEnv } from "@t3-oss/env-nextjs";
-import { vercel } from "@t3-oss/env-core/presets";
+import { vercel } from '@t3-oss/env-core/presets';
+import { createEnv } from '@t3-oss/env-nextjs';
 import { z } from 'zod';
 
 export const env = createEnv({

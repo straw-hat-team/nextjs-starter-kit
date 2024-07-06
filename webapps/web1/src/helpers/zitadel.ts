@@ -31,7 +31,7 @@ export function makeZitadelAuth(args: Config) {
     scopes.push(
       'urn:zitadel:iam:org:project:id:zitadel:aud',
       'urn:zitadel:iam:user:resourceowner',
-      `urn:zitadel:iam:org:id:${args.orgId}`
+      `urn:zitadel:iam:org:id:${args.orgId}`,
     );
   }
 
