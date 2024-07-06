@@ -2601,16 +2601,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chromatic-com/storybook@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@chromatic-com/storybook@npm:1.6.0"
+"@chromatic-com/storybook@npm:1.6.1":
+  version: 1.6.1
+  resolution: "@chromatic-com/storybook@npm:1.6.1"
   dependencies:
     chromatic: "npm:^11.4.0"
     filesize: "npm:^10.0.12"
     jsonfile: "npm:^6.1.0"
     react-confetti: "npm:^6.1.0"
     strip-ansi: "npm:^7.1.0"
-  checksum: 10/5f1d332f40bb9d53a45aacbb3e995d09b44bb79e77bcb59914cc96c238aab9c2003fb322bca4fee2add73c6070f0535f1f20228276a24ce5c3416acb3525d61c
+  checksum: 10/759a37ace8c82ee277d2722a0a1f724a8700be6efee9611cede7a328df20f85fcd4d9cb3a6813352a53c65e8267e6985c305d09dab0f16f3495198d0300e8798
   languageName: node
   linkType: hard
 
@@ -3616,7 +3616,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@monoturborepo/ui@workspace:packages/@monoturborepo/ui"
   dependencies:
-    "@chromatic-com/storybook": "npm:1.6.0"
+    "@chromatic-com/storybook": "npm:1.6.1"
     "@monoturborepo/tailwind-config": "workspace:*"
     "@radix-ui/react-dialog": "npm:^1.1.1"
     "@radix-ui/react-dropdown-menu": "npm:^2.1.1"
@@ -3641,7 +3641,7 @@ __metadata:
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.1"
     jsdom: "npm:24.1.0"
-    lucide-react: "npm:^0.399.0"
+    lucide-react: "npm:^0.400.0"
     next-themes: "npm:0.3.0"
     postcss: "npm:8.4.39"
     prettier: "npm:3.3.2"
@@ -3651,9 +3651,9 @@ __metadata:
     tailwind-merge: "npm:^2.3.0"
     tailwindcss: "npm:3.4.4"
     tailwindcss-animate: "npm:1.0.7"
-    typescript: "npm:5.5.2"
+    typescript: "npm:5.5.3"
     vaul: "npm:^0.9.1"
-    vite: "npm:5.3.2"
+    vite: "npm:5.3.3"
     vitest: "npm:1.6.0"
   peerDependencies:
     next-themes: ^0.3.0
@@ -3891,14 +3891,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:1.45.0":
-  version: 1.45.0
-  resolution: "@playwright/test@npm:1.45.0"
+"@playwright/test@npm:1.45.1":
+  version: 1.45.1
+  resolution: "@playwright/test@npm:1.45.1"
   dependencies:
-    playwright: "npm:1.45.0"
+    playwright: "npm:1.45.1"
   bin:
     playwright: cli.js
-  checksum: 10/dc75cd1bedfb92e91374e78094372748315e467438b44b60bfa3596c8d3f90692328be1a0184250d8d228a50d7f29ce8523695c930604109087881173e23233a
+  checksum: 10/718316ae739438f686914350beb3aeded6c96d7adfe1b65509fc50c4e322172fe58b7c9f215c3d5bef52a263839b83162f843027ae8d8e96970b3dd8f87211d2
   languageName: node
   linkType: hard
 
@@ -6572,12 +6572,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.14.9":
-  version: 20.14.9
-  resolution: "@types/node@npm:20.14.9"
+"@types/node@npm:20.14.10":
+  version: 20.14.10
+  resolution: "@types/node@npm:20.14.10"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10/f313b06c79be92f5d3541159ef813b9fc606941f951ecf826e940658c6d4952755ca2f06277b746326cef0697ed79a04676ecde053d32e1121b3352c8168d2e9
+  checksum: 10/672892cf94d0d95cf052f11271990686a0fd204cd1e5fe7a4ef240e5315e06711765dc47b9ec98627d3adac18b8c92bb7e2d8db21d18faa20bc3e3203a143e79
   languageName: node
   linkType: hard
 
@@ -6991,7 +6991,7 @@ __metadata:
     "@monoturborepo/tailwind-config": "workspace:*"
     "@monoturborepo/ui": "workspace:*"
     "@next/bundle-analyzer": "npm:14.2.4"
-    "@playwright/test": "npm:1.45.0"
+    "@playwright/test": "npm:1.45.1"
     "@straw-hat/browserslist-config": "npm:0.2.0"
     "@straw-hat/eslint-config-nextjs": "npm:4.0.0"
     "@straw-hat/prettier-config": "npm:3.1.5"
@@ -7003,7 +7003,7 @@ __metadata:
     "@testing-library/user-event": "npm:14.5.2"
     "@total-typescript/ts-reset": "npm:0.5.1"
     "@types/eslint": "npm:8.56.10"
-    "@types/node": "npm:20.14.9"
+    "@types/node": "npm:20.14.10"
     "@types/react": "npm:18.3.3"
     "@vercel/otel": "npm:1.9.1"
     "@vitejs/plugin-react": "npm:4.3.1"
@@ -7026,8 +7026,8 @@ __metadata:
     react-dom: "npm:18.3.1"
     server-only: "npm:0.0.1"
     tailwindcss: "npm:3.4.4"
-    typescript: "npm:5.5.2"
-    vite: "npm:5.3.2"
+    typescript: "npm:5.5.3"
+    vite: "npm:5.3.3"
     vitest: "npm:1.6.0"
     zod: "npm:3.23.8"
   languageName: unknown
@@ -13584,12 +13584,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.399.0":
-  version: 0.399.0
-  resolution: "lucide-react@npm:0.399.0"
+"lucide-react@npm:^0.400.0":
+  version: 0.400.0
+  resolution: "lucide-react@npm:0.400.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/89212e54dc58c99f6d7593fc4ac5020771ec57bf334a4f5c1280df131cfb99b2c2ffabcf44a7c26670bee29979d687e7b4318b5d8681d404714faa1e9cc2a6ce
+  checksum: 10/6ed8234119658fee998945f39e31d78f4fa05df5216eb1d269fc211c84a382928e4e4705f75ce85dcb056d493e9cf7810303d08c56eb40dce5066c3182ec5e7f
   languageName: node
   linkType: hard
 
@@ -14010,9 +14010,9 @@ __metadata:
     eslint: "npm:8.57.0"
     eslint-config-turbo: "npm:2.0.6"
     prettier: "npm:3.3.2"
-    prettier-plugin-organize-imports: "npm:3.2.4"
+    prettier-plugin-organize-imports: "npm:4.0.0"
     turbo: "npm:2.0.6"
-    typescript: "npm:5.5.2"
+    typescript: "npm:5.5.3"
   languageName: unknown
   linkType: soft
 
@@ -15149,27 +15149,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.45.0":
-  version: 1.45.0
-  resolution: "playwright-core@npm:1.45.0"
+"playwright-core@npm:1.45.1":
+  version: 1.45.1
+  resolution: "playwright-core@npm:1.45.1"
   bin:
     playwright-core: cli.js
-  checksum: 10/47b7e4334fc946fb438b9846a4d91cc992d2d25b830dd796c4b3aadfbec328e031ebf11a11ae65231aace2adb4991cc043bd227d7a5eb10c98562a23d70dfe80
+  checksum: 10/206a5ecd2de7b8cefa5136331fa22012416b37eb2c471e3105c09a8a17a10621efa900acb6a780314f06aa2a3d6651aad3a323fa360d046ccce8f3844b3ca615
   languageName: node
   linkType: hard
 
-"playwright@npm:1.45.0":
-  version: 1.45.0
-  resolution: "playwright@npm:1.45.0"
+"playwright@npm:1.45.1":
+  version: 1.45.1
+  resolution: "playwright@npm:1.45.1"
   dependencies:
     fsevents: "npm:2.3.2"
-    playwright-core: "npm:1.45.0"
+    playwright-core: "npm:1.45.1"
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     playwright: cli.js
-  checksum: 10/65e7e4059ef09b89c9b03022ea3c462b004868eb92bbda1e95e45f99ab35a085b2982506837621ec62bf2caf2f2617aac7a016f8b85bc58026838e948889cd1d
+  checksum: 10/092d510a79ca8fb1d0c1a83460735b9eaf02261a48df2ae1b025f95ee31e2be9d962ddc62c7e5c0d2c44e5b982b66aaf3fe24243f736ab14dbfd2d6e88897824
   languageName: node
   linkType: hard
 
@@ -15281,7 +15281,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.39":
+"postcss@npm:8.4.39, postcss@npm:^8.4.39":
   version: 8.4.39
   resolution: "postcss@npm:8.4.39"
   dependencies:
@@ -15303,7 +15303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.36, postcss@npm:^8.4.38":
+"postcss@npm:^8.4.36":
   version: 8.4.38
   resolution: "postcss@npm:8.4.38"
   dependencies:
@@ -15348,7 +15348,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-organize-imports@npm:3.2.4, prettier-plugin-organize-imports@npm:^3.2.4":
+"prettier-plugin-organize-imports@npm:4.0.0":
+  version: 4.0.0
+  resolution: "prettier-plugin-organize-imports@npm:4.0.0"
+  peerDependencies:
+    "@vue/language-plugin-pug": ^2.0.24
+    prettier: ">=2.0"
+    typescript: ">=2.9"
+    vue-tsc: ^2.0.24
+  peerDependenciesMeta:
+    "@vue/language-plugin-pug":
+      optional: true
+    vue-tsc:
+      optional: true
+  checksum: 10/444bc34858ddadd9e4c9afa5f45ee80786d539a28f3535af7e341e885eb569b465fc7b27b2738a69cb99cc530c6e15367514a7b97ed52dea8161307d7d55b3ac
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-organize-imports@npm:^3.2.4":
   version: 3.2.4
   resolution: "prettier-plugin-organize-imports@npm:3.2.4"
   peerDependencies:
@@ -18123,23 +18140,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.5.2":
-  version: 5.5.2
-  resolution: "typescript@npm:5.5.2"
+"typescript@npm:5.5.3":
+  version: 5.5.3
+  resolution: "typescript@npm:5.5.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/9118b20f248e76b0dbff8737fef65dfa89d02668d4e633d2c5ceac99033a0ca5e8a1c1a53bc94da68e8f67677a88f318663dde859c9e9a09c1e116415daec2ba
+  checksum: 10/11a867312419ed497929aafd2f1d28b2cd41810a5eb6c6e9e169559112e9ea073d681c121a29102e67cd4478d0a4ae37a306a5800f3717f59c4337e6a9bd5e8d
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>":
-  version: 5.5.2
-  resolution: "typescript@patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=b45daf"
+"typescript@patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>":
+  version: 5.5.3
+  resolution: "typescript@patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/28b3de2ddaf63a7620e7ddbe5d377af71ce93ecc558c41bf0e3d88661d8e6e7aa6c7739164fef98055f69819e41faca49252938ef3633a3dff2734cca6a9042e
+  checksum: 10/7cf7acb78a80f749b82842f2ffe01e90e7b3e709a6f4268588e0b7599c41dca1059be217f47778fe1a380bfaf60933021ef20d002c426d4d7745e1b36c11467b
   languageName: node
   linkType: hard
 
@@ -18549,13 +18566,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.3.2":
-  version: 5.3.2
-  resolution: "vite@npm:5.3.2"
+"vite@npm:5.3.3":
+  version: 5.3.3
+  resolution: "vite@npm:5.3.3"
   dependencies:
     esbuild: "npm:^0.21.3"
     fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.4.38"
+    postcss: "npm:^8.4.39"
     rollup: "npm:^4.13.0"
   peerDependencies:
     "@types/node": ^18.0.0 || >=20.0.0
@@ -18585,7 +18602,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/77b284938921da6c2c4055a5edd916ab221a973aa1403dba2aef303db1bd54ac7325db13f3fad13d77a7ac55cac7ffef49dffaa69bcadcc3caf2cae32ca03127
+  checksum: 10/e7a094cefedad9e204b715588502118e07d1b9c00c617f55b810169181907f55144f0a82f650995d6a74f12e3695fca65afc348b475b91a81dcbd0274d30a088
   languageName: node
   linkType: hard
 
