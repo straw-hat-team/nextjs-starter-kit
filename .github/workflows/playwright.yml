@@ -3,7 +3,7 @@ name: Playwright
 on:
   push:
     branches:
-      - master
+      - main
   pull_request: null
   workflow_dispatch: null
 
