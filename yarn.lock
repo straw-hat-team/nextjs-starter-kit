@@ -3642,6 +3642,7 @@ __metadata:
     clsx: "npm:^2.1.1"
     jsdom: "npm:24.1.0"
     lucide-react: "npm:^0.400.0"
+    next: "npm:14.2.4"
     next-themes: "npm:0.3.0"
     postcss: "npm:8.4.39"
     prettier: "npm:3.3.2"
@@ -3656,6 +3657,7 @@ __metadata:
     vite: "npm:5.3.3"
     vitest: "npm:1.6.0"
   peerDependencies:
+    next: ^14.2.4
     next-themes: ^0.3.0
     react: ^18.2.0
   languageName: unknown

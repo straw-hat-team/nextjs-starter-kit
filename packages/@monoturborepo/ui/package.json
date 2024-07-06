@@ -9,7 +9,8 @@
     "storybook:build": "storybook build",
     "test:storybook": "test-storybook",
     "test:vitest": "vitest --pool forks",
-    "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'"
+    "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
+    "tsc:check": "tsc --noEmit -p tsconfig.check.json"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
@@ -22,6 +23,7 @@
     "vaul": "^0.9.1"
   },
   "peerDependencies": {
+    "next": "^14.2.4",
     "next-themes": "^0.3.0",
     "react": "^18.2.0"
   },
@@ -46,6 +48,7 @@
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.19",
     "jsdom": "24.1.0",
+    "next": "14.2.4",
     "next-themes": "0.3.0",
     "postcss": "8.4.39",
     "prettier": "3.3.2",

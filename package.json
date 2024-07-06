@@ -20,6 +20,7 @@
     "turbo:format:prettier": "turbo run format:prettier",
     "turbo:test:playwright:headless": "turbo run test:playwright:headless",
     "turbo:storybook:build": "turbo run storybook:build",
+    "turbo:tsc:check": "turbo run tsc:check",
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'"
   },
   "devDependencies": {

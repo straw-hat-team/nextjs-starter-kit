@@ -31,6 +31,9 @@ jobs:
         run: yarn turbo:format:prettier
       - name: Turbo Lint ESLint
         run: yarn turbo:lint:eslint
+      - name: Turbo TSC Check
+        run: yarn turbo:check:tsc
+
 #      - name: Smoke & Acceptance tests
 #        run: |
 #          yarn build-storybook --quiet

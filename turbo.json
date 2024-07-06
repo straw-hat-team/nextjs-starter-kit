@@ -20,6 +20,9 @@
         "BASE_URL"
       ]
     },
+    "tsc:check": {
+      "dependsOn": ["^tsc:check"]
+    },
     "lint:eslint": {},
     "format:prettier": {
       "dependsOn": ["^format:prettier"]
