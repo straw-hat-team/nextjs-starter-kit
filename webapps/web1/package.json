@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@monoturborepo/tailwind-config": "workspace:*",
-    "@next/bundle-analyzer": "14.2.4",
+    "@next/bundle-analyzer": "14.2.5",
     "@playwright/test": "1.45.1",
     "@straw-hat/browserslist-config": "0.2.0",
     "@straw-hat/eslint-config-nextjs": "4.0.0",
@@ -51,17 +51,17 @@
     "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@vitejs/plugin-react": "4.3.1",
-    "@vitest/coverage-v8": "1.6.0",
-    "@vitest/ui": "1.6.0",
+    "@vitest/coverage-v8": "2.0.2",
+    "@vitest/ui": "2.0.2",
     "autoprefixer": "10.4.19",
     "dotenv": "16.4.5",
     "eslint": "8.57.0",
-    "eslint-config-next": "14.2.4",
+    "eslint-config-next": "14.2.5",
     "jsdom": "24.1.0",
     "postcss": "8.4.39",
     "prettier": "3.3.2",
     "typescript": "5.5.3",
     "vite": "5.3.3",
-    "vitest": "1.6.0"
+    "vitest": "2.0.2"
   }
 }
