@@ -24,7 +24,9 @@
     "tsc:check": {
       "dependsOn": ["^tsc:check"]
     },
-    "lint:eslint": {},
+    "lint:eslint": {
+      "env": ["SKIP_ENV_VALIDATION"]
+    },
     "format:prettier": {
       "dependsOn": ["^format:prettier"]
     },

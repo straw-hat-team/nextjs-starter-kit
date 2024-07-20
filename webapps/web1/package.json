@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint:eslint": "SKIP_ENV_VALIDATION=true next lint",
+    "lint:eslint": "next lint",
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
     "test:vitest": "vitest --passWithNoTests --pool forks",
     "test:vitest:coverage": "vitest run --coverage",
