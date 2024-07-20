@@ -5526,6 +5526,7 @@ const RAW_RUNTIME_STATE =
           ["lucide-react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.400.0"],\
           ["next", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.2.4"],\
           ["next-themes", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.3.0"],\
+          ["playwright", "npm:1.45.2"],\
           ["postcss", "npm:8.4.39"],\
           ["prettier", "npm:3.3.2"],\
           ["react", "npm:18.3.1"],\
@@ -5581,6 +5582,7 @@ const RAW_RUNTIME_STATE =
           ["lucide-react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.400.0"],\
           ["next", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:14.2.4"],\
           ["next-themes", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.3.0"],\
+          ["playwright", "npm:1.45.2"],\
           ["postcss", "npm:8.4.39"],\
           ["prettier", "npm:3.3.2"],\
           ["react", "npm:18.3.1"],\
@@ -20084,6 +20086,15 @@ const RAW_RUNTIME_STATE =
           ["playwright-core", "npm:1.45.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.45.2", {\
+        "packageLocation": "./.yarn/cache/playwright-npm-1.45.2-1f25a985a6-3e21c453cf.zip/node_modules/playwright/",\
+        "packageDependencies": [\
+          ["playwright", "npm:1.45.2"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
+          ["playwright-core", "npm:1.45.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["playwright-core", [\
@@ -20098,6 +20109,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.45.1-723757868e/node_modules/playwright-core/",\
         "packageDependencies": [\
           ["playwright-core", "npm:1.45.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.45.2", {\
+        "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.45.2-cb8f504299/node_modules/playwright-core/",\
+        "packageDependencies": [\
+          ["playwright-core", "npm:1.45.2"]\
         ],\
         "linkType": "HARD"\
       }]\

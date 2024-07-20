@@ -3646,6 +3646,7 @@ __metadata:
     lucide-react: "npm:^0.400.0"
     next: "npm:14.2.4"
     next-themes: "npm:0.3.0"
+    playwright: "npm:1.45.2"
     postcss: "npm:8.4.39"
     prettier: "npm:3.3.2"
     react: "npm:18.3.1"
@@ -15162,6 +15163,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"playwright-core@npm:1.45.2":
+  version: 1.45.2
+  resolution: "playwright-core@npm:1.45.2"
+  bin:
+    playwright-core: cli.js
+  checksum: 10/ce35af648efca3f0c34630e76e2137cda183491ddfe04aadcff2217f44fcdb15e73e0334754b01ff60de799d745b2e5478c61e2693d7b9bdd9ccf73fe07df426
+  languageName: node
+  linkType: hard
+
 "playwright@npm:1.45.1":
   version: 1.45.1
   resolution: "playwright@npm:1.45.1"
@@ -15174,6 +15184,21 @@ __metadata:
   bin:
     playwright: cli.js
   checksum: 10/092d510a79ca8fb1d0c1a83460735b9eaf02261a48df2ae1b025f95ee31e2be9d962ddc62c7e5c0d2c44e5b982b66aaf3fe24243f736ab14dbfd2d6e88897824
+  languageName: node
+  linkType: hard
+
+"playwright@npm:1.45.2":
+  version: 1.45.2
+  resolution: "playwright@npm:1.45.2"
+  dependencies:
+    fsevents: "npm:2.3.2"
+    playwright-core: "npm:1.45.2"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    playwright: cli.js
+  checksum: 10/3e21c453cfc33b41c545eac2c6386ff2a39265088409200bf045cba38f1661f1aba10e80902354cdce86e964084b6c9dbfb5d3af94326aa2a7cb8800ae1a1e3f
   languageName: node
   linkType: hard
 

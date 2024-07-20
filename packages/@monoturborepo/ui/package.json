@@ -7,8 +7,8 @@
     "generate:component": "turbo gen react-component",
     "storybook:dev": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "test:storybook": "test-storybook",
-    "test:vitest": "vitest --pool forks",
+    "test:storybook": "test-storybook --url http://127.0.0.1:6006",
+    "test:vitest": "vitest --passWithNoTests --pool forks",
     "format:prettier": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write '**/*'",
     "tsc:check": "tsc --noEmit -p tsconfig.check.json"
   },
@@ -50,6 +50,7 @@
     "jsdom": "24.1.0",
     "next": "14.2.4",
     "next-themes": "0.3.0",
+    "playwright": "1.45.2",
     "postcss": "8.4.39",
     "prettier": "3.3.2",
     "react": "18.3.1",

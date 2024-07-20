@@ -1,53 +1,38 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "ui": "tui",
+  "globalDependencies": [],
+  "globalEnv": ["SKIP_ENV_VALIDATION", "NODE_ENV"],
+  "globalPassThroughEnv": [],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**", "dist/**"],
-      "inputs": [".env.production.local", ".env.local", ".env.production", ".env"],
-      "env": [
-        "ANALYZE",
-        "SKIP_ENV_VALIDATION",
-        "VERCEL_URL",
-        "VERCEL",
-        "NODE_ENV",
-        "AUTH_SECRET",
-        "AUTH_URL",
-        "AUTH_ZITADEL_ISSUER",
-        "AUTH_ZITADEL_ID",
-        "AUTH_ZITADEL_SECRET",
-        "AUTH_REDIRECT_PROXY_URL",
-        "BASE_URL"
-      ]
+      "outputs": ["dist/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
     },
     "tsc:check": {
-      "dependsOn": ["^tsc:check"]
+      "dependsOn": ["^build"]
     },
-    "lint:eslint": {
-      "env": ["SKIP_ENV_VALIDATION"]
-    },
-    "format:prettier": {
-      "dependsOn": ["^format:prettier"]
-    },
+    "lint:eslint": {},
+    "format:prettier": {},
     "test:playwright:headless": {
       "outputs": ["playwright-report", "test-results"]
     },
     "storybook:build": {
-      "inputs": ["src/**", "stories/**", "public/**", ".storybook/**"],
+      "dependsOn": ["^build"],
+      "inputs": ["src/**", "docs/storybook/**", "public/**", ".storybook/**"],
       "outputs": ["storybook-static"]
     },
     "test:storybook": {
-      "inputs": ["src/**", "stories/**", "public/**", ".storybook/**"],
+      "dependsOn": ["^build"],
+      "inputs": ["src/**", "docs/storybook/**", "public/**", ".storybook/**"],
       "outputs": ["coverage/storybook"]
     },
-    "dev": {
-      "cache": false,
-      "persistent": true,
-      "inputs": [".env.development.local", ".env.local", ".env.development", ".env"]
-    },
     "test:vitest": {
-      "dependsOn": ["build"],
+      "dependsOn": ["^build", "build"],
       "inputs": ["src/**/*.tsx", "src/**/*.ts", "tests/vitest/**/*.ts", "tests/vitest/**/*.tsx"]
     }
   }
