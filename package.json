@@ -26,14 +26,14 @@
   "devDependencies": {
     "@straw-hat/browserslist-config": "0.2.0",
     "@straw-hat/prettier-config": "3.1.5",
-    "@turbo/gen": "2.0.6",
+    "@turbo/gen": "2.0.9",
     "cross-env": "7.0.3",
     "dotenv-cli": "7.4.2",
     "eslint": "8.57.0",
-    "eslint-config-turbo": "2.0.6",
-    "prettier": "3.3.2",
+    "eslint-config-turbo": "2.0.9",
+    "prettier": "3.3.3",
     "prettier-plugin-organize-imports": "4.0.0",
-    "turbo": "2.0.6",
+    "turbo": "2.0.9",
     "typescript": "5.5.3"
   }
 }
