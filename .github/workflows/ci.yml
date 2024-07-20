@@ -40,6 +40,8 @@ jobs:
         run: yarn turbo:lint:eslint
       - name: Turbo TSC Check
         run: yarn turbo:tsc:check
+      - name: Turbo Test Vitest
+        run: yarn turbo:test:vitest
 #      - name: Smoke & Acceptance tests
 #        run: |
 #          yarn build-storybook --quiet

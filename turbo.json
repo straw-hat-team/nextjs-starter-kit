@@ -32,7 +32,6 @@
       "outputs": ["coverage/storybook"]
     },
     "test:vitest": {
-      "dependsOn": ["^build", "build"],
       "inputs": ["src/**/*.tsx", "src/**/*.ts", "tests/vitest/**/*.ts", "tests/vitest/**/*.tsx"]
     }
   }
