@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["prettier-plugin-organize-imports", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:4.0.0"],\
           ["turbo", "npm:2.0.9"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5373,7 +5373,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
           ["@straw-hat/tsconfig", "npm:4.2.2"],\
-          ["@testing-library/jest-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:6.4.7"],\
+          ["@testing-library/jest-dom", "npm:6.4.8"],\
           ["@testing-library/react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:16.0.0"],\
           ["@types/next", null],\
           ["@types/next-themes", null],\
@@ -5395,7 +5395,7 @@ const RAW_RUNTIME_STATE =
           ["tailwind-merge", "npm:2.4.0"],\
           ["tailwindcss", "npm:3.4.6"],\
           ["tailwindcss-animate", "virtual:cc321ffdfeed183e38625d502f30ddeedeff8ef906d8cf80a43ff3b7b2a7005bfba9e25041399c892bc93ec3f9b0a8c082063a383d66f9d0139a1b292d036535#npm:1.0.7"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.1"],\
           ["vite", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:5.3.4"],\
           ["vitest", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.4"]\
@@ -5431,7 +5431,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/browserslist-config", "npm:0.2.0"],\
           ["@straw-hat/prettier-config", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:3.1.5"],\
           ["@straw-hat/tsconfig", "npm:4.2.2"],\
-          ["@testing-library/jest-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:6.4.7"],\
+          ["@testing-library/jest-dom", "npm:6.4.8"],\
           ["@testing-library/react", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:16.0.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
@@ -5451,7 +5451,7 @@ const RAW_RUNTIME_STATE =
           ["tailwind-merge", "npm:2.4.0"],\
           ["tailwindcss", "npm:3.4.6"],\
           ["tailwindcss-animate", "virtual:cc321ffdfeed183e38625d502f30ddeedeff8ef906d8cf80a43ff3b7b2a7005bfba9e25041399c892bc93ec3f9b0a8c082063a383d66f9d0139a1b292d036535#npm:1.0.7"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["vaul", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:0.9.1"],\
           ["vite", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:5.3.4"],\
           ["vitest", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.4"]\
@@ -7894,7 +7894,7 @@ const RAW_RUNTIME_STATE =
           ["storybook", "npm:8.2.5"],\
           ["ts-dedent", "npm:2.2.0"],\
           ["type-fest", "npm:2.19.0"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["util-deprecate", "npm:1.0.2"]\
         ],\
         "packagePeers": [\
@@ -8151,7 +8151,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["prettier-plugin-organize-imports", "virtual:2b2bf8c6a37496e59c6b4ed9b24ad6dcfd995e0542eb49c2b89191264367373e499b90fcc4a65fe3517c023c8e1cb25a6be390f6318eb8ef67c89fce6f8b9af3#npm:3.2.4"],\
           ["prettier-plugin-tailwindcss", "virtual:2b2bf8c6a37496e59c6b4ed9b24ad6dcfd995e0542eb49c2b89191264367373e499b90fcc4a65fe3517c023c8e1cb25a6be390f6318eb8ef67c89fce6f8b9af3#npm:0.5.9"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "packagePeers": [\
           "@types/prettier",\
@@ -8382,7 +8382,7 @@ const RAW_RUNTIME_STATE =
           ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.11.0"],\
           ["@types/typescript", null],\
           ["@types/zod", null],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["zod", "npm:3.23.8"]\
         ],\
         "packagePeers": [\
@@ -8409,7 +8409,7 @@ const RAW_RUNTIME_STATE =
           ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.11.0"],\
           ["@types/typescript", null],\
           ["@types/zod", null],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["zod", "npm:3.23.8"]\
         ],\
         "packagePeers": [\
@@ -8446,12 +8446,20 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:6.4.7", {\
-        "packageLocation": "./.yarn/cache/@testing-library-jest-dom-npm-6.4.7-fcdd84d3de-bddbb18e96.zip/node_modules/@testing-library/jest-dom/",\
+      ["npm:6.4.8", {\
+        "packageLocation": "./.yarn/cache/@testing-library-jest-dom-npm-6.4.8-490ab7a359-011e5a309e.zip/node_modules/@testing-library/jest-dom/",\
         "packageDependencies": [\
-          ["@testing-library/jest-dom", "npm:6.4.7"]\
+          ["@testing-library/jest-dom", "npm:6.4.8"],\
+          ["@adobe/css-tools", "npm:4.4.0"],\
+          ["@babel/runtime", "npm:7.18.3"],\
+          ["aria-query", "npm:5.0.0"],\
+          ["chalk", "npm:3.0.0"],\
+          ["css.escape", "npm:1.5.1"],\
+          ["dom-accessibility-api", "npm:0.6.3"],\
+          ["lodash", "npm:4.17.21"],\
+          ["redent", "npm:3.0.0"]\
         ],\
-        "linkType": "SOFT"\
+        "linkType": "HARD"\
       }],\
       ["virtual:6674a8f9ce0ccaaf23ffa7cef2d76896e0395df5cfe3044cf7d8d17e6beba6036c1bf84e0ae461f7c0cc0b2a8a7522ca76a903e32ed9ff9d03f8c1e980881498#npm:6.4.5", {\
         "packageLocation": "./.yarn/__virtual__/@testing-library-jest-dom-virtual-5aa50385bb/0/cache/@testing-library-jest-dom-npm-6.4.5-e02d3c89b2-6d9e6cc01e.zip/node_modules/@testing-library/jest-dom/",\
@@ -8472,68 +8480,6 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["redent", "npm:3.0.0"],\
           ["vitest", null]\
-        ],\
-        "packagePeers": [\
-          "@jest/globals",\
-          "@types/bun",\
-          "@types/jest",\
-          "@types/jest__globals",\
-          "@types/vitest",\
-          "jest",\
-          "vitest"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:6.4.7", {\
-        "packageLocation": "./.yarn/__virtual__/@testing-library-jest-dom-virtual-b9d3548de7/0/cache/@testing-library-jest-dom-npm-6.4.7-fcdd84d3de-bddbb18e96.zip/node_modules/@testing-library/jest-dom/",\
-        "packageDependencies": [\
-          ["@testing-library/jest-dom", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:6.4.7"],\
-          ["@adobe/css-tools", "npm:4.4.0"],\
-          ["@babel/runtime", "npm:7.18.3"],\
-          ["@jest/globals", null],\
-          ["@types/bun", null],\
-          ["@types/jest", null],\
-          ["@types/jest__globals", null],\
-          ["@types/vitest", null],\
-          ["aria-query", "npm:5.0.0"],\
-          ["chalk", "npm:3.0.0"],\
-          ["css.escape", "npm:1.5.1"],\
-          ["dom-accessibility-api", "npm:0.6.3"],\
-          ["jest", null],\
-          ["lodash", "npm:4.17.21"],\
-          ["redent", "npm:3.0.0"],\
-          ["vitest", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:2.0.4"]\
-        ],\
-        "packagePeers": [\
-          "@jest/globals",\
-          "@types/bun",\
-          "@types/jest",\
-          "@types/jest__globals",\
-          "@types/vitest",\
-          "jest",\
-          "vitest"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:6.4.7", {\
-        "packageLocation": "./.yarn/__virtual__/@testing-library-jest-dom-virtual-7e58c314a9/0/cache/@testing-library-jest-dom-npm-6.4.7-fcdd84d3de-bddbb18e96.zip/node_modules/@testing-library/jest-dom/",\
-        "packageDependencies": [\
-          ["@testing-library/jest-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:6.4.7"],\
-          ["@adobe/css-tools", "npm:4.4.0"],\
-          ["@babel/runtime", "npm:7.18.3"],\
-          ["@jest/globals", null],\
-          ["@types/bun", null],\
-          ["@types/jest", null],\
-          ["@types/jest__globals", null],\
-          ["@types/vitest", null],\
-          ["aria-query", "npm:5.0.0"],\
-          ["chalk", "npm:3.0.0"],\
-          ["css.escape", "npm:1.5.1"],\
-          ["dom-accessibility-api", "npm:0.6.3"],\
-          ["jest", null],\
-          ["lodash", "npm:4.17.21"],\
-          ["redent", "npm:3.0.0"],\
-          ["vitest", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:2.0.4"]\
         ],\
         "packagePeers": [\
           "@jest/globals",\
@@ -9358,7 +9304,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/visitor-keys", "npm:7.2.0"],\
           ["debug", "virtual:4b12ba5111caf7e8338099bdbc7cb046a9f8e079a44e74d0c03dca469876e3071ebbe671c5e90ae6b78ae33e22c205fa5ed32169a4aabd1404b13c56d09986e1#npm:4.3.4"],\
           ["eslint", "npm:8.57.0"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -9410,7 +9356,7 @@ const RAW_RUNTIME_STATE =
           ["minimatch", "npm:9.0.3"],\
           ["semver", "npm:7.5.4"],\
           ["ts-api-utils", "virtual:b29be714da139fcc17ba9e9df3517a4adbe55cd18520adedcf2324a0b36f4b2f6b534bdaf859dd6388532eef8f377fd5a3619662641ad4869f2a827f125c94ec#npm:1.0.1"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "packagePeers": [\
           "@types/typescript",\
@@ -9699,7 +9645,7 @@ const RAW_RUNTIME_STATE =
           ["@straw-hat/tsconfig", "npm:4.2.2"],\
           ["@t3-oss/env-core", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.11.0"],\
           ["@t3-oss/env-nextjs", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:0.11.0"],\
-          ["@testing-library/jest-dom", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:6.4.7"],\
+          ["@testing-library/jest-dom", "npm:6.4.8"],\
           ["@testing-library/react", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:16.0.0"],\
           ["@testing-library/user-event", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.2"],\
           ["@total-typescript/ts-reset", "npm:0.5.1"],\
@@ -9727,7 +9673,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:cb0116327fa4a16daaa08f11aa7d3b79e0aeaaa97bd4843efc6e32ba7d12601afd989a830bd1f0c55629f2121aabf58f8eb9dc4ab6c1b57b63c4559400d78d52#npm:18.3.1"],\
           ["server-only", "npm:0.0.1"],\
           ["tailwindcss", "npm:3.4.6"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["vite", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.3.4"],\
           ["vitest", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:2.0.4"],\
           ["zod", "npm:3.23.8"]\
@@ -12876,7 +12822,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:ab30cbeef0172cfa3804b410ba277c176e6b6423111adeb21368fde356241274a1b1871fa5182e2de8a4f15613a2110ded8d26c4112537298940fd4a2fd62c7d#npm:14.2.3"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:ab30cbeef0172cfa3804b410ba277c176e6b6423111adeb21368fde356241274a1b1871fa5182e2de8a4f15613a2110ded8d26c4112537298940fd4a2fd62c7d#npm:18.2.0"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -17425,7 +17371,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["prettier-plugin-organize-imports", "virtual:1f5d254ebac9a7e5ccc1631796602fd0d9596015f432faa759c72777c22abff8a73a87a5dca51f5f53031ab4719eab142db1b1091fb171ee964803c1eaf26911#npm:4.0.0"],\
           ["turbo", "npm:2.0.9"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -18990,7 +18936,7 @@ const RAW_RUNTIME_STATE =
           ["@types/vue__language-plugin-pug", null],\
           ["@vue/language-plugin-pug", null],\
           ["prettier", "npm:3.3.3"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["vue-tsc", null]\
         ],\
         "packagePeers": [\
@@ -19016,7 +18962,7 @@ const RAW_RUNTIME_STATE =
           ["@volar/vue-language-plugin-pug", null],\
           ["@volar/vue-typescript", null],\
           ["prettier", "npm:3.3.3"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "packagePeers": [\
           "@types/prettier",\
@@ -21710,7 +21656,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["ts-api-utils", "virtual:b29be714da139fcc17ba9e9df3517a4adbe55cd18520adedcf2324a0b36f4b2f6b534bdaf859dd6388532eef8f377fd5a3619662641ad4869f2a827f125c94ec#npm:1.0.1"],\
           ["@types/typescript", null],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "packagePeers": [\
           "@types/typescript",\
@@ -22042,10 +21988,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07", {\
-        "packageLocation": "./.yarn/cache/typescript-patch-9fde7bec60-7cf7acb78a.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07", {\
+        "packageLocation": "./.yarn/cache/typescript-patch-fe43cd9db9-746fdd0865.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "HARD"\
       }]\
