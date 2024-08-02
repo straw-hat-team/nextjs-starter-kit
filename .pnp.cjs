@@ -9074,11 +9074,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.0.2", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.0.2-bc1248a18f-7f5937f22d.zip/node_modules/@types/node/",\
+      ["npm:22.1.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.1.0-3ca0e36ca8-c2ac134050.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.0.2"],\
-          ["undici-types", "npm:6.11.1"]\
+          ["@types/node", "npm:22.1.0"],\
+          ["undici-types", "npm:6.13.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9650,7 +9650,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/user-event", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:14.5.2"],\
           ["@total-typescript/ts-reset", "npm:0.5.1"],\
           ["@types/eslint", "npm:8.56.10"],\
-          ["@types/node", "npm:22.0.2"],\
+          ["@types/node", "npm:22.1.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["@vercel/otel", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:1.9.1"],\
           ["@vitejs/plugin-react", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:4.3.1"],\
@@ -22029,10 +22029,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:6.11.1", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-6.11.1-3a2172800d-bdee4c3d67.zip/node_modules/undici-types/",\
+      ["npm:6.13.0", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-6.13.0-3ce6ceead9-da52e37cbc.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:6.11.1"]\
+          ["undici-types", "npm:6.13.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -22495,7 +22495,7 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:7e7cba12726e9d1ec38a301688fccb4a2da00a5bd71b8ad550d918612f3879bb81e85659613a6873d3b25175369229db94db7723ad9ec4be723f3a42598d731d#npm:5.2.6"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.0.2"],\
+          ["@types/node", "npm:22.1.0"],\
           ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
@@ -22534,7 +22534,7 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:9a1bb03d0e4f934a973413686a8089ae0f13d09b2514ba3af956fb50e86f4e446b11d287468b7454175da5a2be532cf58bba0fc19c443efea6de88134bf1f776#npm:5.3.5"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.0.2"],\
+          ["@types/node", "npm:22.1.0"],\
           ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
@@ -22677,7 +22677,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:22.0.2"],\
+          ["@types/node", "npm:22.1.0"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
