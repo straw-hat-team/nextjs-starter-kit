@@ -14,7 +14,7 @@
   "devDependencies": {
     "@straw-hat/prettier-config": "3.1.5",
     "prettier": "3.3.3",
-    "tailwindcss": "3.4.7",
+    "tailwindcss": "3.4.9",
     "tailwindcss-animate": "1.0.7"
   }
 }
